@@ -1,0 +1,298 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath} % For mathematical environments like align, gather, etc.
+\usepackage{amssymb} % For mathematical symbols like \mathbb, \mathfrak, etc.
+\usepackage{amsthm}  % For theorems, definitions, etc. (if needed, not heavily used here)
+\usepackage{graphicx} % For including images (not used in this draft, but good to have)
+\usepackage{hyperref} % For clickable links in the PDF
+\usepackage{xurl} % For breaking long URLs
+\usepackage{geometry} % For page layout
+\geometry{a4paper, margin=1in} % Set page margins
+
+% Optional: Custom commands for common symbols or terms
+\newcommand{\mathcalI}{\mathcal{I}} % For information I
+\newcommand{\mathcalR}{\mathcal{R}} % For record R
+
+\title{Screen Theory: The Wholographic Principle}
+\author{Paul A.I Reilly} % Updated author
+\date{June 4th, 2025} % Updated date
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+We propose the \textbf{Wholographic Principle}, a conceptual refinement of the holographic principle that emphasizes the bidirectional and symmetric nature of boundary-encoded information. Rather than encoding the complete content of a spacetime region on its boundary, the Wholographic Principle asserts that boundaries encode the mutual, causally transmissible information between interior and exterior regions---what each can objectively know about the other through their shared interface. This framework preserves the mathematical machinery of holographic physics while addressing interpretive asymmetries in standard formulations. The principle recasts holographic boundaries as bidirectional communication interfaces rather than unidirectional projection screens, supporting richer interpretations of locality, complementarity, and observer-dependent physics. We present a general mathematical formulation applicable to any partitioned information system, demonstrate its specialization to spacetime physics, and outline applications to fundamental questions about the nature of information, boundaries, and objective reality.
+\end{abstract}
+
+\section{Introduction}
+The holographic principle has emerged as one of the most profound insights in modern theoretical physics, suggesting that the information content of a $d$-dimensional volume can be entirely encoded on its $(d-1)$-dimensional boundary. From its origins in black hole thermodynamics to its mathematical realization in the AdS/CFT correspondence, holographic duality has revolutionized our understanding of quantum gravity, strongly coupled field theories, and the fundamental nature of spacetime itself.
+
+Yet the holographic metaphor, for all its power, carries with it a particular asymmetry: information flows from the interior to the boundary, much like shadows cast from hidden objects onto Plato's cave wall. This unidirectional encoding, while mathematically precise, can lead to ontological confusion about which description---bulk or boundary---represents the ``true'' reality.
+
+We propose a refinement that preserves the mathematical insights of holographic physics while offering a more symmetric and epistemically grounded interpretation. We call this the \textbf{Wholographic Principle}, combining ``whole'' and ``holographic'' to emphasize its attention to the complete triadic relationship between interior, exterior, and boundary.
+
+\textbf{The Wholographic Principle}: \textit{The boundary between two regions encodes the mutual, causally transmissible information between them---what the interior can objectively know about the exterior and vice versa. This boundary information represents not the complete content of either region, but their shared, communicable subset accessible through direct causal exchange.}
+
+This principle exhibits \textbf{What-Where Symmetry}: the equivalence between \textbf{what} is objectively known about a system by the outside world and \textbf{where} that system objectively is, as known to the interior. Both "what" and "where" information are mediated entirely through boundary-encoded data and are, in fact, isomorphic to each other and to the shared information on the boundary screen itself. Unlike traditional holographic formulations that emphasize the absolute reconstruction of interior physics from boundary data, the Wholographic framework treats boundaries as active mediators of bidirectional, relational information exchange. While comprehensive models of the interior (as known to itself) can still be reconstructed from boundary data, the Wholographic perspective prioritizes the mutually accessible and communicable information at the interface, which also enables the partial reconstruction of the exterior as known to the interior. This is analogous to a viewer observing a fish in an aquarium: the same fish can be seen multiple times due to refractions and reflections, but all these views are ultimately of the same fish, representing a singular underlying reality as seen in multiple contexts.
+
+The Wholographic Principle naturally invokes \textbf{What-Where Symmetry}: the equivalence between what is known about a system and where that system is---mediated entirely through its causal imprint on boundary screens. When the shared boundary information $\mathcal{I}_\partial$ is sparse or minimal, this correspondence becomes ambiguous. That is:
+
+\begin{quote}
+If two regions produce indistinguishable boundary data, they become indistinguishable from the point of view of exterior observers---and are thus not meaningfully separate in objective terms.
+\end{quote}
+
+The metaphor shifts from Plato's Cave---with its one-way shadows cast from a hidden reality---to a Tea Room with translucent Shoji screens. These screens display shadows from both the interior and exterior, encoding not the complete truth of either domain but their mutual, observable intersection. The screen becomes a medium for dialogue rather than a canvas for projection.
+
+We proceed as follows: Section 2 develops the general mathematical framework applicable to any partitioned information system. Section 3 specializes this framework to spacetime physics and demonstrates compatibility with existing holographic results. Section 4 presents concrete examples and testable predictions. Section 5 outlines future research directions and applications. Section 6 concludes with implications for our understanding of information, reality, and the nature of boundaries.
+
+\section{General Mathematical Framework}
+
+\subsection{Basic Structure}
+Let \textbf{A} and \textbf{B} be information collections (data sets, knowledge bases, or informational systems) connected through a boundary screen \textbf{S$_{AB}$}.
+
+\textbf{Definition (Screen)}: A \textbf{screen} (or \textbf{boundary screen}) is a shared interface between two distinct information collections or regions, mediating all causal information exchange between them. It is characterized by its capacity to bidirectionally encode the mutual, causally transmissible information accessible to both regions.
+
+\subsection{Faithful Mediation Conditions}
+
+\textbf{Definition 1 (Faithful Communication):} The screen S$_{AB}$ is a \textbf{faithful mediator} if:
+\begin{enumerate}
+	\item \textbf{Bidirectional Newton's Third Law}: For any information transfer $I: A \rightarrow B$ via S$_{AB}$, there exists a corresponding acknowledgment transfer $I': B \rightarrow A$ such that A knows that B received $I$. (This reflects the \textbf{inherent mutuality and correlation} found in quantum information exchanges, particularly through entanglement.)
+	\item \textbf{Distortionless Transmission}: Information sent through S$_{AB}$ arrives without corruption or loss. (This is fundamentally enabled by \textbf{unitarity} in quantum evolution, preserving information integrity.)
+	\item \textbf{Completeness}: All communication between A and B must occur through S$_{AB}$. (This is a direct consequence of \textbf{locality} in physical interactions, ensuring the boundary is the sole interface.)
+\end{enumerate}
+
+\subsection{Core Wholographic Principle}
+
+\textbf{Wholographic Principle (General Form):} For information collections A and B connected by faithful mediator S$_{AB}$:
+
+$$\mathcal{I}_A^B \cong \mathcal{I}_B^A \cong \mathcal{I}_{S_{AB}}$$
+
+where:
+\begin{itemize}
+	\item $\mathcal{I}_A^B$ := Information that A possesses about B
+	\item $\mathcal{I}_B^A$ := Information that B possesses about A
+	\item $\mathcal{I}_{S_{AB}}$ := Information encoded on the boundary screen S$_{AB}$
+\end{itemize}
+
+We use the term ``information collections'' rather than ``information sets'' to emphasize that these represent different perspectives on the same underlying information structure, avoiding the mathematical constraint that isomorphic sets are identical.
+
+\subsection{Shared Information Structure}
+
+The \textbf{mutual information} accessible to both A and B is:
+$$\mathcal{I}_{mutual} = \mathcal{I}_A^B \cap \mathcal{I}_B^A = \mathcal{I}_{S_{AB}}$$
+
+This represents the \textbf{objective, communicable subset} of information available to both systems.
+
+\subsection{Information Conservation and Temporal Ordering}
+
+\textbf{Assumption (No Information Loss):} The universe maintains a \textbf{cumulative record} $\mathcal{R}(t)$ such that:
+$$\mathcal{R}(t_2) \supseteq \mathcal{R}(t_1) \text{ for } t_2 > t_1$$
+
+Information may become \textbf{inaccessible} but is never \textbf{destroyed}.
+
+\subsection{Quantum Information Foundations}
+
+The faithful mediation conditions find their physical foundation in fundamental quantum information principles:
+
+\begin{enumerate}
+	\item \textbf{Unitarity} ensures information conservation during quantum evolution, directly supporting the ``Distortionless Transmission'' condition. A unitary transformation is reversible, meaning no information is lost or fundamentally corrupted during the evolution from an initial state to a final state.
+	\item \textbf{The No-Cloning Theorem} guarantees that quantum information cannot be perfectly duplicated. While not directly a "faithful transmission" mechanism, it reinforces the uniqueness and integrity of quantum information, implicitly contributing to the reliability of boundary encoding and the idea that a single, unique boundary can represent shared information.
+	\item \textbf{Entanglement Properties and Monogamy}: When two quantum systems, A and B, are entangled, their states are fundamentally linked. This shared, non-local correlation represents a mutual informational dependence. Entanglement Monogamy provides a bidirectional constraint: when A and B exchange information through entanglement, their capacity to entangle with other systems is correspondingly reduced. This inherent mutuality and reciprocity in quantum correlations directly supports the ``Bidirectional Newton's Third Law'' for information exchange.
+	\item \textbf{Quantum Error Correction (QEC)}: This field of study is specifically dedicated to finding ways to protect quantum information from noise and decoherence. QEC protocols allow for the reliable transmission and storage of quantum information through noisy channels, effectively mitigating corruption and loss, thereby providing the practical means to achieve effective ``Distortionless Transmission'' in realistic scenarios.
+	\item \textbf{Locality and the Bekenstein Bound}: In relativistic quantum field theories, interactions are generally local, meaning systems interact directly only when connected by fields propagating through a specific region. If A and B are separated by a boundary S$_{AB}$, then for communication to occur, it must propagate through that shared interface. This principle underpins the idea that the boundary is the exclusive mediator of their causal connections, supporting the ``Completeness'' condition. Furthermore, the Bekenstein Bound, which states that the maximum entropy (and thus information) within a region is proportional to its boundary area, implies that the boundary fundamentally limits and encodes all accessible information, reinforcing its role as the complete interface.
+\end{enumerate}
+
+These quantum mechanical foundations provide the physical basis for treating boundaries as faithful mediators of information exchange.
+
+\section{Spacetime Specialization and Holographic Compatibility}
+
+\subsection{Spacetime Information Structure}
+
+In the context of 4D spacetime, we identify:
+\begin{itemize}
+	\item \textbf{Interior A}: A bounded spacetime region
+	\item \textbf{Exterior B}: The complement spacetime region
+	\item \textbf{Boundary S$_{AB}$}: The 3D hypersurface separating them
+\end{itemize}
+
+The mutual information $\mathcal{I}_{S_{AB}}$ includes:
+\begin{itemize}
+	\item Field configurations and their derivatives on the boundary
+	\item Causal flux and energy-momentum transfer across the boundary
+	\item Observable correlations accessible to both regions
+	\item Entanglement entropy between degrees of freedom on either side
+\end{itemize}
+
+\subsection{Distinction from Standard Holographic Principle}
+
+The key mathematical distinction between standard holographic and wholographic formulations lies in their scope and symmetry:
+
+\textbf{Standard Holographic Principle:}
+$$\mathcal{I}_{\text{interior}} \cong \mathcal{I}_{\text{boundary}}$$
+This asserts that the complete interior information content is encoded on the boundary, with no explicit consideration of exterior regions.
+
+\textbf{Wholographic Principle:}
+$$\mathcal{I}_{\text{interior}}^{\text{exterior}} \cong \mathcal{I}_{\text{boundary}} \cong \mathcal{I}_{\text{exterior}}^{\text{interior}}$$
+This asserts that the boundary encodes only the mutual information between interior and exterior, with both regions potentially retaining private information not accessible through the boundary.
+
+The wholographic framework thus acknowledges the existence of exterior information while preserving the mathematical machinery that makes holographic physics so powerful.
+
+\subsection{Recovery of Holographic Results}
+
+The Wholographic Principle naturally contains traditional holographic encoding as a special case. When we focus solely on interior information accessible through the boundary, we recover:
+
+$$\mathcal{I}_{\text{interior}}^{\text{accessible}} \subseteq \mathcal{I}_{\text{interior}} \text{ and } \mathcal{I}_{\text{interior}}^{\text{accessible}} \cong \mathcal{I}_{S_{AB}}$$
+
+This preserves all existing holographic calculations while acknowledging that:
+\begin{enumerate}
+	\item The boundary encodes \textbf{shared} rather than \textbf{complete} interior information
+	\item The exterior contributes information to the boundary encoding
+	\item Both interior and exterior may possess \textbf{private} information not accessible through the boundary
+\end{enumerate}
+
+\subsection{Information Conservation and Causal Structure}
+
+The Wholographic framework respects relativistic causal structure through the requirement that boundary information propagates at the speed of light. This ensures that:
+\begin{itemize}
+	\item Information about events appears on the boundary only after light-travel time
+	\item Spacelike separated events contribute independent information content
+	\item The boundary serves as the unique causal interface between regions
+\end{itemize}
+
+\section{Examples and Testable Predictions}
+
+\subsection{Illustrative Example: The Observatory and the Encrypted Rock}
+To intuitively grasp the Wholographic Principle, consider a modern astronomical observatory situated in a rocky desert, equipped with a powerful telescope directed at a distant galaxy cluster, with a few foreground stars.
+
+Now, conceptualize an imaginary boundary screen enclosing the entire observatory, including its data collection apparatus and storage systems.
+
+The description of the observatory system, as known to the exterior universe through this boundary, includes real-time images of the celestial objects currently in the telescope's field of view, alongside digitally stored historical data from past observations across various cosmic directions. This collective ``what'' information represents the exterior's objective knowledge of the observatory's observational content.
+
+Conversely, the information gathered \textbf{inside} the observatory, comprising this exact same dataset, provides the objective basis for precisely determining \textbf{where} the observatory (and by extension, ourselves) is located within the larger cosmic structure. This internal ``where'' information is thus isomorphic to the external ``what'' information, both being mediated solely by the boundary. This constitutes a clear example of the bidirectional reflection between interior and exterior.
+
+Next, imagine a mundane rock adjacent to the observatory, possessing a surface area equivalent to the telescope's objective lens. Light from the same celestial sources, in all directions, continually impinges upon this rock. In principle, the rock's internal quantum states (phonons, atomic configurations, etc.) do indeed register and store analogous information about the distant stars and galaxies. However, within the rock, this data remains an uninterpretable "confusing welter," effectively encrypted and inaccessible to any meaningful internal or external processing in a causally transmissible manner.
+
+Both the observatory and the rock, enclosed by their respective boundary screens, technically conform to the Wholographic Principle. The crucial distinction lies in the \textit{accessibility} and \textit{usability} of the shared boundary-mediated information. The data shared between the interior and exterior universe is fundamentally mediated through a boundary screen; the observatory exemplifies accessible mediation, while the rock illustrates encrypted mediation.
+
+\subsection{Entanglement Structure Predictions}
+
+The Wholographic Principle makes several testable predictions about entanglement structure that distinguish it from standard holographic formulations:
+
+\textbf{Entanglement Asymmetry}: In standard holographic duality, all interior entanglement is encoded on the boundary. The Wholographic framework predicts that interior-exterior entanglement should be detectable and measurable from both sides of the boundary, with the boundary encoding only the mutual entanglement accessible to both regions.
+
+\textbf{Private Information Verification}: Distant regions within the interior or exterior should possess private information that appears on the boundary only at sub-quantum (virtual) levels, if at all. This strengthens the case for the existence of information not fully encoded on boundaries.
+
+\textbf{Partial Exterior Reconstruction}: Given boundary data, it should be possible to partially reconstruct features of the exterior region, not just the interior. This represents a novel prediction absent from standard holographic formulations.
+
+\subsection{Information Capacity Scaling}
+
+The boundary information capacity should scale with mutual information between regions rather than with the total information content of either region. This provides a natural explanation for why the complete exterior (which may be arbitrarily large) is not encoded on finite boundaries---an observation that may have delayed the recognition of wholographic principles in previous decades.
+
+\subsection{Physical Wholography: Bidirectional Holographic Recording}
+
+\textbf{Experimental Verification}: Place transparent recording media (holographic film or photopolymer) between two coherently illuminated scenes. Interference patterns from both directions should be encoded simultaneously, creating a ``whologram'' readable from either side to reveal features of the opposite scene.
+
+\textbf{Expected Signatures}:
+\begin{itemize}
+	\item Single boundary medium encodes bidirectional information exchange
+	\item Reconstruction quality should depend on mutual coherence between scenes
+	\item Information capacity should be limited by boundary area, not total scene complexity
+\end{itemize}
+
+\subsection{Cylindrical Spacetime Boundary}
+
+Consider a (3+1)D spacetime region bounded by a timelike cylindrical surface. The (2+1)D boundary encodes:
+\begin{itemize}
+	\item \textbf{Mutual information}: Causal influences crossing the cylindrical surface
+	\item \textbf{Temporal evolution}: How interior-exterior correlations develop over time
+	\item \textbf{Spatial structure}: Information content varies with position on the boundary
+	\item \textbf{Private information}: Spacelike separated events within each region remain inaccessible to the other
+\end{itemize}
+
+\subsection{Connection to AdS/CFT}
+
+The Wholographic Principle extends naturally to AdS/CFT correspondence, where the boundary CFT and bulk AdS spacetime represent complementary information collections. The wholographic extension acknowledges potential ``exterior'' physics beyond the AdS spacetime and bidirectional information flow across the AdS boundary. We invite AdS/CFT researchers to explore these extensions within the established framework.
+
+\subsection{Universal Connectivity}
+
+Every boundary intersection $\mathcal{I}_A^B \cap \mathcal{I}_B^A$ necessarily contains the empty set $\emptyset$, which serves as a universal connector present in every Wholographic boundary. This mathematical necessity suggests deep connections to foundational questions about the relationship between information, existence, and the structure of reality itself.
+
+This principle, extended, leads to deep consequences:
+\begin{itemize}
+	\item A data pattern that is exactly replicated across multiple locations may, operationally, be a single pattern present in several places---or one pattern seen many times.
+	\item In the extreme limit, the \textbf{empty set}---representing a point with no content---has no distinguishing information and thus maximal ambiguity. It is everywhere and nowhere.
+	\item Since the empty set is a member of every set, it is present in every boundary. This makes it a candidate for a \textit{correspondence point}, a vanishing origin that bridges all screens and underlies the entire tapestry of objective information.
+\end{itemize}
+
+Thus, identity and locality are not intrinsic properties of objects, but emergent features of distinguishable information patterns encoded on shared boundaries.
+
+\section{Future Research Directions}
+
+\subsection{Multi-Party Information Networks}
+Extension to chains of information transfer (A $\rightarrow$ B $\rightarrow$ C $\rightarrow$ \ldots) presents important challenges regarding information reliability, trust networks, and the emergence of spatial structure from information topology.
+
+\subsection{Quantum Foundations}
+The relationship between Wholographic boundaries and quantum measurement, entanglement structure, and the emergence of classical reality deserves detailed investigation.
+
+\subsection{Cosmological Applications}
+Applications to cosmological horizons, black hole information paradoxes, and the structure of spacetime at fundamental scales offer promising research directions.
+
+\subsection{Mathematical Formalization}
+Development of category-theoretic frameworks, information geometry, and connections to existing mathematical structures in holographic physics represent important areas for expert collaboration.
+
+\subsection{Gauge Theory Extensions}
+The treatment of gauge dependence in boundary information encoding requires careful analysis and represents an important direction for future work.
+
+\subsection{Non-Equilibrium Systems}
+Extension of the framework to rapidly changing, non-equilibrium systems where mutual information may be time-dependent presents both challenges and opportunities for deeper understanding.
+
+\section{Conclusion}
+
+The Wholographic Principle offers a conceptual refinement of holographic physics that preserves mathematical rigor while providing richer interpretive possibilities. By recognizing boundaries as mediators of bidirectional information exchange rather than repositories of unidirectional encoding, we gain new perspectives on fundamental questions about locality, objectivity, and the nature of physical reality.
+
+The framework suggests that objective reality emerges from shared, mutually accessible information rather than from absolute properties of isolated systems. This represents a fundamental shift from boundary-encoded to boundary-mediated conceptualizations of reality. Rather than claiming that boundaries contain complete descriptions of reality, the Wholographic Principle asserts that boundaries enable different pieces of reality to interconnect and exchange information.
+
+This relational view of information and existence may provide new insights into quantum foundations, gravitational physics, and the deep structure of spacetime itself. The testable predictions outlined in Section 4 offer concrete paths for experimental validation and theoretical development. We believe this framework would benefit significantly from collaborative development with experts in holographic duality, quantum information theory, and mathematical physics. The conceptual foundation outlined here provides a starting point for rigorous formalization and experimental verification.
+
+We invite interested researchers to explore these connections and help develop the Wholographic framework into a fully realized theoretical structure. The boundary screens await more detailed analysis, and the physics community's collective expertise will be essential for realizing the full potential of these ideas.
+
+In the spirit of scientific progress, we invite our colleagues to step from Plato's Cave of one-way shadows into the Tea House of bidirectional dialogue---bringing with them the powerful mathematical tools already developed, to explore what new physics might emerge when boundaries become conversations rather than mere projections, exemplified by the clear distinction between the observatory's accessible knowledge and the rock's encrypted data.
+
+\begin{thebibliography}{99} % The 99 specifies the widest label (e.g., 99 items)
+
+\bibitem{Maldacena1998}
+Maldacena, J. (1998). "The Large-N Limit of Superconformal Field Theories and Supergravity." \textit{Advances in Theoretical and Mathematical Physics} 2, 231-252. [\href{https://arxiv.org/abs/hep-th/9711200}{hep-th/9711200}]
+
+\bibitem{tHooft1993}
+'t Hooft, G. (1993). "Dimensional Reduction in Quantum Gravity." \textit{arXiv:gr-qc/9310026}. [\href{https://arxiv.org/abs/gr-qc/9310026}{gr-qc/9310026}]
+
+\bibitem{Susskind1995}
+Susskind, L. (1995). "The World as a Hologram." \textit{Journal of Mathematical Physics} 36, 6377-6396. [\href{https://arxiv.org/abs/hep-th/9409089}{hep-th/9409089}]
+
+\bibitem{NielsenChuang2010}
+Nielsen, M. A. \& Chuang, I. L. (2010). \textit{Quantum Computation and Quantum Information}. Cambridge University Press.
+
+\bibitem{Preskill1998}
+Preskill, J. (1998). "Quantum Information and Computation." \textit{Lecture Notes for Physics 229}. California Institute of Technology.
+
+\bibitem{PlatoRepublic}
+Plato. \textit{The Republic} (c. 380 BCE). Book VII: The Allegory of the Cave.
+
+\bibitem{CorpusHermeticum}
+\textit{Corpus Hermeticum}. "The Emerald Tablet" (attributed to Hermes Trismegistus, various dates).
+
+\bibitem{Nagarjuna}
+Nāgārjuna. \textit{Mūlamadhyamakakārikā} (c. 150 CE). Foundational text on \v{s}\={u}nyat\={a} (emptiness) in Madhyamaka philosophy.
+
+\bibitem{Shannon1948}
+Shannon, C. E. (1948). "A Mathematical Theory of Communication." \textit{Bell System Technical Journal} 27, 379-423.
+
+\bibitem{Bekenstein1973}
+Bekenstein, J. D. (1973). "Black Holes and Entropy." \textit{Physical Review D} 7, 2333-2346.
+
+\end{thebibliography}
+
+\end{document}
+
+
