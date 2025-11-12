@@ -1,0 +1,626 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[margin=1in]{geometry}
+
+\title{Reflections on Two Moving Mirrors: \\
+A Simpler Formulation of Special Relativity}
+
+\author{Paul A.I. Reilly + collaborators tba\\
+\textit{Independent Researcher}\\
+\textit{Email: [relative.generalist@gmail.com}}
+
+\date{11/12/2025}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Einstein's special relativity, while mathematically correct, contains a subtle conceptual flaw: it treats rest mass as invariant and requires external energy for acceleration. We show that by treating energy $E$ (rather than rest mass $m_0$) as the invariant quantity, and allowing mass to vary as $m = E/\gamma$, the theory becomes simpler and more physically intuitive. Clocks slow because they have less mass-energy to run on, not because of geometric path effects. This resolves classic paradoxes (twin, ladder) as simple geometric projections. The framework naturally incorporates energy conservation and eliminates the need for infinite acceleration energy. 
+
+The mathematical structure underlying this reformulation is Euclidean $\mathbb{R}^4$ with signature $(+,+,+,+)$ rather than Minkowski spacetime with signature $(-,+,+,+)$. In this ``Reilly timespace,'' coordinate time $t$ is absolute and universal while proper time $\tau$ is path-dependent. The relation $dt^2 = d\tau^2 + dx^2 + dy^2 + dz^2$ leads naturally to $E^2 = m^2 + \vec{p}^2$ with mass and momentum perpendicular in four-dimensional Euclidean space. We call this framework ``That From Nat''---extending Wheeler's ``It from Bit'' by showing how information (measured in natural units) generates physical reality. This paper establishes the special-relativistic foundation; subsequent work will develop information-theoretic implications and connections to gravity, quantum mechanics, and cosmology.
+\end{abstract}
+
+\textbf{Keywords:} Special relativity, time dilation, light clock, Wheeler's ``It from Bit'', information physics, Reilly timespace
+
+\section{Introduction}
+
+In 1905, Einstein introduced his light clock thought experiment to demonstrate time dilation in special relativity \cite{Einstein1905}. The elegant simplicity of this gedankenexperiment---light bouncing between two mirrors while the apparatus moves---has made it a cornerstone of relativity pedagogy for over a century. Yet beneath its mathematical success lies a subtle conceptual assumption that, when examined, suggests an alternative interpretation of relativistic kinematics.
+
+Einstein's derivation implicitly treats the clock's rest mass as invariant during acceleration. When the clock gains velocity $v$ relative to the laboratory, its ``moving tick rate'' slows by the Lorentz factor $\gamma = 1/\sqrt{1-v^2/c^2}$, a result verified countless times through particle decay rates, atomic clocks in aircraft, GPS satellite corrections, and muon lifetimes \cite{HafeleKeating1972,Allan1985,Will2001,FrischSmith1963}. The mathematical framework of special relativity built on this foundation---Minkowski spacetime with signature $(-,+,+,+)$ and Lorentz covariance---has proven extraordinarily successful.
+
+However, a simple question reveals the hidden assumption: \textit{Where did the kinetic energy come from?} If the clock acquired velocity $v$ from an external source, then its total energy $E = \gamma m_0 c^2$ grows without bound as $v \to c$, requiring infinite energy input to reach lightspeed. If instead the clock used its own internal energy to accelerate---as energy conservation would seem to demand---then its mass must decrease as $m = m_0/\gamma$, and the clock runs slow simply because it has less energy available to operate.
+
+This paper explores the second possibility. We show that by treating energy $E$ (rather than rest mass $m_0$) as the invariant quantity, and allowing mass to vary as $m = E/\gamma$, we obtain a reformulation of special relativity that is mathematically equivalent to Einstein's version but conceptually simpler and more physically intuitive. The framework naturally incorporates energy conservation, eliminates the ``infinite energy to lightspeed'' problem, and resolves classic pedagogical paradoxes (twin, ladder/barn) through straightforward geometric projection rather than counterintuitive symmetry arguments.
+
+The mathematical structure underlying this reformulation is Euclidean $\mathbb{R}^4$ with signature $(+,+,+,+)$ rather than Minkowski spacetime with signature $(-,+,+,+)$. In this ``Reilly timespace,'' coordinate time $t$ is an absolute, universal parameter---all observers agree on its value---while proper time $\tau$ is path-dependent and measured by physical clocks. The fundamental relation is:
+\begin{equation}
+dt^2 = d\tau^2 + dx^2 + dy^2 + dz^2
+\end{equation}
+from which the energy-momentum relation $E^2 = m^2 + \vec{p}^2$ follows naturally, with mass and momentum perpendicular in four-dimensional Euclidean space. Clocks run slow when moving not because of some mysterious geometric path effect, but because $m = E/\gamma$ means the clock literally has less mass-energy to operate with.
+
+We emphasize that this reformulation makes no new experimental predictions at currently accessible energies---it is a reinterpretation, not a revision, of special relativity's mathematical content. Both formulations give identical numerical results for all known tests. The advantages are pedagogical and foundational: students need not grapple with ``relativity of simultaneity'' paradoxes or wonder about infinite acceleration energies; the physics becomes more intuitive, the mathematics simpler, and the connection to deeper principles (energy conservation, information theory) more transparent.
+
+This work emerges from three decades of reflection on Einstein's thought experiments and their implications. The title honors Robert Carlitz, who taught that the simplest questions often conceal the deepest insights. As Wheeler demonstrated with his ``It from Bit'' proposal \cite{Wheeler1990}, fundamental physics sometimes requires questioning assumptions so basic that they seem beyond examination. Here we question whether rest mass, rather than energy, should be taken as the invariant quantity in relativistic mechanics.
+
+The paper proceeds as follows. Section 2 analyzes Einstein's light clock in detail, exposing the hidden assumption of constant rest mass and showing how relaxing it leads to variable mass $m = E/\gamma$. Section 3 develops the mathematical structure of Reilly timespace with Euclidean signature $(+,+,+,+)$. Section 4 demonstrates how classic relativistic paradoxes dissolve in this framework. Section 5 compares our formulation with Einstein's, proving mathematical equivalence while highlighting conceptual advantages. Section 6 connects this work to information physics and Wheeler's vision, introducing our ``That From Nat'' program. Section 7 discusses experimental considerations and pedagogical implications. Section 8 outlines future research directions and calls for collaboration. We conclude with reflections on why this alternative formulation has remained largely unexplored, and what it might contribute to the ongoing quest for unification.
+
+One final note: this paper represents the first in a planned series exploring connections between information generation, spacetime geometry, and quantum mechanics. The full framework---dubbed ``That From Nat'' in homage to Wheeler's ``It from Bit''---extends his vision by providing explicit mechanisms for how information (measured in natural units, or ``nats'') generates physical reality. Subsequent papers will develop the information-theoretic foundations and their implications for gravity, cosmology, and the structure of physical law. Here we focus on the essential first step: a simpler, more physical interpretation of Einstein's original insights.
+
+\section{The Flaw in Einstein's Light Clock}
+
+\subsection{The Standard Analysis}
+
+Einstein's light clock consists of two parallel mirrors separated by distance $L$, with a photon bouncing perpendicular to the mirrors. In the rest frame of the clock, the photon travels distance $2L$ per round trip at speed $c$, giving period $T_0 = 2L/c$.
+
+Now consider this clock moving horizontally at velocity $v$ relative to the laboratory frame. During the time $\Delta t$ that the photon travels from bottom mirror to top mirror, the clock moves horizontally a distance $v\Delta t$. The photon must therefore travel a diagonal path. By the Pythagorean theorem, this diagonal distance is:
+\begin{equation}
+d = \sqrt{L^2 + \left(\frac{v\Delta t}{2}\right)^2}
+\end{equation}
+
+Since the photon travels at speed $c$ in all frames:
+\begin{equation}
+c\frac{\Delta t}{2} = \sqrt{L^2 + \left(\frac{v\Delta t}{2}\right)^2}
+\end{equation}
+
+Squaring both sides and solving for $\Delta t$:
+\begin{equation}
+c^2\frac{(\Delta t)^2}{4} = L^2 + \frac{v^2(\Delta t)^2}{4}
+\end{equation}
+\begin{equation}
+(\Delta t)^2 = \frac{4L^2}{c^2 - v^2} = \frac{(2L/c)^2}{1 - v^2/c^2}
+\end{equation}
+
+Therefore:
+\begin{equation}
+\Delta t = \frac{2L/c}{\sqrt{1 - v^2/c^2}} = \gamma T_0
+\end{equation}
+where $\gamma = 1/\sqrt{1 - v^2/c^2}$ is the Lorentz factor.
+
+\textbf{Conclusion:} Moving clocks run slow by factor $\gamma$. This result has been verified experimentally countless times through particle decay rates \cite{FrischSmith1963}, atomic clocks in aircraft \cite{HafeleKeating1972,Allan1985}, GPS satellite corrections \cite{Will2001}, and muon atmospheric penetration. The mathematical prediction is unquestionably correct.
+
+\subsection{The Hidden Assumption: Where Does the Energy Come From?}
+
+The derivation in Section 2.1 is mathematically impeccable and experimentally confirmed. Yet it contains a subtle conceptual assumption: it treats the mirrors (and any clocks attached to them) as having fixed ``rest mass'' $m_0$ independent of their state of motion.
+
+To see why this matters, consider the energetics. The moving clock has kinetic energy (in the laboratory frame):
+\begin{equation}
+K = (\gamma - 1)m_0 c^2
+\end{equation}
+
+As $v \to c$, we have $\gamma \to \infty$ and therefore $K \to \infty$. \textbf{Where did this infinite energy come from?}
+
+\textbf{Option 1: External Energy Source}
+
+If the clock was accelerated by an external agent (rocket engine, electromagnetic field, particle accelerator), then energy was injected from outside. The total energy $E_{\text{total}} = \gamma m_0 c^2$ increases without bound. This is the standard interpretation: rest mass $m_0$ is invariant, but total energy grows with velocity.
+
+This interpretation is mathematically consistent but leads to conceptual difficulties:
+\begin{itemize}
+\item Infinite energy required to reach lightspeed (where does it come from?)
+\item ``Relativistic mass'' $\gamma m_0$ is frame-dependent (problematic for local physics)
+\item Energy conservation requires careful tracking of external source
+\item The clock itself becomes a bottomless energy sink
+\end{itemize}
+
+\textbf{Option 2: Internal Energy Source}
+
+Alternatively, suppose the clock uses its own internal energy to accelerate---like a rocket expelling mass, or an electric train drawing on onboard batteries. In this case, the clock's mass must decrease as it accelerates, since total energy is conserved:
+\begin{equation}
+E_{\text{total}} = mc^2 = \text{constant}
+\end{equation}
+
+As the clock gains kinetic energy (in the lab frame), it must lose rest energy. This gives:
+\begin{equation}
+m = \frac{E_{\text{total}}}{\gamma c^2} = \frac{m_0}{\gamma}
+\end{equation}
+where $m_0$ is the initial mass at rest.
+
+\textbf{This is the interpretation we explore in this paper.}
+
+\subsection{The Reilly Train: A Gedankenexperiment}
+
+To make Option 2 concrete, consider an idealized electric train (in honor of Einstein's preference for railway thought experiments):
+
+\textbf{The Reilly Train specifications:}
+\begin{itemize}
+\item Runs on frictionless magnetic levitation track
+\item Powered by perfect matter-antimatter batteries (or at low speeds, conventional batteries---the physics is identical since battery potential energy contributes to mass)
+\item Perfect regenerative braking (no energy losses)
+\item All acceleration energy comes from onboard mass
+\end{itemize}
+
+When this train accelerates from rest to velocity $v$:
+\begin{itemize}
+\item \textbf{Initial state:} Mass $m_0$, velocity 0, total energy $E = m_0c^2$
+\item \textbf{Final state:} Mass $m = m_0/\gamma$, velocity $v$, total energy $E = mc^2\gamma = m_0c^2$
+\end{itemize}
+
+The energy is \textbf{conserved}: $E = m_0c^2$ throughout!
+
+\textbf{Mass consumed during acceleration:}
+\begin{equation}
+\Delta m = m_0 - m = m_0\left(1 - \frac{1}{\gamma}\right)
+\end{equation}
+
+For example, to reach $v = 0.866c$ (our $\xi = 60°$ case where $\gamma = 2$):
+\begin{itemize}
+\item The train consumes half its mass: $\Delta m = m_0/2$
+\item Remaining mass: $m = m_0/2$
+\item Energy unchanged: $E = m_0c^2$
+\end{itemize}
+
+As $v \to c$: $m \to 0$ (train uses up all its mass), but it can \textbf{never quite reach lightspeed} with finite initial mass.
+
+\subsection{Why the Clock Runs Slow: Physical Mechanism}
+
+If the train (and any clocks aboard it) accelerates using its own mass, then $m = m_0/\gamma$. The clock literally has less mass---and therefore less internal energy---when moving.
+
+The photon bouncing between the mirrors does not slow down; it always travels at speed $c$. What slows down are the \textbf{physical clocks on the mirrors themselves}. Since all the clock's internal processes depend on its available energy, they must run proportionally slower.
+
+Consider the Compton frequency of the clock:
+\begin{equation}
+\omega = \frac{mc^2}{\hbar}
+\end{equation}
+
+With $m = m_0/\gamma$, this gives:
+\begin{equation}
+\omega_{\text{moving}} = \frac{m_0 c^2}{\gamma\hbar} = \frac{\omega_0}{\gamma}
+\end{equation}
+
+Every internal oscillation slows by factor $\gamma$, not because of some mysterious ``time dilation,'' but simply because \textbf{the clock has less mass-energy to operate with}.
+
+This resolves the conceptual tension: \textbf{Clocks slow down; time does not.} There is an absolute, universal coordinate time $t$ that all observers agree on. What varies is proper time $\tau$ measured by physical clocks, because physical clocks depend on mass-energy to operate.
+
+\subsection{Einstein's Magical Clocks}
+
+Einstein's original formulation contains another subtle issue: the clocks attached to the mirrors. In standard presentations, these clocks are assumed to maintain constant rest mass $m_0$ even as the apparatus accelerates. But clocks are physical objects with internal mechanisms---springs, oscillators, atomic transitions. Where does \textbf{their} acceleration energy come from?
+
+If we assume an external source provides unlimited energy to accelerate both the mirrors and the clocks, we face the infinite energy problem. If instead we recognize that the clocks must use their own mass to accelerate, we arrive at $m = m_0/\gamma$ and recover the Reilly picture.
+
+The geometric argument of Section 2.1 is not wrong---it correctly predicts the factor $\gamma$. But it obscures the physical mechanism: \textbf{the clock runs slow because it has less mass, not because light is taking a longer path.} The path argument is a kinematic description; the energy argument is a dynamic explanation.
+
+\subsection{The Two Triangles}
+
+The relationship between Einstein's formulation and ours can be visualized geometrically (see Figures 1-3). Consider a train that has accelerated to velocity $v = (\sqrt{3}/2)c$, corresponding to angle $\xi = 60°$ from the proper time axis and Lorentz factor $\gamma = 2$.
+
+\textbf{Reilly Triangle (inscribed in unit circle):}
+\begin{itemize}
+\item Hypotenuse: $E = m_0$ (energy conserved on circle)
+\item Base: $p = m_0v$ (momentum)
+\item Height: $m = m_0/\gamma = m_0/2$ (depleted mass)
+\item Relations: $\sin \xi = v/c$, $\cos \xi = 1/\gamma = m/m_0$
+\end{itemize}
+
+\textbf{Einstein Triangle (extended by factor $\gamma = 2$):}
+\begin{itemize}
+\item Hypotenuse: $E = \gamma m_0 = 2m_0$ (energy grows)
+\item Base: $p = \gamma m_0v = m_0\sqrt{3}$ (momentum)
+\item Height: $m_0$ (constant rest mass)
+\item Relations: $\sec \xi = \gamma = E/m_0$, $\tan \xi = p/m_0$
+\end{itemize}
+
+Both triangles have the same angle $\xi$, giving:
+\begin{itemize}
+\item Same velocity $v = \sin \xi$
+\item Same Lorentz factor $\gamma = \sec \xi = 1/\cos \xi$
+\item Same proper time reading $\tau = t \cos \xi = t/\gamma$
+\end{itemize}
+
+\textbf{The key difference:} Reilly's triangle stays on the energy circle (conservation), while Einstein's extends beyond it (energy increases). Both give identical predictions for measurable quantities like clock readings and momenta, but provide different physical interpretations of why clocks slow down.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{velocity_triangle.pdf}
+\caption{Velocity triangle showing Reilly (inside unit circle) vs Einstein (extended) interpretations. Same angle $\xi = 60°$ gives same velocity and time dilation, but different energy accounting.}
+\label{fig:velocity}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{momentum_energy_triangle.pdf}
+\caption{Momentum-energy triangle. Reilly: $E^2 = m^2 + p^2$ (Euclidean/Pythagorean). Einstein: $E^2 = m_0^2c^4 + p^2c^2$ (hyperbolic geometry).}
+\label{fig:momentum}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{displacement_triangle.pdf}
+\caption{Spacetime displacement triangle showing physically measurable distances via radar and onboard clocks.}
+\label{fig:displacement}
+\end{figure}
+
+\section{Reilly Timespace: $\mathbb{R}^4$ with Euclidean Signature}
+
+\subsection{The Fundamental Structure}
+
+The physical interpretation developed in Section 2---variable mass $m = E/\gamma$ with conserved energy $E$---naturally suggests a different geometric structure than Minkowski spacetime. We propose that the appropriate arena for relativistic kinematics is \textbf{Euclidean four-dimensional space $\mathbb{R}^4$} with signature $(+,+,+,+)$, which we call ``Reilly timespace'' to distinguish it from Einstein's Minkowski spacetime.
+
+\textbf{Notation:} To emphasize this distinction, we use capital-R notation:
+\begin{itemize}
+\item \textbf{vectoR} (not vector): Elements of $\mathbb{R}^4$ with Euclidean metric
+\item \textbf{tensoR} (not tensor): Multilinear objects in $(+,+,+,+)$ signature
+\item \textbf{Timespace} (not spacetime): To remind us we're in $(+,+,+,+)$, not $(-,+,+,+)$
+\end{itemize}
+
+The fundamental relation in Reilly timespace is:
+\begin{equation}
+dt^2 = d\tau^2 + dx^2 + dy^2 + dz^2
+\end{equation}
+where:
+\begin{itemize}
+\item $t$ is \textbf{coordinate time} (absolute, universal parameter---all observers agree)
+\item $\tau$ is \textbf{proper time} (measured by physical clocks, path-dependent)
+\item $(x, y, z)$ are spatial coordinates
+\end{itemize}
+
+This is simply the \textbf{Pythagorean theorem in four dimensions}. The displacement vectoR is:
+\begin{equation}
+d\vec{s} = (d\tau, dx, dy, dz)
+\end{equation}
+with magnitude:
+\begin{equation}
+|d\vec{s}| = dt = \sqrt{d\tau^2 + dx^2 + dy^2 + dz^2}
+\end{equation}
+
+Coordinate time $t$ is the \textbf{Riemannian distance} in $\mathbb{R}^4$---an invariant quantity all observers agree on.
+
+\subsection{The 4-Velocity and 4-Momentum VectoRs}
+
+The 4-velocity vectoR is:
+\begin{equation}
+\vec{v} = \frac{d\vec{s}}{dt} = \left(\frac{d\tau}{dt}, \frac{dx}{dt}, \frac{dy}{dt}, \frac{dz}{dt}\right)
+\end{equation}
+
+This is a \textbf{unit vectoR} in $\mathbb{R}^4$:
+\begin{equation}
+|\vec{v}|^2 = \left(\frac{d\tau}{dt}\right)^2 + \left(\frac{dx}{dt}\right)^2 + \left(\frac{dy}{dt}\right)^2 + \left(\frac{dz}{dt}\right)^2 = 1
+\end{equation}
+
+Recognizing that $d\tau/dt = 1/\gamma$ and spatial velocity components give $v^2/c^2 = (1 - 1/\gamma^2)$, we see this is indeed unity.
+
+The 4-momentum vectoR is:
+\begin{equation}
+\vec{p} = E\vec{v} = (m, p_x, p_y, p_z)
+\end{equation}
+where:
+\begin{itemize}
+\item $m = E(d\tau/dt) = E/\gamma$ is the \textbf{mass} (variable)
+\item $(p_x, p_y, p_z) = E(dx/dt, dy/dt, dz/dt)$ is the \textbf{spatial momentum}
+\end{itemize}
+
+The magnitude of the 4-momentum vectoR is the total energy:
+\begin{equation}
+|\vec{p}| = E = \sqrt{m^2 + p_x^2 + p_y^2 + p_z^2}
+\end{equation}
+
+This is the \textbf{Euclidean Pythagorean relation} $E^2 = m^2 + \vec{p}^2$, not the hyperbolic relation $E^2 = m_0^2c^4 + p^2c^2$ of Einstein's formulation.
+
+\subsection{Coordinate Time is Absolute, But Simultaneity is Not}
+
+In Reilly timespace, coordinate time $t$ is an absolute, universal parameter---all observers agree on its value. This might seem to violate relativity, but it does not.
+
+What differs between observers is:
+\begin{enumerate}
+\item \textbf{Proper time $\tau$}: Path-dependent, depends on motion
+\item \textbf{Simultaneity surfaces}: Tilted differently for different observers (hyperplanes perpendicular to each observer's 4-velocity)
+\item \textbf{Mass $m$}: Variable, depends on velocity
+\end{enumerate}
+
+\textbf{Important:} Even though coordinate time $t$ is universal, this does NOT mean simultaneity is absolute. An observer moving with velocity $v$ defines ``simultaneous events'' as those on a hyperplane perpendicular to their 4-velocity---and this hyperplane is \textbf{tilted} relative to an observer at rest.
+
+The ``relativity of simultaneity'' remains---it's just geometrically clearer as tilted hyperplanes in Euclidean $\mathbb{R}^4$ rather than the more abstract structure of Minkowski spacetime.
+
+However, \textbf{psimultaneity}---connection via null geodesics ($d\tau = 0$)---is observer-independent. All observers agree on which events can be connected by light rays.
+
+\subsection{Light Disks, Simultaneity, and Psimultaneity}
+
+\textbf{Light propagation in Reilly timespace:}
+
+In Minkowski spacetime, light travels on null cones---the surface $ds^2 = -c^2dt^2 + dx^2 + dy^2 + dz^2 = 0$. In Reilly timespace, light travels on surfaces where \textbf{proper time does not advance}: $d\tau = 0$.
+
+Along a light ray:
+\begin{equation}
+dt^2 = dx^2 + dy^2 + dz^2
+\end{equation}
+
+At any given coordinate time $t$, the set of events at lightlike separation from a given event forms a 3-dimensional Euclidean sphere of radius $ct$.
+
+\textbf{A crucial distinction:} We must carefully distinguish between different notions of ``simultaneous'':
+
+\textbf{1. Observer-dependent simultaneity (Einstein's sense):}
+
+Each observer defines simultaneity relative to their own state of motion. An observer with 4-velocity $\vec{v}$ defines simultaneous events as those lying on a 3-dimensional hyperplane \textbf{perpendicular to $\vec{v}$} in $\mathbb{R}^4$.
+
+\begin{itemize}
+\item Observer at rest: simultaneity surface is ``horizontal'' (constant $t$, varying spatial coordinates)
+\item Observer moving with velocity $v$: simultaneity surface is \textbf{tilted} by angle $\xi$ where $\sin \xi = v/c$
+\item Different observers have different (tilted) simultaneity surfaces
+\end{itemize}
+
+This is the familiar ``relativity of simultaneity''---just geometrically clearer in $\mathbb{R}^4$ than in Minkowski space.
+
+\textbf{2. Psimultaneity (proper simultaneity via null geodesics):}
+
+We introduce a new, \textbf{observer-independent} concept: two events are \textbf{psimultaneous} if they can be connected by a null geodesic (light ray). This means $d\tau = 0$ along the connecting path.
+
+Psimultaneity is \textbf{universal}---all observers agree on which events are connected by light rays, regardless of their own motion. This gives us a distinguished structure:
+
+\textbf{The null 3-spaces} where $d\tau = 0$ are:
+\begin{itemize}
+\item \textbf{Timeless}: photons experience no proper time
+\item \textbf{Universal}: all observers agree on null separation
+\item \textbf{Information-neutral}: neither generating nor erasing (see Section 3.9)
+\end{itemize}
+
+\textbf{The light cone flattening puzzle:}
+
+In standard $(t, x)$ spacetime diagrams with time vertical, light cones appear at 45° angles, with distinct past and future cones. In Reilly timespace diagrams with \textbf{proper time $\tau$ vertical}, something remarkable happens: both past and future light cones \textbf{flatten onto the same horizontal disk} (the surface $d\tau = 0$).
+
+How can past and future both be ``the same''? This apparent paradox requires understanding:
+\begin{itemize}
+\item The \textbf{projective structure} of null space (we conjecture $\mathbb{P}^3$ or $\mathbb{RP}^3$)
+\item \textbf{Antipodal identification}: rays in direction $+\vec{q}$ (future) and $-\vec{q}$ (past) are identified
+\item The ``duplex disk'' structure: two sheets (past/future) projecting onto same surface
+\item Connection to \textbf{spinors} (which change sign under $2\pi$ rotation) and \textbf{twistors} (Penrose's framework where null rays naturally form $\mathbb{CP}^3$)
+\end{itemize}
+
+This deep structure will be explored in Section 8 with input from twistor theory experts. For now, we note that the flattening of light cones is a feature, not a bug---it reveals the projective geometry underlying null structure.
+
+\subsection{The SO(4) Symmetry Group}
+
+The geometry of Euclidean $\mathbb{R}^4$ has a natural symmetry group: \textbf{SO(4)}, the group of rotations in four dimensions. This is fundamentally different from the \textbf{SO(3,1) Lorentz group} of Minkowski spacetime.
+
+Key properties of SO(4):
+\begin{itemize}
+\item \textbf{Compact group} (unlike the non-compact Lorentz group)
+\item \textbf{6-dimensional} (three spatial rotations + three ``proper-time rotations'')
+\item Remarkably, $\text{SO}(4) \cong (\text{SU}(2) \times \text{SU}(2))/\mathbb{Z}_2$
+\end{itemize}
+
+This last property is profound: SO(4) is locally isomorphic to the product of two copies of SU(2), the group of $2\times 2$ unitary matrices with determinant 1. This double-cover structure will prove essential for understanding:
+\begin{itemize}
+\item Spinors and the spin-statistics theorem
+\item CPT symmetry
+\item The projective structure of null subspaces
+\item Connections to twistor theory
+\end{itemize}
+
+The detailed exploration of $\text{Spin}(4) = \text{SU}(2) \times \text{SU}(2)$ as the double cover of SO(4), along with implications for quantum field theory and quantum gravity, will be developed in Section 8. Here we simply note that this structure emerges \textbf{naturally} from the Euclidean signature, whereas in Minkowski spacetime the corresponding structure (the Lorentz group's double cover) is more complicated and less geometrically transparent.
+
+\subsection{VectoR Addition: High School Physics Returns}
+
+One of the most powerful advantages of Reilly timespace is that \textbf{vectoRs simply add}. In momentum space:
+\begin{equation}
+\vec{p}_{\text{total}} = \vec{p}_1 + \vec{p}_2 + \ldots
+\end{equation}
+
+This is \textbf{nose-to-tail vectoR addition} taught in high school physics (see Figure 4). No Lorentz transformations, no complicated velocity addition formulas, no mixing of energy and momentum under boosts. Just ordinary Euclidean vectoR addition.
+
+\textbf{Energy-momentum conservation} becomes trivial:
+\begin{equation}
+\sum_i \vec{p}_i^{\text{before}} = \sum_j \vec{p}_j^{\text{after}}
+\end{equation}
+
+Since $E = |\vec{p}|$ in $\mathbb{R}^4$, energy conservation is \textbf{automatically guaranteed} by 4-momentum conservation.
+
+\textbf{Example: Two-particle collision}
+\begin{itemize}
+\item Before: $\vec{p}_1 + \vec{p}_2 = (m_1 + m_2, \vec{p}_1 + \vec{p}_2)$
+\item After: $\vec{p}_3 + \vec{p}_4 = (m_3 + m_4, \vec{p}_3 + \vec{p}_4)$
+\item Conservation: Simply requires these two vectoRs to be equal!
+\end{itemize}
+
+Compare this to Einstein's formulation, where:
+\begin{itemize}
+\item Energy and momentum must be conserved separately
+\item Velocity addition formula: $v_{12} = (v_1 + v_2)/(1 + v_1v_2/c^2)$
+\item Lorentz transformations needed to change frames
+\item Energy and momentum components mix under boosts
+\end{itemize}
+
+The Reilly formulation restores the intuitive simplicity of Newtonian mechanics while preserving all the experimental predictions of special relativity.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\textwidth]{vector_addition.pdf}
+\caption{VectoR addition in collision. Nose-to-tail construction shows momentum conservation. Energy conservation automatic since $E = |\vec{p}|$.}
+\label{fig:vectoradd}
+\end{figure}
+
+\subsection{Why Mass is Perpendicular to Momentum}
+
+In the energy relation $E^2 = m^2 + \vec{p}^2$, mass and momentum appear as \textbf{perpendicular components} of the 4-momentum vectoR. This is not an accident or mere mathematical convenience---it reflects the \textbf{Euclidean geometry of $\mathbb{R}^4$}.
+
+Mass $m$ is the component in the proper-time direction ($\tau$-axis), while momentum $\vec{p}$ is the spatial component. These are geometrically orthogonal in the same sense that ``forward'' and ``up'' are perpendicular in ordinary 3D space.
+
+The \textbf{deeper reason} for this perpendicularity---why physical reality projects onto a 4-dimensional space with this particular structure---will be addressed in a subsequent paper on exotic smooth structures of $\mathbb{R}^4$ and concept-space projection. For present purposes, we take this as an empirical fact that leads naturally to the Reilly formulation.
+
+\subsection{Comparison with Minkowski Formulation}
+
+\textbf{Mathematical equivalence:} Both formulations make identical predictions for all measurable quantities:
+\begin{itemize}
+\item Time dilation: $\tau = t/\gamma$ \checkmark
+\item Length contraction (apparent): projection effect \checkmark
+\item Energy-momentum relations: $E^2 = m^2 + p^2$ vs $E^2 = m_0^2c^4 + p^2c^2$ (equivalent after substitution)
+\item Velocity limits: $v < c$ \checkmark
+\end{itemize}
+
+\textbf{Conceptual differences:}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{Aspect} & \textbf{Reilly Timespace} & \textbf{Minkowski Spacetime} \\
+\hline
+Signature & $(+,+,+,+)$ & $(-,+,+,+)$ \\
+Coordinate time & Absolute & Frame-dependent \\
+Proper time & Variable (path) & Frame-dependent \\
+Rest mass & Variable: $m = E/\gamma$ & Invariant: $m_0$ \\
+Energy & Conserved: $E$ & Growing: $E = \gamma m_0c^2$ \\
+Symmetry & SO(4) (compact) & SO(3,1) (non-compact) \\
+VectoR addition & Euclidean (direct) & Minkowski (Lorentz boost) \\
+Physical picture & Clock depletes mass & External energy input \\
+\hline
+\end{tabular}
+\caption{Comparison of Reilly and Minkowski formulations}
+\end{table}
+
+The Reilly formulation is \textbf{not a new theory}---it's a reinterpretation of special relativity that makes the physics more intuitive and the mathematics simpler, while maintaining complete agreement with experiment.
+
+\subsection{Connection to Information Physics: ``That From Nat''}
+
+The physical picture developed here---where mass is the proper-time component of the 4-momentum vectoR---has a deeper information-theoretic interpretation that motivates our ``That From Nat'' program (extending Wheeler's ``It from Bit'' vision \cite{Wheeler1990}).
+
+\textbf{Mass as Information Generation Rate}
+
+In the That From Nat framework, mass represents the \textbf{rate of injection of new incompressible information} into timespace at the location of the mass. Specifically, if $K$ denotes Kolmogorov complexity (incompressible information content), then:
+\begin{equation}
+\frac{dK}{d\tau} = \alpha \frac{Mc^2}{\hbar}
+\end{equation}
+where $\alpha$ is a dimensionless constant of order unity. This relation---connecting mass to the fundamental rate of information generation---will be justified and explained in detail in a forthcoming paper on the nature of mass and the Bekenstein bound.
+
+\textbf{The Orthogonality of Mass and Null Space}
+
+This information-theoretic picture illuminates why mass is \textbf{orthogonal} to the 3-dimensional null subspaces where $d\tau = 0$:
+
+\begin{itemize}
+\item \textbf{Mass direction $(m, \tau)$:} Direction of steepest ascent in information
+  \begin{itemize}
+  \item Forward in proper time: $+m$, $+\tau$ (information increases, generating)
+  \item Backward in proper time: $-m$, $-\tau$ (information decreases, erasing)
+  \end{itemize}
+  
+\item \textbf{Null 3-space ($d\tau = 0$, $m = 0$):} Photons and lightlike separation
+  \begin{itemize}
+  \item Pure momentum, no mass
+  \item Instantaneous in proper time (photon experiences no $\tau$)
+  \item \textbf{Timeless hypersurfaces}---information neither increases nor decreases
+  \item We conjecture these are \textbf{projective 3-spaces} (to be explored with twistor theorists)
+  \end{itemize}
+\end{itemize}
+
+The gradient of information flow in timespace points in the $\tau$-direction (perpendicular to null surfaces). Mass measures the \textbf{magnitude} of this information injection rate. Momentum measures \textbf{spatial flow} along the timeless null surfaces.
+
+\textbf{The Subtlety of Past and Future Light Cones}
+
+In a standard spacetime diagram with proper time $\tau$ as the vertical coordinate, both past and future light cones \textbf{collapse to the same horizontal disk} (the null surface $d\tau = 0$). This seems paradoxical: how can past and future be the same?
+
+The resolution lies in the \textbf{projective structure} of null space. We conjecture that:
+\begin{itemize}
+\item Past and future rays in direction $\vec{q}$ and $-\vec{q}$ are \textbf{antipodally identified}
+\item The null 3-space is actually \textbf{projective} ($\mathbb{P}^3$ or $\mathbb{RP}^3$)
+\item This gives the ``duplex disk'' structure---two sheets representing past/future
+\item From the photon's timeless perspective, they are indeed the same
+\end{itemize}
+
+The detailed mathematical structure---including connections to \textbf{twistor theory} (where null rays in complexified spacetime form projective 3-space $\mathbb{CP}^3$)---will be developed in Section 8 and in collaboration with twistor theorists. Penrose's twistor program already works in complexified Minkowski space; the connection to our real Euclidean $\mathbb{R}^4$ with its natural $\text{SO}(4) = (\text{SU}(2) \times \text{SU}(2))/\mathbb{Z}_2$ structure may provide new insights.
+
+\textbf{The Informational Perspective on Time Direction}
+
+The asymmetry between forward and backward time becomes clear:
+\begin{itemize}
+\item \textbf{Forward ($+\tau$):} Generating information, $m > 0$, complexity increases
+\item \textbf{Backward ($-\tau$):} Erasing information, $m < 0$, complexity decreases (forbidden for positive energy)
+\item \textbf{Null ($d\tau = 0$):} Neither generating nor erasing, $m = 0$, timeless
+\end{itemize}
+
+This gives a \textbf{thermodynamic arrow} naturally: the direction of steepest information ascent defines the future. This will be connected to the second law of thermodynamics, black hole entropy, and cosmological expansion in subsequent work.
+
+For now, the key insight is: \textbf{mass is perpendicular to null space because information flow is perpendicular to timeless surfaces.} This is not mathematical accident but fundamental structure.
+
+\section{Resolving Classic Paradoxes}
+
+[Section 4 to be drafted - will show how twin paradox, ladder/barn paradox, and other classic puzzles dissolve as simple geometric projections in Reilly timespace]
+
+\section{Comparison and Equivalence}
+
+[Section 5 to be drafted - formal proof of mathematical equivalence between Reilly and Einstein formulations, with detailed comparison of predictions]
+
+\section{Information Physics and ``That From Nat''}
+
+[Section 6 to be drafted - deeper development of information-theoretic foundation, connection to Wheeler's vision, introduction of full program]
+
+\section{Experimental and Pedagogical Considerations}
+
+[Section 7 to be drafted - discussion of experimental tests, pedagogical advantages for teaching, no new predictions at accessible energies]
+
+\section{Future Directions and Calls for Collaboration}
+
+This paper represents the first step in a broader research program. We identify several crucial directions requiring expert collaboration:
+
+\subsection{General Relativity and Curved Timespace}
+
+The framework developed here applies to \textbf{locally flat patches} of timespace. Extending to curved Reilly timespace---where mass-energy curves the geometry---requires:
+\begin{itemize}
+\item Recasting the Einstein field equations in $(+,+,+,+)$ signature
+\item Understanding how the Ricci tensor emerges from information-theoretic constraints
+\item Connecting the metric structure to information storage requirements (Bekenstein bound)
+\item Reformulating geodesic deviation and tidal forces
+\end{itemize}
+
+We conjecture that general relativity can be recast as \textbf{information geometry}: the metric tensor encodes how much information can be stored in each region, with curvature arising from information generation rates. This will be explored in a forthcoming paper on gravity and the wholographic principle.
+
+\textbf{Collaboration needed:} Relativists, differential geometers, and information theorists familiar with Riemannian geometry in signature $(+,+,+,+)$.
+
+\subsection{Twistor Theory and Projective Structure}
+
+The null 3-spaces ($d\tau = 0$) where both light cones flatten to horizontal disks suggest deep connections to:
+\begin{itemize}
+\item Penrose's twistor theory (where null rays form $\mathbb{CP}^3$)
+\item Projective geometry and exotic smooth structures of $\mathbb{R}^4$
+\item Spinor structures and the $\text{Spin}(4) = \text{SU}(2) \times \text{SU}(2)$ double cover
+\item Understanding why past and future light rays are antipodally identified
+\end{itemize}
+
+\textbf{Collaboration needed:} Twistor theorists, geometric topologists, and mathematical physicists familiar with projective spaces and spinor geometry.
+
+\subsection{Quantum Field Theory and Quantum Gravity}
+
+The SO(4) symmetry and Euclidean signature should simplify:
+\begin{itemize}
+\item Spin-statistics theorem (more natural with compact symmetry group)
+\item CPT theorem (connection to antipodal identification)
+\item Path integral formulations (Euclidean signature is standard for Wick rotation)
+\item Canonical quantization with positive-definite inner product
+\end{itemize}
+
+\textbf{Collaboration needed:} QFT theorists, quantum gravity researchers (especially loop quantum gravity and spin foam approaches which already use SO(4)).
+
+\subsection{This is Just the Beginning}
+
+Wheeler's ``It from Bit'' vision can now be realized as ``That From Nat''---with explicit mechanisms connecting information generation to physical reality. We invite the physics community to explore, extend, and test this framework.
+
+\section{Conclusion}
+
+[Section 9 to be drafted - summary of key insights, reflection on 33 years of development, invitation to join the ``grail adventure'']
+
+\section*{Acknowledgments}
+
+This work honors Robert Carlitz, who taught that the simplest questions conceal the deepest insights. I thank [colleagues to be added] for valuable discussions. Special thanks to my wife McCaul for crucial conceptual insights throughout this three-decade journey; I plan to hyphenate my name to Paul Reilly-McCaul in recognition of her contributions.
+
+\begin{thebibliography}{99}
+
+\bibitem{Einstein1905}
+A. Einstein, ``On the Electrodynamics of Moving Bodies,'' \textit{Annalen der Physik} \textbf{17}, 891 (1905).
+
+\bibitem{HafeleKeating1972}
+J.C. Hafele and R.E. Keating, ``Around-the-World Atomic Clocks,'' \textit{Science} \textbf{177}, 166 (1972).
+
+\bibitem{Allan1985}
+D.W. Allan et al., ``Around-the-World Relativistic Sagnac Experiment,'' \textit{Science} \textbf{228}, 69 (1985).
+
+\bibitem{Will2001}
+C.M. Will, ``The Confrontation between General Relativity and Experiment,'' \textit{Living Rev. Relativity} \textbf{4}, 4 (2001).
+
+\bibitem{FrischSmith1963}
+D.H. Frisch and J.H. Smith, ``Measurement of Relativistic Time Dilation Using $\mu$-Mesons,'' \textit{Am. J. Phys.} \textbf{31}, 342 (1963).
+
+\bibitem{Wheeler1990}
+J.A. Wheeler, ``Information, Physics, Quantum: The Search for Links,'' in \textit{Complexity, Entropy, and the Physics of Information} (Addison-Wesley, 1990).
+
+\end{thebibliography}
+
+\end{document}
