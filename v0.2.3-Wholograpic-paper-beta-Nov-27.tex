@@ -1,0 +1,1439 @@
+﻿\documentclass[12pt]{article}
+\title{The Wholographic Principle: Bidirectional Information Encoding on Holographic Boundaries}
+\author{Paul A.I. Reilly}
+\date{November 27, 2025}
+\begin{document}
+\maketitle
+General note: This is an early draft of a manuscript outlining the Wholographic Principle, an extension of the standard holographic principle. It is uploaded to establish priority; a more complete and polished version is forthcoming.
+\section*{Outline of the Paper}
+This draft is organized as follows:
+\begin{enumerate}
+    \item \textbf{Introduction} \\
+    Motivation, context, and overview of the Wholographic Principle; connection to the standard holographic principle.
+    \item \textbf{Operational Prediction} \\
+    Discussion of how measurements determine both ``what'' and ``where'' information simultaneously.
+    \item \textbf{Mathematical Formulation} \\
+    Formal definitions and equations relating interior, boundary, and exterior information. Early mention of category-theoretic ideas.
+    \item \textbf{Examples and Tables} \\
+    Illustrative examples, visualizations, and tabular summaries of information encoding.
+    \item \textbf{Conclusion} \\
+    \begin{itemize}
+        \item \emph{Technical Statement of the Wholographic Principle} -- precise, formal summary.
+        \item \emph{Summary of Core Ideas} -- key concepts, coarse-graining, and boundary mediation.
+        \item \emph{Contextualization and Respect for Prior Work} -- acknowledgment of prior researchers and contributors.
+        \item \emph{Outlook and Open Questions} -- directions for future investigation.
+        \item \emph{Accessible / General-Audience Statement} -- plain-language summary.
+    \end{itemize}
+    \item \textbf{Appendices} \\
+    \begin{itemize}
+        \item \emph{Appendix A: Category-Theoretic Formulation} -- rigorous formalism using objects, morphisms, and commutative diagrams.
+        \item \emph{Appendix B: Information Capacity, Boundary Area, and Coarse-Graining} -- calculations, hierarchy of information bounds, and physical interpretation.
+    \end{itemize}
+    \item \textbf{Acknowledgements} \\
+    Recognition of Bekenstein, Joel S. Welling, and the broader community.
+    \item \textbf{References / Bibliography} \\
+    Key papers in holography, black hole information, and related areas.
+\end{enumerate}
+%===========================%
+Abstract: 
+We introduce the wholographic principle—a portmanteau of whole and holographic—which extends the holographic principle by treating interior, exterior, and boundary as a single informational system, rather than privileging the boundary over the bulk. The traditional holographic principle encodes bulk information on boundaries, yet remains agnostic about what lies beyond those boundaries.
+The wholographic principle asserts that boundaries encode the mutual, causally transmissible information between interior and exterior regions: what each can objectively know about the other through their shared interface. This reframes boundaries as bidirectional communication channels, grounded in the quantum no-hiding theorem, rather than as one-way projection screens.
+Using a framework we call what-where information symmetry, we show that boundaries encode not only what information exists, but where it becomes accessible. Through concrete examples—a magnetic compass, an astronomical observatory, and a hologram itself—we demonstrate how boundaries naturally encode mutual knowledge rather than ontological completeness. We prove that this yields the same mathematical structures as conventional holography while resolving interpretive puzzles concerning bulk reconstruction, observer dependence, and holographic duality.
+The wholographic principle applies to any partitioned system in which information must be preserved across boundaries, suggesting applications from quantum error correction to black-hole evaporation to cosmological horizons. Three appendices develop the formalism through quantum information theory, detailed examples, and philosophical implications for locality and objectivity.
+________________
+
+
+📍 Introduction: (NOTE: Still needs Minor Edits)
+1.
+ The holographic principle is one of the most remarkable insights in theoretical physics. Originating in black-hole thermodynamics and realized mathematically through AdS/CFT duality, it states that the information content of a spatial region can be encoded on its boundary—effectively reducing descriptions in d dimensions to d−1. This reduction has transformed our understanding of quantum gravity, strongly coupled field theories, and the emergence of spacetime.
+2.
+ Yet despite its success, the holographic principle contains an implicit asymmetry. It tells us that bulk information can be encoded on boundaries, but remains silent about what lies beyond those boundaries. The principle works equally well whether the exterior is empty space, a mirror copy of the interior, or an entirely different universe. This silence is not a flaw; it reflects that holography was developed to solve specific problems in quantum gravity, not to describe the full informational structure of partitioned systems.
+3.
+ We propose the wholographic principle as a natural completion of this picture. Where standard holography focuses on how bulk information projects onto boundaries, wholography treats interior, boundary, and exterior as a unified informational structure. The core claim is that boundaries encode the mutual, causally transmissible information between regions: what the interior can objectively know about the exterior, and vice versa (formalized in Section 3.1).
+4.  
+The wholographic principle extends holography bidirectionally: boundaries encode not only interior information projected outward, but also exterior information reconstructed inward. 
+
+
+\textbf{Why this matters:} Nearly everything we know about the world—excluding perceptions internal to the brain such as migraine aura, introspection, and dreams—comes from exterior reconstruction. We build internal models of external reality from sensory data, and this process works remarkably well. Science, navigation, prediction—all depend on successful exterior reconstruction. This empirical success demands mathematical explanation: if interior systems can reliably reconstruct exterior information, there must be a formal framework describing how boundaries encode and transmit this information bidirectionally. The wholographic principle provides this framework.
+
+
+ This reframing yields two immediate advantages. First, it anchors boundary encoding in the quantum no-hiding theorem (Section 3.2), which ensures that information cannot disappear from a system but only relocate within it. When we partition space into interior and exterior regions, the information about their mutual correlations must reside somewhere—and that location is the boundary. Second, it clarifies the nature of bulk reconstruction: a boundary encodes precisely the locally accessible objective view of one region from the other. Whether this view represents the region’s full ontological content is a philosophical question (Appendix C.2), but the boundary must encode at least this mutual information—what can be communicated across it.
+5.
+ A simple example illustrates the principle: a compass needle located inside a closed room (Section 4.1). The needle aligns with Earth’s magnetic field, thereby encoding information about the exterior inside the interior. The boundary (the room’s walls) mediates this interaction: it must be magnetically transparent for the correlation to exist. The compass does not reconstruct Earth’s full magnetic structure; it records exactly what can pass through the boundary. This is wholography in miniature: boundaries as interfaces for mutual information, not total encoding.
+6.
+ Mathematically, we show that wholographic and holographic descriptions lead to the same formal structures when interpreted correctly. The difference is conceptual, not mathematical: wholography emphasizes that boundaries encode relational information between regions, not absolute information about either region in isolation. This becomes crucial when addressing observer dependence (Appendix C.1), correlations across horizons (Section 5.1), and the role of boundaries in maintaining unitarity (Section 3.2).
+7. Organization.
+ Section 2 reviews the holographic principle, establishing notation and identifying the gap that wholography addresses. Section 3 introduces the wholographic principle formally, grounding it in the no-hiding theorem and developing what-where information symmetry. Section 4 provides three worked examples. Section 5 explores applications to black-hole information, de Sitter cosmology, and emergent spacetime. Section 6 concludes. Appendices offer technical details, calculations, and philosophical implications.
+
+
+****2*****
+\section{Physical Foundation: R-Processes and Information Complementarity}
+
+
+\subsection{Information Generation via Objective Reduction}
+
+
+Following Penrose, physical processes divide into two types:
+\begin{itemize}
+    \item \textbf{U-processes (Unitary evolution):} Reversible quantum evolution 
+          described by the Schrödinger equation. Preserves information content.
+    \item \textbf{R-processes (Objective reduction):} Irreversible events where 
+          quantum superposition becomes definite classical outcome. Generates 
+          new information.
+\end{itemize}
+
+
+\textbf{Central hypothesis:} All classical, objective information in the universe 
+originates from R-processes. We now show this naturally leads to wholographic encoding.
+
+
+\textbf{Quantifying information generation:} We postulate that the rate of 
+irreversible information generation in a system's proper time frame is directly 
+proportional to its mass:
+\begin{equation}
+M = \frac{\hbar}{2\pi c^2}\frac{dK}{d\tau}
+\label{eq:mass_info}
+\end{equation}
+where $K$ is Kolmogorov complexity and $\tau$ is proper time. For the 
+observable universe with mass $M_{\text{obs}} \sim 10^{53}$ kg, this predicts 
+an information generation rate of $\sim 10^{61}$ nats per Planck time. 
+Integrated over cosmic history ($\sim 10^{61}$ Planck times), this yields 
+$\sim 10^{122}$ nats—precisely matching the information capacity of the 
+cosmological horizon. This remarkable agreement suggests R-processes could 
+plausibly generate all classical information in the universe. The derivation 
+and justification of Eq.~\ref{eq:mass_info} is developed in companion work 
+\cite{reilly_mass_info}.
+
+
+\textbf{Note on dynamics:} While we treat R-processes as discrete events for 
+mathematical convenience, the actual dynamics may involve continuous information 
+injection that accelerates during measurement interactions, analogous to charge 
+accumulation and discharge in a Van de Graaff generator. Both spontaneous 
+discharge (decoherence near matter) and engineered discharge (deliberate 
+measurement) represent R-process dynamics. The apparent discreteness likely 
+reflects our measurement resolution rather than fundamental discontinuity.
+
+
+
+
+\subsection{The Beam Splitter: Complementary Information Streams}
+
+
+\subsubsection{Experimental Setup}
+
+
+Consider a 50/50 beam splitter with one photon entering per nanosecond, 
+giving good temporal separation. We send $N = 10^9$ photons through the 
+beam splitter over one second.
+
+
+Each arm has a detector that records:
+\begin{itemize}
+    \item ``1'' if photon detected in that nanosecond interval
+    \item ``0'' if no photon detected in that interval  
+\end{itemize}
+
+
+The detectors on transmission and reflection arms are spacelike separated 
+during measurement.
+
+
+\subsubsection{Information Structure}
+
+
+After $10^9$ photons, we have two binary strings:
+\begin{align}
+    T &= [t_1, t_2, \ldots, t_{10^9}] \quad \text{(transmission arm)} \\
+    R &= [r_1, r_2, \ldots, r_{10^9}] \quad \text{(reflection arm)}
+\end{align}
+
+
+\textbf{Key observation:} The beam splitter creates perfect bitwise complementarity:
+\begin{equation}
+    r_i = \text{NOT}(t_i) \quad \text{for all } i
+\end{equation}
+
+
+Each string appears incompressible (Kolmogorov complexity $K(T) \approx 10^9$ bits).
+
+
+\subsubsection{Complementarity and Complexity}
+
+
+Measured independently:
+\begin{itemize}
+    \item Transmission arm: $K(T) \approx 10^9$ bits
+    \item Reflection arm: $K(R) \approx 10^9$ bits  
+    \item Naive sum: $K(T) + K(R) \approx 2 \times 10^9$ bits
+\end{itemize}
+
+
+Measured jointly from a boundary surrounding both arms:
+\begin{equation}
+    K(T, R) \approx K(T) + K(R|T) \approx 10^9 + O(1) \approx 10^9 \text{ bits}
+\end{equation}
+
+
+The conditional complexity $K(R|T)$ is negligible because $R$ is computable 
+from $T$ via bitwise complement.
+
+
+\textbf{Result:} Joint measurement reveals only $10^9$ bits, not $2 \times 10^9$ bits.
+
+
+\subsubsection{Geometric Implications}
+
+
+If information generates spacetime area via Eq.~\ref{eq:mass_info} and the 
+holographic bound, we expect:
+
+
+\textbf{Local accounting (separate boundaries):}
+\begin{itemize}
+    \item Boundary around T arm: $\Delta A_T \sim 4K(T)\ell_P^2 \sim 4 \times 10^9 \ell_P^2$
+    \item Boundary around R arm: $\Delta A_R \sim 4K(R)\ell_P^2 \sim 4 \times 10^9 \ell_P^2$
+    \item Total: $\Delta A_{\text{local}} \sim 8 \times 10^9 \ell_P^2$
+\end{itemize}
+
+
+\textbf{Global accounting (joint boundary):}
+\begin{equation}
+    \Delta A_{\text{global}} \sim 4K(T,R)\ell_P^2 \sim 4 \times 10^9 \ell_P^2
+\end{equation}
+
+
+\textbf{Tension:} The mismatch between local accounting ($8 \times 10^9 \ell_P^2$) 
+and global accounting ($4 \times 10^9 \ell_P^2$) suggests deep connections between 
+information complementarity and gravitational physics, explored further in 
+companion work \cite{reilly_mass_info}.
+
+
+\subsubsection{Physical Interpretation}
+
+
+The beam splitter R-process creates two complementary information streams 
+propagating in different spatial directions. When measured:
+\begin{enumerate}
+    \item Each detector performs a local R-process
+    \item Creates classical records at spatially separated locations  
+    \item Information becomes \emph{objective} because complementary records 
+          are in principle verifiable by independent observers
+    \item Objectivity emerges as a distributed event across spacetime
+\end{enumerate}
+
+
+A boundary drawn between the arms naturally encodes this complementary pair. 
+The boundary information equals the mutual information between interior and 
+exterior, which—due to complementarity—equals the complexity of a single stream: 
+$I(T:R) \approx K(T) \approx 10^9$ bits.
+
+
+\textbf{The wholographic structure:} This example reveals a fundamental pattern. 
+All objective information inside the boundary is fully entangled with information 
+outside the boundary—here, every bit of the T-stream is perfectly correlated 
+with its complement in the R-stream.  Even for non-binary splits—such as a Stern-Gerlach experiment on spin-1 particles yielding three outcomes—we can partition the results into two complementary streams (e.g., {spin-up} vs {spin-down, spin-zero}), as we show in Section 2.4.
+
+Similarly, the boundary-crossing information outside is fully entangled with corresponding information inside. The boundary itself encodes both sides of this entanglement relationship. This complete mutual entanglement across boundaries, where no objective information remains "private" to either side, is the essence of the wholographic principle. We now examine how R-processes create this objectivity through spatial separation.
+%===========================%
+\section{General Mathematical Framework}
+%===========================%
+
+
+\subsection{Basic Structure}
+
+
+Let $A$ and $B$ be \emph{information collections} (data sets, knowledge-bearing systems, or physical subsystems) separated by a boundary screen $S_{AB}$. The term ``information collections'' emphasizes that $A$ and $B$ may represent distinct \emph{perspectives} on an underlying informational structure, without implying set-theoretic identity.
+
+
+\subsection{Faithful Mediation Conditions}
+
+
+\begin{definition}[Faithful Communication]
+A boundary $S_{AB}$ is a \emph{faithful mediator} between information collections $A$ and $B$ if:
+\begin{enumerate}
+    \item \textbf{Bidirectional Acknowledgment (``Newton's Third Law of Information''):} For any information transfer $I: A \rightarrow B$ through $S_{AB}$, there exists a corresponding acknowledgment $I': B \rightarrow A$, certifying that $A$ knows the transfer was received.
+    \item \textbf{Distortionless Transmission:} Information transmitted through $S_{AB}$ is not corrupted or lost.
+    \item \textbf{Completeness:} All communication between $A$ and $B$ occurs exclusively through $S_{AB}$.
+\end{enumerate}
+\end{definition}
+
+
+\subsection{Core Wholographic Principle}
+
+
+\begin{principle}[Wholographic Principle]
+For information collections $A$ and $B$ connected by a faithful mediator $S_{AB}$, the following equivalence holds:
+\begin{equation}
+    \mathcal{I}_{A}^{B} \;\cong\; \mathcal{I}_{B}^{A} \;\cong\; \mathcal{I}_{S_{AB}},
+\end{equation}
+where:
+\begin{itemize}
+    \item $\mathcal{I}_{A}^{B}$ denotes the information that $A$ possesses about $B$,
+    \item $\mathcal{I}_{B}^{A}$ denotes the information that $B$ possesses about $A$,
+    \item $\mathcal{I}_{S_{AB}}$ denotes the information encoded on the boundary $S_{AB}$.
+\end{itemize}
+\end{principle}
+
+
+\subsection{Shared Informational Structure}
+
+
+The mutual information accessible to \emph{both} $A$ and $B$ is
+\begin{equation}
+    \mathcal{I}_{\mathrm{mutual}} = \mathcal{I}_{A}^{B} \cap \mathcal{I}_{B}^{A} = \mathcal{I}_{S_{AB}}.
+\end{equation}
+This represents the \emph{objective, communicable subset} of information available to both regions and formalizes what can be known across the boundary.
+
+
+\subsection{Information Conservation and Temporal Ordering}
+
+
+\begin{assumption}[No Information Loss]
+The universe maintains a cumulative informational record $\mathcal{R}(t)$ such that
+\begin{equation}
+    \mathcal{R}(t_2) \supseteq \mathcal{R}(t_1), \quad t_2 > t_1.
+\end{equation}
+Information may become inaccessible, but it is never destroyed.
+\end{assumption}
+
+
+\subsection{Quantum Information Foundations}
+
+
+The conditions for faithful mediation emerge naturally from core principles of quantum information theory:
+\begin{itemize}
+    \item \textbf{Unitarity:} Ensures global information conservation under quantum evolution.
+    \item \textbf{No-Cloning Theorem:} Prohibits perfect duplication of quantum information, implying the uniqueness of boundary encoding.
+    \item \textbf{Entanglement Monogamy:} Enforces bidirectional sharing: information exchanged between $A$ and $B$ reduces their ability to correlate with other systems.
+    \item \textbf{Quantum Error Correction:} Provides mechanisms for preserving information through physical boundaries.
+\end{itemize}
+These principles provide the physical basis for treating boundaries as faithful mediators of information exchange.
+
+
+\subsection{The No-Hiding Theorem and Necessary Bidirectionality}
+
+
+The wholographic requirement of bidirectionality follows from the \emph{no-hiding theorem} of Braunstein and Pati (2007), which states that quantum information cannot be hidden in a subsystem; if it disappears from one system, it must reappear in another or in correlations between systems.
+
+
+\begin{theorem}[No-Hiding Theorem {\citeauthor{BraunsteinPati2007}}]
+Let $|\psi\rangle$ be a quantum state in system $A$ undergoing any physical evolution (unitary or non-unitary). If the accessible information in $A$ decreases, the ``missing'' information must be recoverable from:
+\begin{enumerate}
+    \item another system $B$,
+    \item correlations between $A$ and $B$,
+    \item or the environment $E$ interacting with $A$.
+\end{enumerate}
+More precisely,
+\begin{equation}
+    I_{\mathrm{initial}}(A) = I_{\mathrm{final}}(A) + I_{\mathrm{final}}(B) + I_{\mathrm{final}}(A:B),
+\end{equation}
+where $I(A:B)$ denotes the mutual information between $A$ and $B$.
+\end{theorem}
+
+
+\paragraph{Implications for Boundaries.}  
+Consider a bounded region $R$ with boundary $\partial R$, interior $R_{\mathrm{int}}$, and exterior $R_{\mathrm{ext}}$. The no-hiding theorem implies:
+\begin{itemize}
+    \item Information originating in $R_{\mathrm{int}}$ cannot remain hidden from $R_{\mathrm{ext}}$; it must appear on $\partial R$ or in correlations mediated through $\partial R$.
+    \item Information arriving from $R_{\mathrm{ext}}$ cannot vanish within $R_{\mathrm{int}}$; traces must be present on $\partial R$ or in resulting correlations.
+\end{itemize}
+
+
+\paragraph{Mandatory Bidirectionality.}  
+The boundary $\partial R$ is therefore a necessary mediator of transmissible information in both directions. Bidirectional boundary encoding is not a representational choice, but a consequence of unitarity and information conservation in quantum mechanics.
+
+
+*********
+
+%===========================%
+\section{Spacetime Specialization and Holographic Compatibility}
+%===========================%
+
+
+We now specialize the wholographic principle to four-dimensional spacetime, showing how it reproduces standard holographic results while explicitly incorporating exterior regions. Consider a bounded spacetime region and its complement; the boundary between them mediates all mutual information.
+
+
+\subsection{Spacetime Information Structure}
+
+
+Let us identify the components in spacetime:
+\begin{itemize}
+    \item \textbf{Interior $A$}: a bounded spacetime region.
+    \item \textbf{Exterior $B$}: the complementary spacetime region.
+    \item \textbf{Boundary $S_{AB}$}: the 3D hypersurface separating interior and exterior.
+\end{itemize}
+
+
+The mutual information $\I_{S_{AB}}$ encoded on the boundary includes:
+\begin{itemize}
+    \item Field configurations and their derivatives on the boundary.
+    \item Causal fluxes and energy-momentum transfer across the boundary.
+    \item Observable correlations accessible to both regions.
+    \item Entanglement entropy between degrees of freedom on either side.
+\end{itemize}
+
+
+\subsection{Distinction from the Standard Holographic Principle}
+
+
+The key distinction between standard holography and wholography lies in scope and symmetry:
+
+
+\begin{itemize}
+    \item \textbf{Standard Holographic Principle:}
+    \begin{equation}
+        \I_{A} \cong \I_{S_{AB}},
+    \end{equation}
+    which asserts that the complete interior information is encoded on the boundary, without explicit consideration of the exterior region.
+
+
+    \item \textbf{Wholographic Principle:}
+    \begin{equation}
+        \I_{A}^{B} \cong \I_{S_{AB}} \cong \I_{B}^{A},
+    \end{equation}
+    which asserts that the boundary encodes only the mutual, causally transmissible information between interior and exterior, while each region may retain private information not accessible through the boundary.
+\end{itemize}
+
+
+The wholographic framework thus preserves the mathematical machinery of holographic physics while acknowledging the existence of exterior information.
+
+
+\subsection{Recovery of Holographic Results}
+
+
+The wholographic principle naturally contains the standard holographic encoding as a special case. When we focus solely on interior information accessible through the boundary:
+
+
+\begin{equation}
+    \I_{A}^{\mathrm{accessible}} \subseteq \I_{A}, \quad \I_{A}^{\mathrm{accessible}} \cong \I_{S_{AB}}.
+\end{equation}
+
+
+This preserves all conventional holographic calculations while emphasizing that:
+\begin{enumerate}
+    \item The boundary encodes \emph{shared} rather than \emph{complete} interior information.
+    \item The exterior contributes information to the boundary encoding.
+    \item Both interior and exterior may possess \emph{private} information not accessible through the boundary.
+\end{enumerate}
+
+
+\subsection{Information Conservation and Causal Structure}
+
+
+The wholographic framework respects relativistic causal structure through the requirement that boundary information propagates at or below the speed of light. This ensures that:
+\begin{itemize}
+    \item Information about events appears on the boundary only after appropriate light-travel time.
+    \item Spacelike separated events contribute independent information content.
+    \item The boundary serves as the unique causal interface between interior and exterior regions.
+\end{itemize}
+
+
+Bidirectional encoding of boundary information in spacetime is therefore physically necessary, following directly from the no-hiding theorem (Section~2.5). In summary, the wholographic principle reproduces all standard holographic calculations while explicitly encoding the relational, bidirectional structure between interior and exterior regions.
+
+
+****4*****
+\section{Examples and Testable Predictions}
+
+
+\subsection{Entanglement Structure and Information Channels}
+
+
+The Wholographic Principle predicts novel entanglement and information-encoding features beyond standard holography:
+
+
+\begin{itemize}
+  \item \textbf{Entanglement Asymmetry:} Interior-exterior entanglement can be measured from both sides of the boundary. The boundary encodes only the mutual information accessible to both regions.
+  \item \textbf{Private Information:} Certain degrees of freedom remain inaccessible at the boundary; this reinforces the existence of interior or exterior “private” information.
+  \item \textbf{Partial Exterior Reconstruction:} Boundary data allows partial reconstruction of exterior features, not just the interior-only reconstruction predicted by standard holography.
+\end{itemize}
+
+
+\subsection{Information Capacity Scaling}
+
+
+Boundary information capacity scales with \emph{mutual information} rather than total interior or exterior information:
+
+
+\begin{itemize}
+  \item Atomic-scale interior information: $I_\mathrm{atomic} \sim 10^{30}~\mathrm{bits}$ (for a 100-ton, 10 m region)
+  \item Macroscopically legible fraction: $I_\mathrm{macro} \sim 10^{15}~\mathrm{bits}$ (e.g., telescope data, compass needle)
+  \item Holographic capacity of boundary: $I_\mathrm{holo} \sim 10^{73}~\mathrm{bits}$ (10 m radius)
+\end{itemize}
+
+
+\subsection{Physical Wholography: Bidirectional Recording}
+
+
+\textbf{Experimental Setup:} Place a thin boundary medium (e.g., holographic film or photopolymer) between two coherent optical scenes.
+
+
+\textbf{Predictions:}
+\begin{itemize}
+  \item Boundary encodes information from both sides simultaneously.
+  \item Reconstruction quality depends on mutual coherence of incoming signals.
+  \item Only the mutual portion of information is accessible; private information remains encoded microscopically.
+\end{itemize}
+
+
+\begin{center}
+\begin{tabular}{|l|c|c|c|}
+\hline
+\textbf{System} & \textbf{Atomic-Scale Bits} & \textbf{Macroscopically Accessible Bits} & \textbf{Holographic Capacity} \\
+\hline
+Compass & $\sim 10^{26}$ & $\sim 10^2$ & $10^{70}$ \\
+Simple Room (100 m$^3$) & $\sim 10^{29}$ & $\sim 10^6$ & $10^{75}$ \\
+Astronomical Observatory & $\sim 10^{30}$ & $\sim 10^{15}$ & $10^{73}$ \\
+Rock (10 m radius) & $\sim 10^{30}$ & $\sim 0$ & $10^{73}$ \\
+Empty Space (10 m radius) & $\sim 0$ & N/A & $10^{73}$ \\
+\hline
+\end{tabular}
+\end{center}
+
+
+\subsection{Rich Example: The Observatory}
+
+
+\subsubsection{Setup and Information Channels}
+
+
+Consider a spherical astronomical observatory with radius $R \sim 10$ m and boundary surface $\partial O$ (dome and walls) with area $A \approx 4\pi R^2 \sim 10^3~\mathrm{m}^2$. It contains:
+
+
+\begin{itemize}
+  \item Optical telescope with CCD detectors
+  \item Computers storing astronomical data
+  \item Structural materials (metal, concrete, glass)
+  \item Air at $T \sim 300$ K
+  \item Various electronic systems
+\end{itemize}
+
+
+Information enters and exits through multiple channels at different scales.
+
+
+\subsubsection{Information Flow: Exterior to Interior}
+
+
+\textbf{Macroscopically Legible Channel (Telescope Aperture):}
+
+
+\begin{itemize}
+  \item Galaxy positions and redshifts: $\sim 10^{10}$ bits
+  \item Stellar spectra and photometry: $\sim 10^{12}$ bits
+  \item Total stored astronomical data: $I_\mathrm{telescope} \sim 10^{15}$ bits
+\end{itemize}
+
+
+\textbf{Microscopic Channels (Entire Boundary):} Thermal infrared radiation, acoustic vibrations, gravitational gradients, electromagnetic noise, cosmic ray impacts, atmospheric pressure variations. Encoded in molecular motions, electron states, and phonon modes: $I_\mathrm{micro} \sim 10^{30}$ bits.
+
+
+\subsubsection{Information Flow: Interior to Exterior}
+
+
+\begin{itemize}
+  \item Thermal radiation: $T \sim 300$ K
+  \item Reflected sunlight from dome/walls
+  \item Electromagnetic emission from electronics
+  \item Acoustic emission from dome rotation
+\end{itemize}
+
+
+\textbf{Gravitational Signature:} Mass $M \sim 10^5~\mathrm{kg}$ creates an externally detectable gravitational field.
+
+
+\subsubsection{Wholographic Reading}
+
+
+Boundary fields $\partial O$ simultaneously encode:
+
+
+\begin{itemize}
+  \item \emph{Interior state} (outgoing photons, gravitational field)
+  \item \emph{Exterior state} (incoming photons, gravitational gradients)
+\end{itemize}
+
+
+Decomposition:
+
+
+\[
+\mathcal{I}_{\partial O}(t) = \mathcal{I}_\mathrm{in}(t) \cup \mathcal{I}_\mathrm{out}(t)
+\]
+
+
+\subsubsection{What-Where Duality}
+
+
+\begin{itemize}
+  \item \textbf{What-information (Exterior $\to$ Boundary):} Interior contains organized matter with mass $M$, temperature $T$, and specific composition.
+  \item \textbf{Where-information (Boundary $\to$ Interior):} Location on Earth orbiting a G-type star, with M31 visible, CMB $T\sim 2.7$ K.
+\end{itemize}
+
+
+\subsubsection{Information Capacity and Bekenstein Bound}
+
+
+\[
+I_\mathrm{holo} = \frac{A}{4\ell_P^2} \sim 10^{73}~\mathrm{bits}, \quad
+I_\mathrm{Bek} \lesssim \frac{2\pi M R c}{\hbar \ln 2} \sim 3\times10^{49}~\mathrm{bits}
+\]
+
+
+\[
+I_\mathrm{astro} \sim 10^{15}~\mathrm{bits}
+\]
+
+
+Hierarchy: $I_\mathrm{holo} \gg I_\mathrm{Bek} \gg I_\mathrm{astro}$.
+
+
+\subsubsection{Coarse-Graining and Exterior Universe}
+
+
+The observable universe ($M \sim 10^{53}$ kg) would require $\sim 10^{82}$ bits at atomic resolution, vastly exceeding the observatory’s holographic capacity. Thus, boundaries encode a coarse-grained exterior representation:
+
+
+\begin{itemize}
+  \item Nearby objects: detailed (arcsecond resolution)
+  \item Distant galaxies: moderate (morphology, redshift)
+  \item Large-scale structure: coarse (CMB temperature, cluster distribution)
+  \item Beyond causal horizon: absent
+\end{itemize}
+
+
+\subsubsection{Contrast with Rock and Empty Space}
+
+
+\begin{itemize}
+  \item \textbf{Rock:} Same $I_\mathrm{atomic} \sim 10^{30}$ bits as observatory; virtually no macroscopic legibility.
+  \item \textbf{Empty Space:} $I_\mathrm{atomic} \sim 0$; boundary fields still carry information about passing radiation and gravitational waves.
+\end{itemize}
+
+
+\subsection{What-Where Symmetry: The Unifying Principle}
+
+
+\textbf{Definition:} For any region $R$ with boundary $\partial R$:
+
+
+\[
+\mathcal{I}_\mathrm{what}(R) : \text{Info exterior can extract about interior}
+\]
+\[
+\mathcal{I}_\mathrm{where}(R) : \text{Info interior can extract about exterior}
+\]
+
+
+\textbf{Theorem:} 
+\[
+\mathcal{I}_\mathrm{what}(R) \cong \mathcal{I}_\mathrm{where}(R) \cong \mathcal{I}_{\partial R}
+\]
+
+
+\textbf{Physical Interpretation:}
+
+
+\begin{itemize}
+  \item Content and context are dual: knowing what is inside informs where it is, and vice versa.
+  \item Resolution scaling: smaller boundaries encode coarser information.
+  \item Coarse-graining ensures practical accessibility.
+\end{itemize}
+
+
+\textbf{Operational Prediction:} Any measurement of ``what' information ' also determines some ``where'' information, and vice versa. Example: a camera photograph simultaneously records content and location.  A complete content specification for a system (what) also determines everything known to the interior about the context of the system (where).
+
+\begin{table}[h]
+\centering
+\caption{Coarse-Graining of Boundary-Encoded Information}
+\begin{tabular}{|l|c|c|c|}
+\hline
+\textbf{Scale} & \textbf{Approx. Bits} & \textbf{Legibility} & \textbf{Example} \\
+\hline
+Macroscopic & $\sim 10^{10}$ & Human/Instrument readable & Telescope images, catalogs \\
+Atomic & $\sim 10^{30}$ & Microscopic access required & Full molecular/thermal microstates \\
+Planck/Boundary & $\sim 10^{73}$ & Only in principle & Vacuum structure, geometric degrees of freedom \\
+\hline
+\end{tabular}
+\label{tab:coarse_grain}
+\end{table}
+
+
+At each level, the symmetry holds: the boundary encodes what at that resolution when read outward, and where at that resolution when read inward.
+
+
+\textbf{Generalization:} This applies from macroscopic (~$10^{15}$ bits) through atomic (~$10^{30}$ bits) to Planck scale (~$10^{73}$ bits). The boundary mediates both perspectives, providing the fundamental basis for wholographic encoding.
+
+
+\section{Implications and Applications}
+
+
+\subsection{Conceptual Implications}
+The Wholographic Principle formalizes the mutual encoding of interior and exterior information through boundaries. At a conceptual level, it establishes a duality between the ``content'' of a system (what it contains) and the ``context'' in which it exists (where it is located). This content-context duality implies that any complete description of a system inherently carries information about its surroundings. The boundary thus serves as a universal mediator of causal influence, realizing the ``three views of the same fish'' metaphor: interior, exterior, and boundary perspectives are all isomorphic representations of the same underlying information. Importantly, this principle is observer-independent, applying equally across scales and independent of measurement technology.
+
+
+\subsection{Operational Consequences}
+Practical measurements are constrained by the Wholographic Principle. Any measurement of a system's internal state (``what'' information) necessarily reveals partial information about the exterior (``where'' information), and vice versa. However, the resolution of such measurements is fundamentally limited by boundary area and coarse-graining effects (see Appendix B). This implies that while interior measurements encode exterior information, full atomic-scale reconstruction of the surroundings is generally infeasible. Experimental contexts—ranging from astronomical observatories to human sensory perception—illustrate these limitations and the coarse-grained nature of accessible information.
+
+
+\subsection{Connections to Quantum Information and Gravity}
+The Wholographic Principle connects naturally to fundamental results in quantum information theory. The no-hiding theorem demonstrates that information cannot be completely concealed in correlations, echoing the principle's prediction that all causally transmitted information is encoded on boundaries. This has potential implications for the black hole information paradox, holographic duality, and emergent spacetime frameworks. Conceptually, boundaries act as coders and decoders of global information, analogous to error-correcting codes in quantum information, offering a unified perspective on how local measurements reflect global states.
+
+
+\subsection{Broader Implications and Open Questions}
+The scaling of coarse-graining with boundary area raises questions for macroscopic and cosmological systems. How detailed can interior observers reconstruct exterior states given finite boundaries? How might wholographic encoding constrain predictions about complex systems or inform the interpretation of cosmological observations? Open problems include formalizing the principle across different physical theories, exploring its consequences in quantum gravity, and designing experimental tests capable of probing its predictions at practical scales. These avenues suggest that the Wholographic Principle could serve as a unifying framework for understanding information flow in both quantum and classical domains.
+
+
+
+
+\section{Conclusion}
+
+
+\subsection*{Technical Statement of the Wholographic Principle}
+If local causality holds, the local objectively accessible information about an interior region, as encoded in the exterior bulk, is isomorphic to the information contained on the boundary. This same information is also isomorphic to the local information the interior has about the exterior. In other words, the interior, the boundary, and the exterior each provide three distinct but mathematically equivalent perspectives on the same set of information.
+
+
+\subsection*{Summary of Core Ideas}
+The Wholographic Principle generalizes the standard holographic principle, emphasizing the boundary as a mediator between interior and exterior information. Every measurement of a system simultaneously determines both ``what'' and ``where'' information. The principle clarifies the limits imposed by boundary area on the reconstruction of interior and exterior information, highlighting the necessity of coarse-graining for practical descriptions of the exterior.
+
+
+\subsection*{Contextualization and Respect for Prior Work}
+The author expresses the utmost respect for the countless researchers who have advanced our understanding of holography, information theory, and spacetime physics. This work is offered as a contribution to future inquiry and not as a challenge to existing results. Special recognition is due to Jacob D. Bekenstein, whose pioneering insights on black hole thermodynamics and information have been an essential source of inspiration. The author also thanks Joel S. Welling for enlightening discussions on the holographic principle.
+
+
+\subsection*{Outlook and Open Questions}
+Several directions for further exploration remain open. The practical limits of coarse-graining, reconstruction of exterior information, and applications to cosmology, black holes, and emergent spacetime present rich opportunities for future research. Investigating experimental or observational probes that could illuminate these informational structures could be particularly fruitful.
+
+
+\subsection*{Accessible / General-Audience Statement}
+The contents of a region, as known from outside, are encoded on the boundary, just as the context outside the region is reflected inside. Essentially, the same information is being observed three times—through the interior, the boundary, and the exterior—each offering a different viewpoint of the same underlying reality.
+
+
+\section*{Acknowledgements}
+The author thanks the countless researchers who have contributed to our understanding of holography and information in physics. Special thanks to Jacob D. Bekenstein for his foundational work, and to Joel S. Welling for insightful discussions. Any errors or omissions are the author’s alone; this work is offered as a contribution to ongoing inquiry, not as a revision of existing results.
+
+
+\appendix
+
+
+\section{Category-Theoretic Formulation of the Wholographic Principle}
+
+
+The Wholographic Principle can be formalized using the language of category theory, providing a precise framework for understanding the relationships between interior, boundary, and exterior information structures.
+
+
+\subsection{Objects and Morphisms}
+
+
+Consider three information collections:
+
+
+\begin{itemize}
+    \item $\mathcal{I}_{\mathrm{int}}$: Information structure of the interior region.
+    \item $\mathcal{I}_{\mathrm{bdy}}$: Information structure encoded on the boundary.
+    \item $\mathcal{I}_{\mathrm{ext}}$: Information structure of the exterior region.
+\end{itemize}
+
+
+Define encoding morphisms:
+\begin{align*}
+    \phi_{\mathrm{in}} &: \mathcal{I}_{\mathrm{int}} \to \mathcal{I}_{\mathrm{bdy}} \quad \text{(interior information projects onto the boundary)} \\
+    \phi_{\mathrm{out}} &: \mathcal{I}_{\mathrm{ext}} \to \mathcal{I}_{\mathrm{bdy}} \quad \text{(exterior information projects onto the boundary)}
+\end{align*}
+
+
+The standard holographic principle asserts that $\phi_{\mathrm{in}}$ is surjective: all boundary information originates from the interior. The Wholographic Principle strengthens this by requiring that both morphisms have the same image and that this image exhausts the boundary:
+\[
+\mathrm{Im}(\phi_{\mathrm{in}}) = \mathcal{I}_{\mathrm{bdy}} = \mathrm{Im}(\phi_{\mathrm{out}}).
+\]
+
+
+Moreover, there exist natural isomorphisms
+\[
+\mathcal{I}_{\mathrm{int}}^{\mathrm{accessible}} \cong \mathcal{I}_{\mathrm{bdy}} \cong \mathcal{I}_{\mathrm{ext}}^{\mathrm{accessible}},
+\]
+where $\mathcal{I}_{\mathrm{int}}^{\mathrm{accessible}}$ denotes the subset of interior information that has causal access to the boundary (similarly for exterior).
+
+
+\subsection{Commutative Diagram}
+
+
+This structure can be represented diagrammatically as:
+
+
+\[
+\begin{array}{ccc}
+\mathcal{I}_{\mathrm{int}} & \xrightarrow{\phi_{\mathrm{in}}} & \mathcal{I}_{\mathrm{bdy}} \\
+ & \searrow & \uparrow \phi_{\mathrm{out}} \\
+ & & \mathcal{I}_{\mathrm{ext}}
+\end{array}
+\]
+
+
+There exist inverse morphisms:
+\begin{align*}
+    \psi_{\mathrm{in}} &: \mathcal{I}_{\mathrm{bdy}} \to \mathcal{I}_{\mathrm{int}}^{\mathrm{accessible}} \quad \text{(boundary reconstructs interior)} \\
+    \psi_{\mathrm{out}} &: \mathcal{I}_{\mathrm{bdy}} \to \mathcal{I}_{\mathrm{ext}}^{\mathrm{accessible}} \quad \text{(boundary reconstructs exterior)}
+\end{align*}
+satisfying $\psi_{\mathrm{in}} \circ \phi_{\mathrm{in}} = \mathrm{id}_{\mathcal{I}_{\mathrm{int}}^{\mathrm{accessible}}}$ and similarly for exterior.
+
+
+\subsection{Physical Interpretation}
+
+
+The three collections do not represent independent copies of data but distinct perspectives on the same underlying informational structure. The boundary serves as a universal mediator:
+
+
+\begin{itemize}
+    \item The image of interior information under causal projection.
+    \item The image of exterior information under causal projection.
+    \item The unique locus where interior and exterior achieve mutual information.
+\end{itemize}
+
+
+This formalizes the ``three views of the same fish'' metaphor: interior, boundary, and exterior perspectives all describe the same informational reality, related by natural isomorphisms.
+
+
+\section{Information Capacity, Boundary Area, and Coarse-Graining}
+
+
+\subsection{Overview and Apparent Paradox}
+
+
+Consider an observatory with meaningful information content of approximately $10^{30}$ bits (atomic-scale description) or $10^{15}$ bits (computer memory). Why does its boundary require an area of $A \sim 10^3~\mathrm{m^2}$, which can encode up to $A/(4\ell_P^2) \sim 10^{73}$ bits?
+
+
+\subsection{Three Information Scales}
+
+
+For a spherical observatory of radius $R \sim 10~\mathrm{m}$ and mass $M \sim 10^5~\mathrm{kg}$, three bounds can be identified:
+
+
+\begin{enumerate}
+    \item \textbf{Holographic Capacity (Geometric Bound)}:
+    \[
+    I_{\mathrm{holo}} = \frac{A}{4\ell_P^2} = \frac{4 \pi R^2}{4 \ell_P^2} \sim 10^{73}~\text{bits}.
+    \]
+    Includes all vacuum and geometric degrees of freedom.
+
+
+    \item \textbf{Bekenstein Bound (Matter/Energy)}:
+    \[
+    I_{\mathrm{Bek}} \le \frac{2\pi R M c}{\hbar \ln 2} \sim 3 \times 10^{49}~\text{bits}.
+    \]
+    Represents the maximum information in the quantum state of matter and radiation within the volume.
+
+
+    \item \textbf{Effective Classical Description (Atomic Scale)}:
+    \[
+    I_{\mathrm{eff}} \sim 10^{30}~\text{bits}.
+    \]
+    Sufficient for macroscopic properties such as chemistry and materials science.
+\end{enumerate}
+
+
+\subsection{Physical Interpretation of the Hierarchy}
+
+
+\[
+I_{\mathrm{holo}} \gg I_{\mathrm{Bek}} \gg I_{\mathrm{eff}}.
+\]
+
+
+This hierarchy reflects the different levels of description: macroscopic, quantum-state, and fundamental geometric information. The boundary must encode the full holographic capacity because spacetime geometry itself carries information at the Planck scale.
+
+
+\subsection{Exterior Information and Coarse-Graining}
+
+
+An atomic-scale description of the observable universe ($M_{\mathrm{universe}} \sim 10^{53}~\mathrm{kg}$) would require:
+\[
+I_{\mathrm{universe}} \sim 10^{29}~\text{bits/kg} \times 10^{53}~\mathrm{kg} \sim 10^{82}~\text{bits},
+\]
+far exceeding the holographic capacity of small boundaries (e.g., observatory domes or human skin). Therefore, exterior information must be necessarily coarse-grained.
+
+
+\subsection{Observational Confirmation}
+
+
+Human perception and instruments illustrate this coarse-graining. Our knowledge of distant structures is statistical, while nearby objects are mapped in detail. A human brain ($\sim 1400~\mathrm{cm^3}$, surface area $\sim 600~\mathrm{cm^2}$) can process $\sim 10^{15}$ bits about the external world, despite a holographic capacity $\sim 10^{74}$ bits, demonstrating the practical necessity of coarse-graining.
+
+
+\subsection{Implications for Wholography}
+
+
+At every scale:
+\begin{itemize}
+    \item Macroscopic WHERE (galaxy positions, CMB dipole): $\sim 10^{10}$ bits.
+    \item Atomic-scale exterior (all absorbed photons, fields): $\sim 10^{30}$ bits.
+    \item Quantum state (including vacuum correlations): approaches $\sim 10^{73}$ bits.
+\end{itemize}
+
+
+The Wholographic Principle operates at all scales, but practical reconstruction of exterior information is limited by boundary area and coarse-graining. The boundary bidirectionally encodes both interior and exterior at the scale permitted by its area.
+
+
+\appendix
+
+
+\section{Category-Theoretic Formulation of the Wholographic Principle}
+
+
+The Wholographic Principle admits a natural formalization in category theory, providing a precise framework for understanding relationships among interior, boundary, and exterior information structures.
+
+
+\subsection{Objects and Morphisms}
+
+
+Consider three information collections:
+
+
+\begin{itemize}
+    \item $\mathcal{I}_{\mathrm{int}}$: Information structure of the interior region.
+    \item $\mathcal{I}_{\mathrm{bdy}}$: Information structure encoded on the boundary.
+    \item $\mathcal{I}_{\mathrm{ext}}$: Information structure of the exterior region.
+\end{itemize}
+
+
+Define encoding morphisms:
+\begin{align*}
+    \phi_{\mathrm{in}} &: \mathcal{I}_{\mathrm{int}} \to \mathcal{I}_{\mathrm{bdy}} \quad \text{(interior $\to$ boundary)} \\
+    \phi_{\mathrm{out}} &: \mathcal{I}_{\mathrm{ext}} \to \mathcal{I}_{\mathrm{bdy}} \quad \text{(exterior $\to$ boundary)}
+\end{align*}
+
+
+The standard holographic principle asserts that $\phi_{\mathrm{in}}$ is surjective: all boundary information originates from the interior. The Wholographic Principle strengthens this, requiring that both morphisms have the same image and that this image exhausts the boundary:
+\[
+\mathrm{Im}(\phi_{\mathrm{in}}) = \mathcal{I}_{\mathrm{bdy}} = \mathrm{Im}(\phi_{\mathrm{out}}).
+\]
+
+
+There exist natural isomorphisms
+\[
+\mathcal{I}_{\mathrm{int}}^{\mathrm{accessible}} \cong \mathcal{I}_{\mathrm{bdy}} \cong \mathcal{I}_{\mathrm{ext}}^{\mathrm{accessible}},
+\]
+where $\mathcal{I}_{\mathrm{int}}^{\mathrm{accessible}}$ denotes the subset of interior information that can causally influence the boundary, and similarly for the exterior.
+
+
+\subsection{Commutative Diagram}
+
+
+The structure is represented diagrammatically as:
+
+
+\[
+\begin{array}{ccc}
+\mathcal{I}_{\mathrm{int}} & \xrightarrow{\phi_{\mathrm{in}}} & \mathcal{I}_{\mathrm{bdy}} \\
+ & \searrow & \uparrow \phi_{\mathrm{out}} \\
+ & & \mathcal{I}_{\mathrm{ext}}
+\end{array}
+\]
+
+
+Inverse morphisms exist:
+\begin{align*}
+    \psi_{\mathrm{in}} &: \mathcal{I}_{\mathrm{bdy}} \to \mathcal{I}_{\mathrm{int}}^{\mathrm{accessible}} \quad (\text{boundary $\to$ interior}) \\
+    \psi_{\mathrm{out}} &: \mathcal{I}_{\mathrm{bdy}} \to \mathcal{I}_{\mathrm{ext}}^{\mathrm{accessible}} \quad (\text{boundary $\to$ exterior})
+\end{align*}
+satisfying $\psi_{\mathrm{in}} \circ \phi_{\mathrm{in}} = \mathrm{id}_{\mathcal{I}_{\mathrm{int}}^{\mathrm{accessible}}}$ and similarly for the exterior.
+
+
+\subsection{Physical Interpretation}
+
+
+These collections are not independent copies of information, but distinct perspectives on a single underlying structure. The boundary mediates all information exchange:
+
+
+\begin{itemize}
+    \item The image of interior information under causal projection.
+    \item The image of exterior information under causal projection.
+    \item The unique locus where interior and exterior share mutual information.
+\end{itemize}
+
+
+This formalizes the ``three views of the same fish'' metaphor: interior, boundary, and exterior perspectives describe the same informational reality, related by natural isomorphisms.
+
+
+\section{Information Capacity, Boundary Area, and Coarse-Graining}
+
+
+\subsection{Overview}
+
+
+Consider an observatory with meaningful information content of $\sim 10^{30}$ bits (atomic-scale) or $\sim 10^{15}$ bits (computer memory). Why must its boundary have area $A \sim 10^3~\mathrm{m^2}$, capable of encoding $A/(4\ell_P^2) \sim 10^{73}$ bits?
+
+
+\subsection{Three Information Scales}
+
+
+For a spherical observatory of radius $R \sim 10~\mathrm{m}$ and mass $M \sim 10^5~\mathrm{kg}$:
+
+
+\begin{enumerate}
+    \item \textbf{Holographic Capacity (Geometric Bound):}
+    \[
+    I_{\mathrm{holo}} = \frac{A}{4\ell_P^2} = \frac{4 \pi R^2}{4 \ell_P^2} \sim 10^{73}~\text{bits}.
+    \]
+
+
+    \item \textbf{Bekenstein Bound (Matter/Energy Content):}
+    \[
+    I_{\mathrm{Bek}} \le \frac{2\pi R M c}{\hbar \ln 2} \sim 3 \times 10^{49}~\text{bits}.
+    \]
+
+
+    \item \textbf{Effective Classical Description (Atomic Scale):}
+    \[
+    I_{\mathrm{eff}} \sim 10^{30}~\text{bits}.
+    \]
+\end{enumerate}
+
+
+\subsection{Hierarchy and Interpretation}
+
+
+\[
+I_{\mathrm{holo}} \gg I_{\mathrm{Bek}} \gg I_{\mathrm{eff}},
+\]
+reflecting different levels of description: macroscopic, quantum, and fundamental geometric. The boundary must encode the full holographic capacity because spacetime geometry itself carries information at the Planck scale.
+
+
+\subsection{Exterior Information and Coarse-Graining}
+
+
+An atomic-scale description of the observable universe ($M_{\mathrm{universe}} \sim 10^{53}~\mathrm{kg}$) would require:
+\[
+I_{\mathrm{universe}} \sim 10^{29}~\text{bits/kg} \times 10^{53}~\mathrm{kg} \sim 10^{82}~\text{bits},
+\]
+vastly exceeding the holographic capacity of small boundaries. Hence, exterior information must be coarse-grained.
+
+
+\subsection{Observational Confirmation}
+
+
+Humans and instruments illustrate coarse-graining: detailed knowledge exists for nearby structures, statistical knowledge for distant ones. A human brain ($\sim 1400~\mathrm{cm^3}$, surface area $\sim 600~\mathrm{cm^2}$) has a boundary capacity $\sim 10^{74}$ bits but can process only $\sim 10^{15}$ bits about the external world, demonstrating a necessary coarse-graining factor $\sim 10^{59}$.
+
+
+\subsection{Implications for Wholography}
+
+
+At all scales:
+\begin{itemize}
+    \item Macroscopic WHERE (galaxies, CMB dipole): $\sim 10^{10}$ bits
+    \item Atomic-scale exterior (photons, fields): $\sim 10^{30}$ bits
+    \item Quantum state (vacuum correlations included): $\sim 10^{73}$ bits
+\end{itemize}
+
+
+The Wholographic Principle applies at all scales, but practical reconstruction of exterior information is limited by boundary area and coarse-graining. The boundary bidirectionally encodes interior and exterior information at the resolution allowed by its area.
+
+
+
+
+
+
+\appendix version b
+
+
+\section{Category-Theoretic Formulation}
+The Wholographic Principle can be formalized in the language of category theory, providing a rigorous framework for understanding the relationship between interior, boundary, and exterior information structures.
+
+
+\subsection*{Objects and Morphisms}
+Consider three information collections:
+\begin{itemize}
+    \item $\mathcal{I}_{int}$: Information structure of the interior region
+    \item $\mathcal{I}_{bdy}$: Information structure encoded on the boundary
+    \item $\mathcal{I}_{ext}$: Information structure of the exterior region
+\end{itemize}
+
+
+Define encoding morphisms:
+\[
+\phi_{in}: \mathcal{I}_{int} \to \mathcal{I}_{bdy} \quad \text{(interior information projects onto boundary)}
+\]
+\[
+\phi_{out}: \mathcal{I}_{ext} \to \mathcal{I}_{bdy} \quad \text{(exterior information projects onto boundary)}
+\]
+
+
+\subsection*{The Wholographic Structure}
+The standard Holographic Principle asserts that $\phi_{in}$ is surjective: all boundary information comes from the interior.  
+The Wholographic Principle asserts that both morphisms have the same image and this image exhausts the boundary:
+\[
+\text{Im}(\phi_{in}) = \mathcal{I}_{bdy} = \text{Im}(\phi_{out})
+\]
+Moreover, there exist isomorphisms:
+\[
+\mathcal{I}_{int}^{accessible} \cong \mathcal{I}_{bdy} \cong \mathcal{I}_{ext}^{accessible}
+\]
+where $\mathcal{I}_{int}^{accessible}$ denotes the subset of interior information that has causal access to the boundary (similarly for exterior).
+
+
+\subsection*{Commutative Diagram}
+\[
+\begin{array}{ccc}
+& \mathcal{I}_{int} & \\
+\phi_{in} \swarrow & & \\
+\mathcal{I}_{bdy} & \\
+\uparrow \phi_{out} & & \\
+\mathcal{I}_{ext} & 
+\end{array}
+\]
+
+
+With inverse morphisms:
+\[
+\psi_{in}: \mathcal{I}_{bdy} \to \mathcal{I}_{int}^{accessible}, \quad
+\psi_{out}: \mathcal{I}_{bdy} \to \mathcal{I}_{ext}^{accessible}
+\]
+such that $\psi_{in} \circ \phi_{in} = \text{id}$ on $\mathcal{I}_{int}^{accessible}$ and similarly for exterior.
+
+
+\subsection*{Physical Interpretation}
+The three collections are not three copies of data but three perspectives on the same underlying structure. The boundary serves as a universal mediator:
+\begin{itemize}
+    \item The image of interior structure under causal projection
+    \item The image of exterior structure under causal projection
+    \item The unique locus where interior and exterior achieve mutual information
+\end{itemize}
+This formalizes the ``three views of the same fish'' metaphor: interior, exterior, and boundary perspectives all refer to the same informational reality, related by natural isomorphisms.
+
+
+\section{Information Capacity, Boundary Area, and Coarse-Graining}
+
+
+\subsection*{The Apparent Paradox}
+If an observatory's meaningful information content is $\sim 10^{30}$ bits (atomic-scale description) or $\sim 10^{15}$ bits (computer memory), why does it require a boundary of area $A \sim 10^3 \text{ m}^2$, which can encode up to $A / 4 \ell_P^2 \sim 10^{73}$ bits?
+
+
+\subsection*{Three Information Scales}
+For a spherical observatory of radius $R \sim 10$ m and mass $M \sim 10^5$ kg:
+
+
+\begin{enumerate}
+    \item \textbf{Holographic Capacity (Fundamental Geometric Bound)}
+    \[
+    I_{holo} = \frac{A}{4\ell_P^2} = \frac{4\pi R^2}{4\ell_P^2} \sim 10^{73} \text{ bits}
+    \]
+
+
+    \item \textbf{Bekenstein Bound (Matter/Energy Content)}
+    \[
+    I_{Bek} \leq \frac{2\pi R M c}{\hbar \ln 2} \sim 3 \times 10^{49} \text{ bits}
+    \]
+
+
+    \item \textbf{Effective Classical Description (Atomic-Scale)}
+    \[
+    I_{eff} \sim 10^{30} \text{ bits}
+    \]
+\end{enumerate}
+
+
+\subsection*{Physical Interpretation of the Hierarchy}
+The ordering $I_{holo} \gg I_{Bek} \gg I_{eff}$ reflects different levels of description:
+\begin{itemize}
+    \item $I_{eff}$: Macroscopically relevant degrees of freedom
+    \item $I_{Bek}$: Complete quantum state of material content
+    \item $I_{holo}$: Includes spacetime geometry and vacuum structure
+\end{itemize}
+The boundary area must accommodate the full holographic capacity because spacetime geometry itself carries information at the Planck scale.
+
+
+\subsection*{Exterior Information and Boundary Limits}
+The observable universe contains $\sim 10^{53}$ kg of matter. An atomic-scale description would require $\sim 10^{82}$ bits, vastly exceeding the boundary's holographic capacity ($\sim 10^{73}$ bits) and Bekenstein bound ($\sim 10^{49}$ bits). For smaller systems, the disparity is even greater (e.g., a 1 mm radius sphere).
+
+
+\subsection*{Observational Confirmation}
+Everything we know about the external universe comes through boundary layers. For humans, this is approximately our skin ($\sim 2 \text{ m}^2$ surface area, $\sim 10^{72}$ bits holographic capacity). Instruments use observatory domes, spacecraft hulls, or detector housing. The coarse-graining is evident: detailed maps exist nearby, while distant structures are only statistically described.
+
+
+\subsection*{Implication for Wholography}
+At every scale:
+\begin{itemize}
+    \item Macroscopic ``where'' (galaxy positions, CMB dipole): $\sim 10^{10}$ bits
+    \item Atomic-scale exterior (all absorbed photons, fields): $\sim 10^{30}$ bits
+    \item Quantum state (including vacuum correlations): $\sim 10^{73}$ bits
+\end{itemize}
+The Wholographic Principle operates at all scales, but practical exterior reconstruction is limited by coarse-graining and boundary capacity. The boundary bidirectionally encodes both interior and exterior at each scale, with resolution determined by boundary area.
+
+
+
+
+
+
+\begin{thebibliography}{99}
+
+
+\bibitem{bekenstein1973}
+J.~D. Bekenstein, ``Black holes and entropy,'' \emph{Phys. Rev. D}, vol.~7, pp. 2333--2346, 1973.
+
+
+\bibitem{bekenstein1974}
+J.~D. Bekenstein, ``Generalized second law of thermodynamics in black-hole physics,'' \emph{Phys. Rev. D}, vol.~9, pp. 3292--3300, 1974.
+
+
+\bibitem{thooft1993}
+G.~'t Hooft, ``Dimensional reduction in quantum gravity,'' arXiv:gr-qc/9310026, 1993.
+
+
+\bibitem{susskind1995}
+L.~Susskind, ``The world as a hologram,'' \emph{J. Math. Phys.}, vol.~36, pp. 6377--6396, 1995.
+
+
+\bibitem{braunstein2007}
+S.~L. Braunstein and A.~K. Pati, ``Quantum information cannot be completely hidden in correlations: Implications for the black-hole information paradox,'' \emph{Phys. Rev. Lett.}, vol.~98, no.~8, p. 080502, 2007.
+
+
+\bibitem{verlinde2011}
+E.~P. Verlinde, ``On the origin of gravity and the laws of Newton,'' \emph{JHEP}, vol.~4, p. 29, 2011.
+
+
+\bibitem{maldacena1999}
+J.~M. Maldacena, ``The large N limit of superconformal field theories and supergravity,'' \emph{Int. J. Theor. Phys.}, vol.~38, pp. 1113--1133, 1999.
+
+
+\bibitem{bousso2002}
+R.~Bousso, ``The holographic principle,'' \emph{Rev. Mod. Phys.}, vol.~74, pp. 825--874, 2002.
+
+
+\bibitem{page1993}
+D.~N. Page, ``Information in black hole radiation,'' \emph{Phys. Rev. Lett.}, vol.~71, pp. 3743--3746, 1993.
+
+
+\bibitem{hardy2001}
+L.~Hardy, ``Quantum theory from five reasonable axioms,'' arXiv:quant-ph/0101012, 2001.
+
+
+\bibitem{harlow2016}
+D.~Harlow, ``Jerusalem lectures on black holes and quantum information,'' \emph{Rev. Mod. Phys.}, vol.~88, p. 015002, 2016.
+
+
+\bibitem{preskill1992}
+J.~Preskill, ``Do black holes destroy information?'' arXiv:hep-th/9209058, 1992.
+
+
+\bibitem{hayden2007}
+P.~Hayden and J.~Preskill, ``Black holes as mirrors: quantum information in random subsystems,'' \emph{JHEP}, vol.~9, p. 120, 2007.
+
+
+% Include additional references from appendices if needed
+% For category-theoretic or information-theoretic formalisms:
+\bibitem{maclane1998}
+S.~Mac Lane, \emph{Categories for the Working Mathematician}, 2nd ed. Springer, 1998.
+
+
+\bibitem{shannon1948}
+C.~E. Shannon, ``A mathematical theory of communication,'' \emph{Bell System Technical Journal}, vol.~27, pp. 379--423, 623--656, 1948.
+
+
+\end{thebibliography}
+
+
+
+
+Notes
+T_{\mu\nu}^\text{info} \sim f \, \partial_\mu K_\nu + \partial_\nu K_\mu - g_{\mu\nu} \partial_\alpha K^\alpha
+
+
+
+
+
+
+
+
+d\tau \approx dt \left(1 - \beta \frac{\Delta A}{A}\right)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\section{Physical Foundation: R-Processes and Information Complementarity}
+
+
+\subsection{Information Generation via Objective Reduction}
+
+
+Following Penrose, physical processes divide into two types, U and R.  We add a possible third type, C:
+\begin{itemize}
+    \item \textbf{U-processes (Unitary evolution):} Reversible quantum evolution 
+          described by Schrödinger equation. Preserves information content.
+    \item \textbf{R-processes (Objective reduction):} Irreversible events where 
+          quantum superposition becomes definite classical outcome. Generates 
+          new information.
+    \item \textbf{C-processes: (Consolidation):
+    \ite  The time reverse of the R-process.  This requires phase information to be reintegrated into the two complementary streams. It is not clear this is possible.
+\end{itemize}
+
+
+
+
+
+
+Hypothesis: All classical, objective information in the universe originates from R-processes. 
+We now show this naturally leads to wholographic encoding.
+
+
+\textbf{Note on dynamics:} While we treat R-processes as discrete events for 
+mathematical convenience, the actual dynamics may involve continuous information 
+injection that accelerates during measurement interactions, analogous to charge 
+accumulation and discharge in a Van de Graaff generator. Spontaneous discharge 
+(decoherence near matter) and engineered discharge (deliberate measurement) 
+both represent R-process dynamics. The apparent discreteness may reflect our preference for asking one-bit questions* rather than fundamental discontinuity.
+*It is possible to ask questions with an expected information gain from the answer of much less than one bit. (QUESTION FOR CLAUDE: Should I explain the lottery ticket example with an expected information gain averaging 0.0000214 bits per measurement ina footnote?)
+
+\subsection{The Beam Splitter: Complementary Information Streams}
+
+
+\subsubsection{Experimental Setup}
+
+
+Consider a 50/50 beam splitter with one photon entering per nanosecond, 
+giving good temporal separation. We send $N = 10^9$ photons through the 
+beam splitter over the course of one second.
+
+
+Each arm has a detector that records:
+\begin{itemize}
+    \item ``1'' if photon detected in that nanosecond interval
+    \item ``0'' if no photon detected in that interval  
+\end{itemize}
+
+
+The detectors on transmission and reflection arms are spacelike separated 
+during measurement.
+
+
+\subsubsection{Information Structure}
+
+
+After $10^9$ photons, we have two binary strings:
+\begin{align}
+    T &= [t_1, t_2, ..., t_{10^9}] \quad \text{(transmission arm)} \\
+    R &= [r_1, r_2, ..., r_{10^9}] \quad \text{(reflection arm)}
+\end{align}
+
+
+\textbf{Key observation:} The beam splitter creates perfect bitwise complementarity:
+\begin{equation}
+    r_i = \text{NOT}(t_i) \quad \text{for all } i
+\end{equation}
+
+
+Each string appears incompressible (Kolmogorov complexity $K(T) \approx 10^9$ bits).
+
+
+\subsubsection{Complementarity and Relative Complexity}
+
+
+Measured independently:
+\begin{itemize}
+    \item Transmission arm: $K(T) \approx 10^9$ bits
+    \item Reflection arm: $K(R) \approx 10^9$ bits  
+    \item Naive sum: $K(T) + K(R) \approx 2 \times 10^9$ bits
+\end{itemize}
+
+
+Measured jointly from boundary surrounding both arms:
+\begin{equation}
+    K(T, R) \approx K(T) + K(R|T) \approx 10^9 + O(1) \approx 10^9 \text{ bits}
+\end{equation}
+
+
+The conditional complexity $K(R|T)$ is negligible because $R$ is computable 
+from $T$ via simple bitwise complement.
+
+
+\textbf{Result:} Joint measurement reveals only $\sim10^9$ bits, not $2 \times 10^9$ bits.
+
+
+\subsubsection{Geometric Implications}
+
+
+If information generates spacetime curvature, we expect area expansion:
+
+
+\textbf{Local accounting (separate boundaries):}
+\begin{itemize}
+    \item Boundary around T arm: $\Delta A_T \sim 4K(T)\ell_P^2 \sim 4 \times 10^9 \ell_P^2$
+    \item Boundary around R arm: $\Delta A_R \sim 4K(R)\ell_P^2 \sim 4 \times 10^9 \ell_P^2$
+    \item Total: $\Delta A_{\text{local}} \sim 8 \times 10^9 \ell_P^2$
+\end{itemize}
+
+
+\textbf{Global accounting (joint boundary):}
+\begin{equation}
+    \Delta A_{\text{global}} \sim 4K(T,R)\ell_P^2 \sim 4 \times 10^9 \ell_P^2
+\end{equation}
+
+
+\textbf{Tension:} The mismatch between local accounting ($8 \times 10^9 \ell_P^2$) 
+and global accounting ($4 \times 10^9 \ell_P^2$) may be important when assessing spacetime 
+curvature. In any case, the new complexity needs area for its expression.  This suggests a deep connection between information complementarity and gravitational physics deserving further investigation. (see forthcoming paper on the nature of mass, Reilly[2025? 2026?]
+
+
+\subsubsection{Physical Interpretation}
+
+
+The beam splitter R-process creates two complementary information streams that 
+propagate in different spatial directions. When measured:
+\begin{enumerate}
+    \item Each detector performs local R-process
+    \item Creates classical records at separated locations  
+    \item Information becomes \emph{objective} because spatially separated 
+          complementary records are in principle verifiable by independent observers
+    \item Objectivity emerges as distributed event across spacetime
+\end{enumerate}
+
+
+A boundary drawn between the two arms encodes this complementary pair. The 
+boundary information equals the mutual information between interior and 
+exterior, which equals the complexity of a single stream due to complementarity.
+
+
+We hypothesize that all information in the modern universe was built up by originating in R-process events then preserved via unitary evolution.  Given our rate for complexity generation by such processes in the vicinity of a mass M…
+
+
+(QUESTION FOR CLAUDE: Is this the right place for a somewhat technical discussion of rate of generation of information times age of the universe vs. size of the horizon?  To make the hypothesis we just hypothesized plausible.)
+
+
+This is the wholographic principle in miniature: boundaries encode mutual 
+information through complementary R-process structure.  \em{All} of the objective (known to the exterior) information inside the boundary is encoded outside the boundary and fully entangled with the information inside the boundary.  The same information seen from inside the boundary is the \bf{where} information about the exterior is also seen from the outside and is the \bf{what} information about the exterior.  Both sets of information are also represented on the boundary itself.
+
+
+(QUESTION FOR CLAUDE 3: Do we want to explain here the dimensionality of the boundary?
+
+
+
+
+
+
+\begin{abstract}
+%===========================%
+We introduce the \emph{wholographic principle}---a portmanteau of \emph{whole} and \emph{holographic}---which extends the holographic principle by treating interior, exterior, and boundary as a single informational system, rather than privileging the boundary over the bulk. The traditional holographic principle encodes bulk information on boundaries, yet remains agnostic about what lies beyond those boundaries.
+The wholographic principle asserts that boundaries encode the \emph{mutual, causally transmissible information} between interior and exterior regions: what each can objectively know about the other through their shared interface. This reframes boundaries as bidirectional communication channels, grounded in the quantum no-hiding theorem, rather than as one-way projection screens.
+Using a framework we call \emph{what-where information symmetry}, we show that boundaries encode not only \emph{what} information exists, but \emph{where} it becomes accessible. Through concrete examples---a magnetic compass, an astronomical observatory, and a hologram itself---we demonstrate how boundaries naturally encode mutual knowledge rather than ontological completeness. We prove that this yields the same mathematical structures as conventional holography while resolving interpretive puzzles concerning bulk reconstruction, observer dependence, and holographic duality.
+The wholographic principle applies to any partitioned system in which information must be preserved across boundaries, suggesting applications from quantum error correction to black-hole evaporation to cosmological horizons. Three appendices develop the formalism through quantum information theory, detailed examples, and philosophical implications for locality and objectivity.
+\end{abstract}
+%===========================%
+\section{Introduction}
+%===========================%
+The holographic principle is one of the most remarkable insights in theoretical physics. Originating in black-hole thermodynamics and realized mathematically through AdS/CFT duality, it states that the information content of a spatial region can be encoded on its boundary---effectively reducing descriptions in $d$ dimensions to $d-1$. This reduction has transformed our understanding of quantum gravity, strongly coupled field theories, and the emergence of spacetime.
+Yet despite its success, the holographic principle contains an implicit asymmetry. It tells us that bulk information can be encoded on boundaries, but remains silent about what lies beyond those boundaries. The principle works equally well whether the exterior is empty space, a mirror copy of the interior, or an entirely different universe. This silence is not a flaw; it reflects that holography was developed to solve specific problems in quantum gravity, not to describe the full informational structure of partitioned systems.
+We propose the \emph{wholographic principle} as a natural completion of this picture. Where standard holography focuses on how bulk information projects onto boundaries, wholography treats interior, boundary, and exterior as a unified informational structure. The core claim is that boundaries encode the mutual, causally transmissible information between regions: what the interior can objectively know about the exterior, and vice versa (formalized in Section 3.1).
+This reframing yields two immediate advantages. First, it anchors boundary encoding in the quantum no-hiding theorem (Section 2.5), which ensures that information cannot disappear from a system but only relocate within it. When we partition space into interior and exterior regions, the information about their mutual correlations must reside somewhere---and that location is the boundary.  Second, it clarifies the nature of bulk reconstruction: a boundary encodes precisely the locally accessible objective view of one region from the other. Whether this view represents the region’s full ontological content is a philosophical question (Appendix C.2), but the boundary must encode at least this mutual information—what can be communicated across it.
+5.
+A simple example illustrates the principle: a compass needle located inside a closed room (Section 4.1). The needle aligns with Earth’s magnetic field, thereby encoding information about the exterior inside the interior. The boundary (the room’s walls) mediates this interaction: it must be magnetically transparent for the correlation to exist. The compass does not reconstruct Earth’s full magnetic structure; it records exactly what can pass through the boundary. This is wholography in miniature: boundaries as interfaces for mutual information, not total encoding.
+6.
+Mathematically, we show that wholographic and holographic descriptions lead to the same formal structures when interpreted correctly. The difference is conceptual, not mathematical: wholography emphasizes that boundaries encode relational information between regions, not absolute information about either region in isolation. This becomes crucial when addressing observer dependence (Appendix C.1), correlations across horizons (Section 5.1), and the role of boundaries in maintaining unitarity (Section 3.2).
+7. Organization.
+Section 2 reviews the holographic principle, establishing notation and identifying the gap that wholography addresses. Section 3 introduces the wholographic principle formally, grounding it in the no-hiding theorem and developing what-where information symmetry. Section 4 provides three worked examples. Section 5 explores applications to black-hole information, de Sitter cosmology, and emergent spacetime. Section 6 concludes. Appendices offer technical details, calculations, and philosophical implications.
