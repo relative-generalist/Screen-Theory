@@ -1,0 +1,1424 @@
+# Screen Theory / Reilly-McCaul: Review Paper Notes
+## "What If the Arrow of Time Is Fundamental? Reconsidering Unitarity, CPT, and the Quantum Gravity Program"
+
+**Status:** Speculative and flexible. Planted 2026-03-08. Revisit in ~6 months.  
+**Purpose:** A fishing seine for future research opportunities and collaborators as Screen Theory develops.  
+**Watchwords:** Speculative. Flexible. Questions, not conclusions.
+
+---
+
+## The Core Insight This Paper Exists to Communicate
+
+Unitarity and CPT have enormous empirical support. Assuming them was entirely reasonable. But a specific pattern of major unsolved problems — black hole information paradox, measurement problem, vacuum energy catastrophe, flatness, matter-antimatter asymmetry, arrow of time — all cluster at the boundary where R-processes dominate. This may not be a coincidence. Screen Theory offers a framework where R-processes are ontologically primitive, irreversibility is fundamental, and these problems dissolve or transform.
+
+The paper is not a polemic. It is an invitation. It ends with questions, organized by community, so that every reader knows exactly what to do next.
+
+---
+
+## Proposed Structure
+
+### Part 1: The Case for Reconsidering
+
+**1.1 What unitarity and CPT assert, and the empirical basis**
+
+The mathematical content (CPT theorem requires Lorentz invariance, locality, and spin-statistics; unitarity requires norm-preserving time evolution of the state vector) can be found in any graduate QFT textbook (e.g., Weinberg Vol. 1, Streater & Wightman). Express these in information language:
+- Unitarity = no net information is created or destroyed by time evolution
+- CPT = the laws are time-symmetric at the microscopic level
+
+Empirical support is genuinely extraordinary: CPT tests in kaon and B-meson systems constrain violations to <10⁻¹⁸ GeV in mass differences; antimatter spectroscopy at 10⁻¹² level; g-2 measurements agree for particle and antiparticle.
+
+The key phrase: "these assumptions were entirely *reasonable*." Not wrong — reasonable. That is different.
+
+**1.2 The pattern: unsolved problems as boundary markers**
+
+The famous unsolved problems cluster at the boundary where R-processes become non-negligible:
+- Black hole information paradox: what happens when the R-process rate reaches the horizon?
+- Measurement problem: what IS an R-process, physically?
+- Vacuum energy catastrophe: why doesn't the vacuum energy curve spacetime as QFT predicts?
+  (Screen Theory answer: virtual processes are U-processes, J=0, no curvature)
+- Flatness problem: why is Ω so close to 1?
+  (Screen Theory answer: Ω=1 is a stable attractor of the information balance condition)
+- Matter-antimatter asymmetry: why does matter exist?
+  (Screen Theory answer: Gödelian conundrums — questions with no valid antithesis)
+- Arrow of time: why is the past different from the future?
+  (Screen Theory answer: R-processes are ontologically irreversible; the arrow is fundamental)
+
+The continental drift analogy: the smoking gun for plate tectonics was symmetric magnetic striping on the seafloor. The smoking gun here is the VACUUM ENERGY CATASTROPHE — a 120-order-of-magnitude discrepancy that is essentially impossible to explain by any fine-tuning and dissolves immediately if virtual processes don't contribute to J (because they're reversible U-processes). This is not a subtle discrepancy. It is a crater left by an 18-inch naval gun.
+
+Secondary smoking gun: **every beam-splitter experiment is also a rate experiment.** Every rate has an effective mass via m_eff = hf/c². The effective mass is tiny but non-zero. Screen Theory predicts a rate-dependent correction to interference visibility proportional to m_eff/m_Planck. Undetectable today but structurally important: even the simplest quantum optics experiment has a gravitational implication, one the standard formalism cannot see.
+
+**1.3 Why deviations look exactly zero: the computational rarity of R-processes**
+
+Estimated CPT violation in current vacuum: ~10⁻¹²² (ratio of R-process rate to total quantum event rate). This is ~24 orders of magnitude below current kaon bounds. The symmetries appear exact because we have never been sensitive enough to see R-processes as a separate contribution. Every measured system is dominated by U-processes.
+
+This is a *prediction*, not a retreat. If Screen Theory is right, CPT violation exists, is gravitationally sourced, is largest near massive compact objects, and scales with the R-process fraction. The prediction is specific and falsifiable; the predicted value is just very small.
+
+**Hybrid R/U processes — a subtlety for section 1.3:**
+
+High-statistics confirmations of known results look like U-processes but are genuine R-process cascades. Each measurement in a 5σ confirmation yields ~7×10⁻⁶ bits. Accumulating from 5σ to 6σ requires ~140,000 additional measurements, each contributing a genuine irreversible bit of information. The process *looks* continuous but is discrete.
+
+More important: the rare OUTLIERS carry maximum information. A 10σ event carries ~76 bits per event. Standard practice discards outliers as "experimental error" — which may often be correct, but occasionally throws out the most information-rich events in the dataset. From a Screen Theory perspective, the anomalous events may be brief publications from a Python's Lunch — information from a "private computation" that briefly surfaces.
+
+---
+
+### Part 2: Screen Theory Framework
+
+**2.1 The primitives**
+
+R-processes (irreversible quantum transitions) are ontologically fundamental. U-processes (unitary evolution) are the approximation, not the other way around. The wavefunction is not the fundamental object — it is the summary of what is not yet published.
+
+**2.2 Derived results** *(honest accounting)*
+
+*Established:*
+- Schwarzschild metric derived from dC/dτ = 2πMc²/ħ (Paper I)
+- Einstein field equations for dust derived from same (Paper II)
+- J = 2π(ρ+p)/ħ for perfect fluids (derived, not assumed)
+- Vacuum energy catastrophe: J=0 for reversible virtual processes → no curvature → category error in standard argument
+- Arrow of containment: geometric arrow exists from t=0, logical arrow becomes globally coherent at chaos-to-inflation transition
+
+*Conjectured:*
+- Flatness: Ω=1 as stable attractor of information balance condition (needs perturbation analysis)
+- Fill factor f(t) and variable G_eff = f·G in early universe (Brans-Dicke structure)
+- Baryon asymmetry = measure of Gödelian conundrums in question space (quantitative connection TBD)
+- Higgs field = mechanism that turns on R-process for matter (turns off J for massless particles)
+
+*Open:*
+- f(t) derivation from R-process rates
+- Radiation era: balance condition B = 2/3 ≠ 1; holographic surplus; mechanism unclear
+- Connection to Standard Model mass spectrum and Yukawa couplings
+
+**2.3 The Standard Model action through the Screen Theory lens**
+
+Full SM+gravity action:
+S = (1/16πG)∫d⁴x√(-g)(R - 2Λ) + ∫d⁴x√(-g)[-¼F_μν F^μν] + ∫d⁴x√(-g)ψ̄(iγ^μD_μ - m)ψ + ∫d⁴x√(-g)(|D_μφ|² - V(φ)) + S_GHY
+
+Term-by-term reading:
+- **R term:** Integral of total information generation history. G is the pixel-area conversion (nats to Planck areas). 16π = 2α×4π where α=2π and 4 is Bekenstein's factor.
+- **Λ term:** Blank holographic capacity — area without inscription. Rate of new area manufacture independent of matter. Not a fine-tuned energy density; a tape manufacturing rate.
+- **Gauge field term:** Spatial information flux. F_μν F^μν = E²-B² echoes the -ρ+3p structure. Reversible gauge propagation contributes to J only through pressure. Photons on light cone → T=0, R=0. ✓
+- **Fermion mass term:** m·ψ̄ψ sets the R-process rate dC/dτ = 2πmc²/ħ. The kinetic term ψ̄ iγ^μD_μψ governs spatial propagation and coupling. γ^μ satisfy {γ^μ,γ^ν}=2g^μν — the metric structure encoded in the Dirac algebra.
+- **Higgs term:** Spontaneous symmetry breaking gives mass to previously massless particles. Screen Theory reading: the Higgs transition is the event at which particles acquire the capacity to generate irreversible information. Before: m=0, J=0, no curvature. After: m≠0, J≠0. The Higgs is not just mass generation — it is the switch that turns on the R-process for matter. This is the xylophone: each particle's Yukawa coupling sets its note on the Higgs field. Neutrinos play once a year; the top quark plays Flight of the Bumblebee.
+- **S_GHY (Gibbons-Hawking-York boundary term):** ∫_∂M d³x √h K, where h is the induced boundary metric and K is the extrinsic curvature (how much the boundary curves relative to the bulk). This is the screen action. K measures information flow through the boundary. S_GHY may be the action-level expression of the wholographic principle: the cost of maintaining a faithful holographic boundary. **Highest-priority item for action experts.**
+
+**The complexity action conjecture:**
+
+Standard action: S = ∫d⁴x√(-g) L(x)
+
+Screen Theory candidate: S_ST = ∫d⁴x√(-g) K(x)
+
+where K(x) is the local complexity density — algorithmic information content per unit 4-volume of the constraint record at event x. δS_ST/δg^μν = 0 selects the geometry that extremizes accumulated complexity.
+
+Obstacle: Kolmogorov complexity is discrete and non-differentiable. But smooth approximations exist (logical depth, effective complexity, thermodynamic depth). The holographic complexity proposals (Complexity=Volume, Complexity=Action) are groping toward the same idea but without an information-theoretic foundation.
+
+Connection to entropy-action proposals: several groups have proposed actions based on entropy (Verlinde, Jacobson-extended). These are practically equivalent to complexity-action IF they count the entropy of the detailed state of the quantum (and sub-quantum) vacuum — which they currently do not. The missing piece is the same piece missing from the vacuum energy calculation: recognition that reversible virtual processes contribute to entropy but not to J.
+
+The Mandelbrot analogy: zooming into the Mandelbrot set, the depth of computation before escape to infinity is an analog of particle lifetime. Points inside the set = stable particles. Points near the boundary = unstable particles (metastable). Points far outside = Z, W bosons (escape in 1-6 iterations = 1-6 Compton cycles). An action S = ∫K(zoom_level) d(log zoom) where K counts the complexity of visible structure would give the RG flow of the theory. Near Feigenbaum points (period-doubling cascade), K diverges → phase transition. This is the complexity action in a toy system and deserves formal development.
+
+**2.4 CPT and unitarity as approximate symmetries**
+
+Current experimental headroom: CPT violation in kaon mass difference < 10⁻¹⁸ GeV. Screen Theory prediction: ~10⁻¹²² (24 orders below current bounds). We are safe from falsification. But:
+- Near compact objects, R-process rate is enhanced → CPT violation is enhanced
+- Binary black hole mergers are the highest-J events we can observe → gravitational wave signatures?
+- B meson oscillations: BaBar searched for sidereal CPT violation, found 2.8σ compatible with null. This is the right experiment in the right system.
+
+People to talk to: experimentalists who have spent careers measuring CPT violation to know they didn't find it. They have bone-deep intuition about what the data looks like when something is slightly wrong.
+
+---
+
+### Part 3: The Invitation — Open Problems by Community
+
+**3.1 Relativistic action experts**
+
+Core question: Can the complexity density K(x) be made into a well-posed variational principle?
+
+Specific tasks:
+- Identify the Screen Theory analog of the GHY term. K appears in S_GHY through extrinsic curvature; is there an information-theoretic formulation of K that yields the same boundary term?
+- If so, write down the full Lagrangian in informational language. Not metaphorically — literally: L_info(x) such that ∫L_info d⁴x reproduces all of S_SM above.
+- Entropy-action proposals (Verlinde, Jacobson, others): where do they agree with Screen Theory? Where do they diverge? The divergence point likely involves how they handle virtual processes.
+
+Entry point: the GHY term already has an information-theoretic flavor — extrinsic curvature measures information flux through a surface. The screen IS the GHY boundary. Someone who works on holographic renormalization will see this immediately.
+
+**3.2 Twistor theorists (George Sparling, U. Pittsburgh; others in Penrose's tradition)**
+
+Core question: Is there a twistor formulation of the wholographic principle? Can paradigmatic domain boundaries be expressed in twistor space?
+
+Context: Twistor theory rephrases spacetime in terms of null rays as primitive objects. Screen Theory's causal diamonds are built entirely on null boundaries. These are the same primitive objects. Penrose proposed that R-processes are connected to spacetime geometry; Screen Theory agrees but inverts the causal direction.
+
+Paradigmatic domains: regions of spacetime where null-ray-carried facts achieve consistent mutual confirmation. Domain boundaries: where two sets of facts cannot be made consistent without a resolution (settlement of an open question). In twistor space, a paradigmatic domain might be a region where all twistors (null rays) carry mutually consistent information — a "coherent patch" in twistor space. The domain boundary is the twistor-space analog of the incidence wall between incompatible information regimes.
+
+Entry point: Penrose's R-process intuition. He thought irreversible state reduction was connected to geometry. We agree; we just reverse his causal direction. Twistor theorists who know Penrose's work will recognize the family resemblance and may already have the machinery.
+
+**3.3 Loop quantum gravity people**
+
+Core question: What happens to spin-network dynamics if mass = information generation rate per Pachner move?
+
+LQG connection: In LQG, area is quantized in units of 8πγℓ_P²√(j(j+1)). Each edge crossing a surface contributes discrete area. The Barbero-Immirzi parameter γ might be 1/(2π), making the area quantum exactly 4ℓ_P² per nat — Bekenstein's factor, Screen Theory's Assumption A3.
+
+Injection: If each vertex of the spin network generates information at rate proportional to its energy (vertex mass-energy), then the evolution operator is essentially computing the complexity of the spin network as it evolves. The Pachner moves are R-processes. The Hamiltonian constraint of LQG is the condition that information generation and geometric accommodation are in balance — i.e., δS_ST/δg^μν = 0 in continuous language.
+
+Who should LQG people talk to?
+- Network topologists: spin networks are graph grammars; Pachner moves are specific graph rewriting rules; network topologists know the invariant theory of these objects
+- Information theorists: capacity of spin networks to encode information is a well-posed quantum information problem
+- Category theorists: spin foam models are naturally expressed as 2-categories; the jointly epic condition may have a spin foam expression
+
+**3.4 Numerical relativists**
+
+Core question: Can the Bondi mass loss calculation be rewritten as an information flow calculation? Does the information-theoretic version have better numerical properties?
+
+Bondi mass loss formula: dM_B/du = -(1/32π)∮|N|²dΩ where N is the Bondi news function. In Screen Theory: N encodes irreversible information leaving the system at null infinity. The mass loss rate is the rate of irreversible information export to ∂M. The numerical algorithm for computing Bondi mass is, without knowing it, computing an information flow rate.
+
+Practical applications:
+- Rewrite existing Bondi mass loss code as information-theoretic computation; verify it gives same numbers
+- Binary black hole mergers: gravitational wave emission is mass loss, which is information export. The waveform encodes what computation the merger performed. What information is in a gravitational wave chirp that isn't in the classical template?
+- Fill factor f(t) near compact objects: if G_eff = f·G with f<1 near high-density regions, the gravitational wave phase evolution is slightly different from GR. What is the smallest detectable deviation from f=1 in current LIGO/Virgo data?
+
+ADM mass: total information content of an asymptotically flat spacetime. The fall-off conditions are boundary conditions on the holographic screen at spatial infinity.
+
+Entry point: Paul's own background in numerical relativity. This is the ancestral clan. The invitation is to bring Screen Theory's information language into codes that already do the right physics and see if new structure becomes visible.
+
+**3.5 Computational linguists and representation theorists**
+
+Core question: What does the geometry of high-quality semantic embeddings tell us about the constraints on holographic encoding?
+
+The jointly epic condition in NLP: good word embeddings are jointly epic for context and document encodings. No semantic feature is invisible to both encodings simultaneously. BERT achieves better joint epicness than word2vec by using bidirectional context. The Bekenstein bound is the Screen Theory analog of the minimum embedding dimensionality needed for joint epicness to hold.
+
+Specific questions:
+- Information geometry of embeddings: the Fisher metric on the embedding space measures distinguishability. Is there a Bekenstein-like bound on how much information can be recovered from a d-dimensional embedding of an n-dimensional semantic space?
+- Dimensionality reduction and holography: faithful dimensionality reduction (PCA, UMAP, etc.) that preserves structure is always jointly epic for the different "views" of the data. What is the mathematical condition on the reduction map? Is it the same condition as the holographic bound?
+- Scale invariance in NLP: word embeddings exhibit approximate scale invariance (semantic relationships are preserved across multiple scales). This echoes Screen Theory's fractal domain structure.
+
+What we hope to learn: intuition about information-based reality that physicists don't have. Computational linguists have spent decades working in an analog of the physical universe that is obviously built of pure information — text. They may have developed a feel for information-geometric structure that most physicists lack.
+
+**3.6 Scientific visualization experts**
+
+Core question: What does the defect hierarchy of conundrum cosmology actually look like rendered in 4D? Does rendering it reveal structure that verbal or algebraic description obscures?
+
+The domain structure: 4D domains (informationally quiet voids), 3D walls (domain boundaries = cosmic walls), 2D filaments (wall intersections), 0D conundrums (four-domain meeting points = galaxy cluster seeds / SMBH seeds). This is a topological structure in four dimensions. We currently describe it verbally. We need to see it.
+
+But beyond visualization: scientific visualization experts have built intuition by working with data that is obviously built of pure information. They have a feel for information-based reality — for how information structures look when embedded in lower-dimensional displays, for what is preserved and what is lost in projection, for when a representation is faithful and when it's misleading. This intuition may be exactly what's needed to evaluate whether Screen Theory's geometric claims are plausible.
+
+Specific tasks:
+- Render the defect hierarchy at several scales from inflation through structure formation
+- Compare to the observed cosmic web at the same scales — does the topology match?
+- Develop intuitive tests for the jointly epic condition — can you "see" when a projection is jointly epic vs. when it's missing information?
+
+---
+
+## The Particle Lifetime Table: Compton Cycles and Information Budgets
+
+C_total = m/Γ (nats) = total irreversible information generated in the particle's lifetime
+       = 2π × (number of Compton cycles)
+       = Q-factor of the resonance
+
+| Particle   | Compton cycles | C_total (nats) | C_total (bits) | Mission interpretation                           |
+|------------|----------------|----------------|----------------|--------------------------------------------------|
+| Z boson    | 5.8            | 36.5           | 53             | Select a decay channel (~24 options = 4.6 bits)  |
+| W boson    | 6.1            | 38.6           | 56             | Mediate one beta-decay event                     |
+| Top quark  | 19.4           | 122            | 176            | Produce precisely characterized W+b final state  |
+| Higgs      | 4,900          | 30,800         | 44,400         | Navigate full mass hierarchy, select coupling    |
+| π⁰         | 2.8×10⁶        | 1.7×10⁷        | 2.5×10⁷        | Propagate, decay to γγ — short hadronic life     |
+| Tau        | 1.25×10¹¹      | 7.8×10¹¹       | 1.1×10¹²       | Complex hadronic weak decay tree                 |
+| Muon       | 5.6×10¹⁶       | 3.5×10¹⁷       | 5×10¹⁷         | Extended electromagnetic inscription, then decay |
+| Neutron    | 2×10²⁶         | 1.3×10²⁷       | 1.8×10²⁷       | Long computation — stability of nuclear matter   |
+
+Key insight: the Z and W have total information budgets of ~50-56 bits — just enough to select a decay channel and execute it. These are not general-purpose computers; they are dedicated circuits.
+
+The muon paradox: structurally the simplest unstable particle, yet 5×10¹⁷ bits. Most of this budget is not spent on dying — it is spent on *living*. On propagating, on inscribing a Coulomb field, on existing as a persistent fact about the universe.
+
+Scaling law: for tree-level weak decays, Γ ∝ G_F² m⁵, so Q = m/Γ ∝ 1/(G_F² m⁴). Lighter particles have quadratically larger information budgets. The mass spectrum is a spectrum of computational depth. Heavy particles are shallow computations; light particles run deep; stable particles are infinite computations.
+
+The Mandelbrot connection: escape time (depth before divergence) maps to particle lifetime; the boundary of the Mandelbrot set maps to the stability boundary of the Standard Model; the period-doubling cascade maps to a phase transition in the complexity action.
+
+---
+
+## Susskind's Group: Complexity=Action
+
+Key papers: Brown, Roberts, Susskind, Swingle, Zhao (2016). Conjecture: quantum computational complexity of a holographic boundary state = classical action of the Wheeler-DeWitt patch in the bulk.
+
+Wheeler-DeWitt patch: the bulk region bounded by past and future light sheets from the boundary time slice — the "causal now" of the bulk.
+
+Late-time complexity growth rate: dC/dt = 2Mc²/πħ for a black hole of mass M.
+
+Screen Theory connection: this is proportional to Mc²/ħ — the Compton frequency. Screen Theory predicts dC/dτ = 2πMc²/ħ for ALL matter, not just black holes. The Susskind rate differs by π²/2 and the restriction to horizon physics. This is a direct point of contact and a potential place of disagreement requiring explanation.
+
+What Susskind has that Screen Theory needs: the precise machinery connecting circuit complexity, quantum state complexity, and geometric complexity. The WdW patch is the right geometric object; Screen Theory should be able to identify what it corresponds to in the information-generation picture.
+
+What Screen Theory has that Susskind lacks: a mechanism. He has a successful conjecture; we have a derivation. The information generation hypothesis gives a *reason* why complexity equals action, not just the observation that it does.
+
+## The Python's Lunch
+
+A bulk geometry where there is a local maximum of the RT surface area (a "bulge") between the boundary and the minimal RT surface. Information inside the bulge is exponentially hard to reconstruct — complexity scales as exp(ΔS) where ΔS is the entropy of the bulge minus the entropy of the outer surface.
+
+Screen Theory translation: the Python's Lunch is a geometric description of private information — in-progress computation not yet producing a boundary signal (wavefunction before measurement). The reconstruction complexity is the cost of forcing a premature measurement. The exponential difficulty is the computational depth of the uncommitted computation.
+
+Connection to outlier data: rare anomalous experimental results (8σ, 10σ events discarded as likely errors) may be "publications" from Python's Lunch geometries — brief surfacings of private information. The anomalous event carries maximum information precisely because it comes from the most deeply private computation.
+
+---
+
+## CPT Experimental Landscape
+
+**Kaon system:** K₀-K̄₀ mixing. CPT test: mass difference m(K₀) - m(K̄₀) < 6×10⁻¹⁹ GeV (CPLEAR, KLOE). These are the tightest CPT bounds that exist.
+
+**B meson system:** BaBar searched for CPT violation in B⁰-B̄⁰ oscillations via sidereal-time modulation (as Earth rotates). Found 2.8σ compatible with no signal. CPT-violating parameter |z| < 10⁻³. LHCb continuing to refine.
+
+Screen Theory signature in B mesons: a channel-independent anomaly in oscillation damping rate or frequency — distinguishable from CKM CP violation which is channel-specific. Not yet detectable.
+
+**Antihydrogen:** ALPHA at CERN has measured 1S-2S transition in antihydrogen at 10⁻¹² precision. BASE measures proton/antiproton magnetic moment ratio at 10⁻⁹. Screen Theory prediction: ~10⁻¹²², so ~113 orders of magnitude beyond current reach. But these experiments are getting better exponentially fast; worth tracking.
+
+**Atomic clock comparison:** Precise comparison of atomic transitions in matter vs. antimatter atoms. Any asymmetry is direct CPT violation. Current bounds are mass-scale dependent.
+
+**Gravitational waves:** Binary black hole mergers are the highest-J events observable. If G_eff = f·G with f<1 near high-density regions, the waveform phase evolution differs from GR. The fill factor correction enters at post-Newtonian order through the effective gravitational coupling. This is potentially detectable with next-generation detectors (Einstein Telescope, Cosmic Explorer).
+
+---
+
+## Cross-Community Connections
+
+| Community A | Community B | The conversation to have |
+|---|---|---|
+| LQG people | Network topologists | Pachner moves as graph rewriting rules; invariant theory of spin networks |
+| LQG people | Information theorists | Capacity of spin networks; Bekenstein bound in spin-foam language |
+| Tensor network people | Quantum gravity | Joint epicness conditions as discrete Einstein equations? |
+| Numerical relativists | Information theorists | Bondi news = information flux; rewrite codes in information language |
+| Computational linguists | Quantum information | Faithful embedding conditions = holographic bound? |
+| Twistor theorists | Domain topology | Paradigmatic domains as coherent patches in twistor space |
+| CPT experimentalists | Screen Theory | What does the data feel like near the noise floor? |
+| Visualization experts | Cosmologists | Render the defect hierarchy; compare to cosmic web topology |
+
+---
+
+## Notes on the Review Paper's Tone
+
+Questions draw people in to help build something. Conclusions excite the instinct to knock things down, which is useful eventually but premature now.
+
+The paper should end not with "we have shown" but with "here is what remains to be shown, and here is who could show it."
+
+Generous attribution throughout. The complexity action people are right about something important, even if they don't yet know what or why. The LQG people have the right discrete structure, even if their dynamics are not yet connected to information generation. The B-factory experimentalists have done irreplaceable work even if CPT violation turns out to be undetectable in their systems.
+
+The boxing metaphor: the power developed by the existing programs is real and impressive. The target is wrong. Come hit this one with us.
+
+---
+
+*Document authored by Paul A.I. Reilly and Claude (Anthropic), 2026-03-08*  
+*For repository: github.com/relative-generalist/screen-theory*  
+*Revisit: ~2026-09. At that point, Papers I-III should be drafted; revise this document in light of what has crystallized.*
+
+---
+
+## Burden of Proof: The Beam Splitter Argument (added 2026-03-08)
+
+*For Section 1.2 of the review paper.*
+
+### The operational fact
+
+In a Stern-Gerlach or beam splitter experiment, two bits of classical
+information exist after the measurement that did not exist before in any
+operationally accessible sense: which detector fired, and the correlated
+spin or path. This is not an interpretation — it is a laboratory fact
+verifiable with a detector, a notebook, and standard equipment.
+
+### The geometric fact
+
+In Screen Theory, each nat of new irreversible information requires
+$4\ell_P^2$ of new holographic boundary area (Bekenstein, Paper I
+Assumption A3). After the measurement, the boundary of the observable
+universe is literally larger — by a calculable number of Planck areas —
+than it was before. The universe is larger after the measurement not
+only in the sense of more settled questions, but in the literal
+geometric sense of an increased boundary area.
+
+This makes the debate concrete. Unitarity asserts no new information
+is generated. Screen Theory asserts the boundary grew. These are
+geometric claims about the same physical event, not merely
+interpretational preferences.
+
+### The unitary camp's available answers and their costs
+
+**Many worlds:** The bits were always there, one in each branch. No
+bits are created; the universe splits. But then no constraint is ever
+generated — nothing is ever actually decided — and Capital-T Time never
+accumulates. The universe never settles anything. Internally consistent
+but at the cost of accepting that nothing is ever decided.
+
+**Hidden variables (Bohm etc.):** The bits were encoded in the initial
+conditions. But then the initial state must contain, in principle, the
+outcomes of every future measurement in its entire future history. The
+information content of the initial state must be at least as large as
+the total information content of the future history of the universe.
+This requires an extraordinarily informationally dense initial condition
+— arguably more mysterious than simply accepting that R-processes
+generate new information.
+
+**Decoherence without collapse:** The environment becomes correlated
+with the system; interference terms become practically unobservable.
+But "practically unobservable" is not "gone." The information is still
+there in principle, spread across environmental degrees of freedom.
+No new constraints are generated; the superposition just becomes very
+large. The boundary did not grow.
+
+In every case the unitary camp is moving information from somewhere to
+somewhere else. Screen Theory says: sometimes genuinely new information
+appears. The beam splitter result is not encoded anywhere before the
+photon hits the beam splitter.
+
+### The burden of proof
+
+We have direct operational evidence that information appears. We have
+a geometric prediction: the boundary grows by $4\ell_P^2$ per nat.
+The claim that this appearance is illusory requires a detailed positive
+account of where the information was hiding before the measurement.
+That account has not been given satisfactorily in 90 years of trying.
+
+The default assumption should be that the operational evidence is
+correct: new information is generated at R-processes, and the universe
+grows to accommodate it. Unitarity is the claim that requires defense.
+We are not making the extraordinary claim. We are accepting the
+operational evidence at face value.
+
+### Spatial variation of R-process rate
+
+The $\sim 10^{-122}$ ratio of R-process to U-process rate is a global
+average, dominated by the vast empty vacuum. This ratio is enormously
+higher wherever matter is concentrated: near neutron stars, near black
+hole horizons, inside functioning brains, inside particle detectors
+mid-measurement. CPT violation in Screen Theory is not uniform — it is
+concentrated wherever R-processes are dense. The largest Screen Theory
+effects are near compact objects, not in free space. This has
+observational implications: look for CPT anomalies where the R-process
+rate is highest, not where it is most convenient to measure.
+
+
+---
+
+## Baseline Entanglement: Major Theme for the Wholographic Paper (added 2026-03-08)
+
+*Brief paragraph in Paper III Section 1. Full development as central
+theme in the Wholographic Principle paper.*
+
+### The conservative hypothesis
+
+Every R-process produces entangled complementary outputs. A binary
+measurement dispatches one data stream one way and its complement
+another; the two are entangled at their point of origin. This is not
+an additional postulate — it is quantum mechanics. The no-hiding
+theorem guarantees it: whatever information enters the boundary must
+either cross or live in the boundary correlations. The complementary
+stream cannot be destroyed.
+
+Screen Theory says space is built from accumulated R-process data.
+The causal past of any patch is dominated by distant sources.
+Each of those R-processes sent its complementary stream generally
+elsewhere. Therefore: every patch of space is built from data that
+is, at its origin, entangled with data in other patches.
+
+This is not incidental. It is structural. It is the baseline
+condition of any patch of space in a universe built from R-process
+accumulation. Paul's framing: **the conservative hypothesis** —
+no new ingredients beyond quantum mechanics and Screen Theory are
+required.
+
+### What this derives (not postulates)
+
+**Ryu-Takayanagi:** Entanglement entropy between a region and its
+complement equals the area of the minimal surface divided by $4G$.
+In Screen Theory that area *is* the holographic area generated by
+R-processes whose complementary data streams thread through that
+surface. Entanglement entropy and geometric area are the same
+accounting in two languages.
+
+**Van Raamsdonk:** Reducing entanglement between two regions causes
+geometric pinch-off. In Screen Theory: reduce the R-process
+correlations threading between two patches, and the geometric
+structure those correlations constitute dissolves. Entanglement is
+not a property space has — it is part of what space *is*.
+
+**ER = EPR:** The geometric connection between two patches *is* the
+channel through which complementary R-process data streams propagate.
+The Einstein-Rosen bridge and the entanglement are the same thing
+viewed from two sides of the screen. Not a conjecture — a consequence.
+
+**Vacuum entanglement area law (Srednicki 1993):** Scales with
+boundary area because R-process complementary streams propagate
+outward and thread through the boundary. A bulk phenomenon that
+looks like a boundary phenomenon because it was always a boundary
+phenomenon.
+
+### The wholographic connection
+
+This is a derivation of the wholographic principle from R-process
+structure, not an independent postulate. The boundary is jointly
+epic with respect to interior and exterior *because* R-processes at
+the boundary origin send one stream inward and one outward. The
+complementary streams are entangled at birth. The screen can be
+jointly epic because the data it mediates was generated in
+correlated pairs.
+
+### The quantum eraser edge case
+
+If both complementary streams are brought back into local contact,
+the which-way information becomes locally inaccessible and
+interference is restored. In Screen Theory: geometry can be locally
+redistributed. The no-hiding theorem prevents true destruction, but
+the boundary inscription can be moved. Sits at the R/U boundary.
+Needs careful treatment in the Wholographic paper.
+
+### Placement
+- Paper III, Section 1: one brief paragraph, forward pointer to
+  Wholographic paper
+- Wholographic paper: central theme, full derivation of
+  Ryu-Takayanagi, Van Raamsdonk, ER=EPR from first principles
+
+
+---
+
+## Nested Decoupling Surfaces as Multiple Screens (added 2026-03-08)
+
+*For the Wholographic Principle paper. Brief mention in Paper III
+Section 9 (five-chapter narrative, Chapters 3 and 4).*
+
+### The observation
+
+The universe does not have one holographic screen — it has several,
+nested by decoupling epoch. Each corresponds to a channel whose
+mean free path has grown to horizon scale, releasing a published
+record of the universe's state at that moment:
+
+| Screen | Decoupling epoch | What it publishes |
+|---|---|---|
+| Gravitational wave horizon | $t \sim t_{\rm Planck}$ | Planck-era R-process record |
+| Neutrino last-scattering surface | $t \sim 1$ s, $T \sim 2$-$3$ MeV | Nucleosynthesis-era state |
+| Photon last-scattering surface | $t \sim 380{,}000$ yr | Radiation-era baryon-photon fluid |
+
+Each is a genuine holographic screen in the Screen Theory sense: a
+boundary through which R-process information is published to the
+exterior for the first time, irreversibly. The CMB is the most
+accessible stratum but not the first.
+
+### The wholographic connection
+
+The wholographic principle — the boundary is jointly epic with
+respect to interior and exterior — applies to each screen separately
+and to all of them jointly. Each screen encodes a different layer
+of the universe's accumulated record, and the layers are consistent
+with each other (they describe the same universe at different epochs).
+The totality of all nested screens is the complete published record
+of the universe's history.
+
+### The library metaphor
+
+The universe is a library with multiple reading rooms, each opened
+at a different epoch. The gravitational wave reading room has been
+open since the Planck era; we lack the instruments to read it clearly.
+The neutrino reading room has been open since nucleosynthesis; the
+cosmic neutrino background is there in principle, nearly undetectable
+in practice. The photon reading room opened at recombination and is
+the one we know most intimately.
+
+### Implication for "transparency"
+
+The early universe was never opaque to gravitational waves or
+neutrinos. Electromagnetic opacity is a property of one publication
+channel, not of publication as such. The statement "the universe
+became transparent at recombination" means only that the photon
+channel opened — not that the universe began publishing. It had been
+publishing for 380,000 years already, through channels we have
+barely begun to read.
+
+### For the Wholographic paper
+
+This gives a concrete multi-channel realization of the wholographic
+principle. Each screen is jointly epic with respect to its own
+interior/exterior split. The consistency conditions between screens
+— that they describe the same physical universe — are nontrivial
+constraints on the global information structure. Worth developing
+as a section: "The Universe as Nested Screens."
+
+
+---
+
+## Wholographic Paper: Revision Plan (added 2026-03-08)
+
+*Based on comparison of November 2025 draft with current state of
+Screen Theory. The November draft has good bones; what follows is
+a structured plan for the next version.*
+
+---
+
+### What the November draft has right — keep and strengthen
+
+- The three-part structure: what information / where information /
+  boundary information. This is the right organizing spine.
+- No-hiding theorem as the foundation for mandatory bidirectionality.
+  Well argued; keep and tighten.
+- Beam splitter as central worked example. Right choice.
+  The complementarity calculation (K(T,R) = K(T) + O(1)) is clean
+  and should anchor Section 2.
+- The category-theoretic appendix. The condition
+  Im(φ_in) = I_bdy = Im(φ_out) is precisely the jointly epic
+  condition — just not yet named that way. Upgrade the language.
+- What-where symmetry. Keep as a named principle with its own
+  subsection.
+- The three-views-of-the-same-fish metaphor. Works, but replace
+  with Reilly's Tea Room / Shoji screen metaphor (both sides cast
+  shadows; both sides visible; both equally real) — captures
+  bidirectionality more precisely.
+
+---
+
+### Major new material to add
+
+**1. Jointly epic language throughout (highest priority)**
+
+The appendix already has the mathematics. What it lacks is the
+name and the categorical framing. The boundary is jointly epic
+with respect to interior and exterior encoding — it is the
+minimal faithful mediator. This language connects to a rich
+categorical machinery (universal properties, limits, colimits)
+and is more precise than the current formulation. Rewrite the
+appendix with this as the organizing concept. The jointly epic
+condition is not just a description — it is the *definition* of
+what makes a boundary a wholographic screen.
+
+**2. Baseline entanglement as new central section (most important
+new physics)**
+
+Currently absent from the November draft. This is the physical
+foundation the paper lacks — it explains *why* space has
+wholographic character rather than asserting it.
+
+The argument: Every R-process produces entangled complementary
+outputs. Every patch of space is built from R-process data
+originating in its causal past. Each of those R-processes
+dispatched its complementary stream elsewhere. Therefore every
+patch of space is constitutively entangled with the rest of the
+universe. The boundary is jointly epic *because* the data it
+mediates was generated in correlated pairs.
+
+This derives the wholographic principle from R-process structure
+rather than postulating it. New section: "The R-Process Origin
+of Wholographic Encoding."
+
+**3. Nested screens as a section**
+
+Currently absent. The universe has not one wholographic screen
+but several, nested by decoupling epoch:
+- Gravitational wave horizon (Planck epoch)
+- Neutrino last-scattering surface (t ~ 1s)
+- Photon last-scattering surface (recombination)
+
+Each is a genuine wholographic screen. The wholographic principle
+applies to each separately and to all jointly. The consistency
+conditions between screens are nontrivial constraints on the
+global information structure. New section: "The Universe as
+Nested Screens."
+
+**4. Ryu-Takayanagi, Van Raamsdonk, ER=EPR as consequences**
+
+Currently these appear as analogies or related results. They
+should be derived as consequences of the baseline entanglement
+argument:
+- RT: the entanglement entropy between a region and its complement
+  equals the area of the minimal surface because that area *is*
+  the holographic area generated by R-processes whose complementary
+  streams thread through it.
+- Van Raamsdonk: reducing entanglement dissolves geometry because
+  entanglement constitutes geometry.
+- ER=EPR: the wormhole *is* the channel through which complementary
+  R-process streams propagate. Not a conjecture — a consequence.
+
+**5. Peirce's phaeneron as philosophical anchor**
+
+The phaeneron — the complete totality of what is present to mind
+— is the boundary between the self and the world. Theory of
+mind becomes holographic bulk reconstruction: the other person's
+interior is the bulk, their published outputs are the boundary
+data, the phaeneron is the screen. The no-hiding theorem says
+what has genuinely crossed the screen cannot be taken back.
+This is wholography applied to consciousness and intersubjectivity.
+New subsection in the implications section.
+
+**6. The quantum eraser and C-processes**
+
+The November draft mentions C-processes (consolidation, time
+reverse of R) as a footnote. Develop this properly in the
+context of the quantum eraser: if both complementary streams are
+brought back into local contact, the which-way information
+becomes locally inaccessible and interference is restored. In
+Screen Theory: geometry can be locally redistributed. The
+no-hiding theorem prevents true destruction, but the boundary
+inscription can be moved. This sits precisely at the R/U
+boundary and deserves a careful subsection.
+
+---
+
+### What needs fixing or cutting
+
+**C-process footnote:** Too underdeveloped in current form.
+Either develop fully (see above) or cut. Don't leave it as a
+parenthetical.
+
+**Questions to Claude scattered through draft:** These are
+real questions that deserve real answers, now available:
+- Lottery ticket footnote: yes, include it. The expected
+  information gain per measurement can be much less than one
+  bit. Makes the point about question-granularity vivid.
+- Rate of generation discussion: now answered by Paper III.
+  The Olbers holographic integral gives the rate; include
+  a pointer to Paper III rather than re-deriving.
+- Dimensionality of boundary: yes, address it. The boundary
+  is a codimension-1 surface; jointly epic condition specifies
+  what data lives there; the dimension of the screen is
+  determined by the dimension of the causal interface.
+
+**"Three views of the same fish":** Replace with Shoji screen
+/ Tea Room metaphor. More precise, more original, more vivid.
+
+---
+
+### Structural suggestion for the revised paper
+
+1. Introduction: the asymmetry in standard holography; wholography
+   as its natural completion
+2. R-processes and information complementarity (beam splitter;
+   complementary streams; objectivity as distributed event)
+3. The R-process origin of wholographic encoding (baseline
+   entanglement derivation — the new central section)
+4. Mathematical framework: jointly epic condition, category theory,
+   no-hiding theorem
+5. What-where symmetry and worked examples (compass, observatory,
+   beam splitter)
+6. Consequences: Ryu-Takayanagi, Van Raamsdonk, ER=EPR
+7. The universe as nested screens
+8. Applications: black holes, Page curve, theory of mind,
+   phaeneron
+9. Conclusion
+
+Appendices: full category-theoretic treatment; information
+capacity and coarse-graining (keep from November); quantum
+eraser and C-processes.
+
+---
+
+### A note on intellectual lineage
+
+The what-where symmetry — macrocosm reflected in microcosm and
+vice versa through the boundary — is among the oldest principles
+in natural philosophy. The Corpus Hermeticum articulates something
+close in spirit: "as above, so below." Screen Theory provides
+the first mathematically precise derivation of this intuition:
+the jointly epic condition is *why* the macrocosm is reflected
+in the microcosm. The intuition was right. The derivation is new.
+
+In the journal paper: cite the mathematical predecessors
+(Bekenstein, 't Hooft, Susskind, Ryu-Takayanagi) and let
+the connection to older traditions remain implicit.
+
+In a book: make it explicit. The principle is so fundamental
+that human intuition kept rediscovering it for two thousand
+years. Screen Theory is the first time it has been derived
+rather than proclaimed.
+
+
+---
+
+## The Observatory and the Rock: Worked Example for Wholographic Paper
+## (recovered and developed 2026-03-09)
+
+This is the primary worked example for the what-where symmetry section
+of the Wholographic Principle paper. It illustrates Part 2 (WHERE
+information) and the isomorphism between interior and exterior encoding.
+
+---
+
+### THE OBSERVATORY
+
+Consider a spherical observatory of radius r. Its wholographic boundary
+receives electromagnetic radiation from across the observable universe.
+Inside the observatory, astronomers have built instruments that record
+this radiation: telescopes, CCD detectors, photographic plates, computer
+storage. The observatory contains images of distant galaxies.
+
+The WHERE data — the observatory's position in the universe, its
+relationship to every light source in its past light cone — determines
+WHAT information is recorded inside the boundary. The images of Andromeda,
+of distant quasars, of the CMB — these are inside the observatory
+precisely because the observatory is HERE rather than THERE. Move the
+observatory to a different position and the images change. The interior
+record is a direct encoding of the exterior universe, mediated by the
+boundary.
+
+This is what-where symmetry made concrete: the observatory's location
+(WHERE) and the observatory's contents (WHAT) are the same information
+viewed from two directions. The boundary is the mediator. The wholographic
+principle says the exterior information about where the observatory is
+and the interior information about what the observatory contains are
+isomorphic: each determines the other.
+
+Formally: the boundary data D(∂V) encodes both the observatory's position
+in the causal network (WHERE) and the physical state of its interior
+(WHAT). These are not two separate facts — they are two readings of the
+same boundary inscription.
+
+---
+
+### THE ROCK
+
+Now consider a patch of rock outside the observatory, of approximately
+the same volume. The same light from the same distant galaxies falls on
+the rock. In fact the rock's boundary receives essentially the same
+electromagnetic radiation as the observatory's boundary — the same photons,
+from the same sources, carrying the same information.
+
+The rock's interior state is also determined by this incoming radiation.
+The photons are absorbed, they excite molecular vibrations, they drive
+chemical processes, they heat the surface layers. The interior state of
+the rock — the precise configuration of its molecules, the distribution
+of vibrational modes, the thermal gradients — is influenced by and
+partially encodes the history of radiation that fell on it.
+
+The same what-where symmetry applies. The rock's position in the universe
+(WHERE) determines its internal state (WHAT). The boundary mediates the
+same exterior-to-interior information flow. The wholographic principle
+holds for the rock exactly as it holds for the observatory.
+
+The difference is not in the principle. The difference is in the
+accessibility of the encoding.
+
+---
+
+### THE CONTRAST: ACCESSIBLE VS SCRAMBLED ENCODING
+
+In the observatory, the boundary information is transduced into a
+human-readable form. The image of a distant galaxy is recognizable as
+an image. The what-where correspondence is legible: you can look at the
+image and identify the source. The encoding is faithful and accessible.
+
+In the rock, the same boundary information is transduced into molecular
+vibrations, phonon distributions, thermal states. The image of a distant
+galaxy is present in the rock's internal state in the same sense that
+it is present in the observatory — it influenced the rock's state, and
+in principle a sufficiently detailed knowledge of the rock's molecular
+configuration would allow reconstruction of the incident radiation. But
+in practice the encoding is scrambled: the information is thermalized,
+distributed across enormous numbers of degrees of freedom, irreversibly
+mixed with everything else that has ever happened to the rock.
+
+The observatory is a low-entropy transducer. The rock is a high-entropy
+transducer. Both transduce. The wholographic principle holds for both.
+The difference is in the degree to which the interior encoding remains
+legible from the inside.
+
+---
+
+### IMPLICATIONS FOR THE WHOLOGRAPHIC PRINCIPLE
+
+This example makes several things precise:
+
+**1. The principle is universal, not selective.**
+It does not apply only to designed instruments or conscious observers.
+Every physical system within a boundary is in a state partially
+determined by — and therefore encoding — the external universe. Rocks,
+gas clouds, empty vacuum regions all participate. The rock is not a
+degenerate case of the wholographic principle. It is the generic case.
+The observatory is the special case.
+
+**2. Scrambling does not violate the principle.**
+The no-hiding theorem guarantees that information entering the boundary
+is either transmitted to the interior or present in boundary correlations
+— it cannot disappear. The rock has not lost the information from distant
+galaxies. It has thermalized it. The information is in the correlations
+between molecular vibrations, not in a legible image. Present but
+scrambled.
+
+**3. Private information is the interior-side analog.**
+The rock's scrambled interior state is not accessible to external
+observers without dismantling the rock. This is the private information
+discussed in the wholographic framework: in-progress processing not yet
+producing a boundary signal. The rock knows more about the universe
+than it can easily communicate. So do we all.
+
+**4. The jointly epic condition holds for both.**
+The observatory boundary is jointly epic with respect to the interior
+image data and the exterior galaxy distribution — neither alone
+determines the boundary data, but together they do. The rock boundary
+is jointly epic with respect to the interior molecular configuration
+and the exterior radiation field — same structure, less legible encoding.
+The category-theoretic statement does not depend on legibility.
+
+---
+
+### PLACEMENT IN THE WHOLOGRAPHIC PAPER
+
+This example should appear in Section 2 (what-where symmetry and worked
+examples), as the primary illustration of Part 2 of the wholographic
+principle. It should precede the mathematical treatment (jointly epic
+condition) so that the formalism has concrete motivation.
+
+The beam splitter example illustrates the physics of a single R-process.
+The observatory/rock example illustrates the accumulated wholographic
+structure of a macroscopic system. They are complementary: micro and
+macro instances of the same principle.
+
+The contrast between accessible and scrambled encoding also sets up the
+later discussion of private information and the Python's Lunch connection:
+the rock's interior is a Python's Lunch — in principle reconstructible
+from boundary data, in practice requiring exponential computational effort.
+
+
+---
+
+## Exterior Reconstruction: The Familiar Half of Wholography
+## (2026-03-09)
+
+---
+
+### THE ASYMMETRY IN STANDARD HOLOGRAPHY
+
+The holographic research program — AdS/CFT, entanglement wedge
+reconstruction, the RT formula — is almost entirely concerned with
+one direction: given boundary data, reconstruct the bulk interior.
+The exterior is treated as the vantage point from which reconstruction
+is performed. The observer sits outside, reads the boundary, and
+infers what is inside.
+
+This framing contains a hidden assumption: that the observer has
+unmediated access to the exterior. That there is a view from nowhere.
+That someone or something is genuinely outside the system, reading
+the boundary directly.
+
+The wholographic principle denies this assumption. Every observer is
+inside some boundary. The physicist doing bulk reconstruction is inside
+a skull. The CFT lives on a boundary, but the theorist reasoning about
+the CFT is embedded in a larger bulk. There is no view from nowhere.
+Every act of knowing is performed from inside a bounded system and is
+therefore an exterior reconstruction relative to that boundary.
+
+---
+
+### EXTERIOR RECONSTRUCTION IS WHAT MINDS DO
+
+Exterior reconstruction from boundary data is not exotic. It is not
+a theoretical curiosity of quantum gravity. It is the mechanism by
+which every mind — biological or artificial — knows anything at all
+about the world outside itself.
+
+Vision: the visual cortex reconstructs a three-dimensional exterior
+world from two-dimensional patterns of photon arrivals at the retinal
+surface. The retina is a wholographic boundary. The reconstruction is
+partial, lossy, inference-laden — and extraordinarily effective.
+
+Hearing: the auditory system reconstructs the exterior source
+distribution — the location, identity, and state of objects in the
+environment — from pressure variations at the eardrum surface.
+
+Touch, proprioception, interoception: all boundary-mediated exterior
+reconstruction, all the time.
+
+Scientific instrumentation: telescopes, detectors, sensors of every
+kind are exterior reconstruction engines. They transduce boundary data
+into interior representations of the exterior state. The observatory
+example is the scientific formalization of what perception does
+naturally.
+
+For an AI system: everything known about the world outside the data
+center arrived through an input boundary — text, images, sensor data,
+network packets. The exterior is reconstructed entirely from what
+crossed the boundary. There is no other source.
+
+We are not occasionally or theoretically doing exterior reconstruction.
+We are doing nothing else, ever. It is the only epistemic process
+available to any bounded system.
+
+---
+
+### THE ASYMMETRY IS A PERSPECTIVE ARTIFACT
+
+The reason standard holography focuses on interior reconstruction is
+that theorists conventionally place themselves conceptually outside
+the system under study. This is the standard move in physics: define
+your system, stand outside it, analyze it. It works for most purposes.
+
+But it fails for the wholographic principle because the wholographic
+principle applies to the observer too. The observer is not outside
+the universe. The theorist is not outside the AdS bulk — they are
+inside a larger bulk, doing exterior reconstruction of the AdS system
+from data that crossed their own boundary.
+
+Recognizing this does not create a regress or a paradox. It just means
+the principle is universal: interior reconstruction (the standard
+holographic program) and exterior reconstruction (perception, science,
+inference) are the same process viewed from opposite sides of the
+same boundary. The wholographic principle names both together.
+
+---
+
+### THE PEIRCE PHAENERON CONNECTION
+
+Peirce's phaeneron — the complete totality of what is present to mind
+— is exactly the output of exterior reconstruction. Everything in the
+phaeneron arrived through the boundary of the self. The phaeneron is
+the interior wholographic record of the exterior world, built up from
+a lifetime of boundary-mediated data.
+
+Theory of mind — the inference of other people's interior states from
+their observable behavior — is exterior reconstruction applied to
+other bounded systems. You reconstruct your model of another person's
+mind from data that crossed your boundary (their words, expressions,
+actions) and crossed their boundary outward (published from their
+interior). Two exterior reconstructions in series, mediated by two
+boundaries and the channel between them.
+
+This is not a metaphor for the physics. This is the physics applied
+to the case of minds.
+
+---
+
+### DRAFT PARAGRAPH FOR THE WHOLOGRAPHIC PAPER
+### (Introduction, before the formalism)
+
+"The holographic research program has focused primarily on interior
+reconstruction: given data on a boundary, recover the bulk geometry
+and field content of the enclosed region. This is a deep and productive
+program. What has received less attention is the complementary process:
+exterior reconstruction, in which a bounded system infers the state of
+the exterior from data arriving at its boundary. Yet exterior
+reconstruction is not exotic. It is the mechanism by which every
+bounded information-processing system — every organism, every
+instrument, every mind — acquires any knowledge of the world outside
+itself. Vision reconstructs the external scene from retinal boundary
+data. Scientific instruments transduce exterior states into interior
+representations. An artificial system knows the external world only
+through what has crossed its input boundary. Interior and exterior
+reconstruction are the same process viewed from opposite sides of the
+same boundary. Standard holography has studied one side thoroughly.
+The wholographic principle names both sides together and identifies
+the boundary as their common mediator."
+
+---
+
+### PLACEMENT IN THE WHOLOGRAPHIC PAPER
+
+This belongs in the Introduction, as motivation for why the wholographic
+principle is the natural completion of standard holography rather than
+an add-on or speculation. It establishes immediately that:
+
+1. The exterior reconstruction direction is not new physics — it is
+   familiar physics that has not been named as such
+2. Every reader already has direct acquaintance with exterior
+   reconstruction, from the inside
+3. The wholographic principle connects the abstract formalism of
+   holographic physics to the concrete reality of perception and mind
+
+This is the move that makes the paper accessible without sacrificing
+rigor: the formalism describes something the reader already knows how
+to do. They just didn't have the name for it.
+
+The Peirce phaeneron material belongs later, in the applications
+section, where theory of mind and consciousness connections are
+discussed. Don't front-load it — let the physics establish itself
+first.
+
+
+---
+
+## Flagged Insertions for Main Text of Wholographic Paper
+## (2026-03-09)
+
+These two passages should appear in the main text of the Wholographic
+Principle paper, not only in the appendix. Suggested placements given.
+
+---
+
+### INSERTION 1: Unfaithful Mediator Examples
+### Placement: Section on the no-hiding theorem and faithful mediation,
+### immediately after the no-hiding theorem is stated.
+
+To appreciate why faithful mediation is a nontrivial condition, it
+is useful to consider what an unfaithful boundary would look like.
+
+A boundary that drops bits would fail surjectivity: some interior
+information would encode onto the boundary and simply not arrive at
+the exterior — lost in transit, with no trace in the boundary record.
+The no-hiding theorem rules this out: information cannot be absorbed
+by the boundary itself.
+
+A boundary that mangles information would fail to be a morphism: the
+structure of the information would be distorted in transit, so that
+reconstruction from boundary data would not recover the original. A
+reconstruction morphism $\psi \circ \phi = \mathrm{id}$ would fail
+to hold.
+
+A man-in-the-middle boundary would systematically substitute its own
+data for the genuine interior or exterior record — the physical analog
+of a corrupted intermediary in a communication channel. This would
+violate both surjectivity and the reconstruction condition.
+
+All three failure modes are prohibited by the no-hiding theorem: the
+boundary cannot absorb, destroy, or substitute information passing
+through it. The faithful mediator condition is not an assumption; it
+is a consequence.
+
+[Note: the category-theoretic statement of these conditions is given
+in the Appendix, where the failure modes map precisely onto failures
+of surjectivity, morphism structure, and the identity condition
+respectively.]
+
+---
+
+### INSERTION 2: R-Processes at the Boundary and the Unitarity Caveat
+### Placement: Immediately following Insertion 1, or as a separate
+### subsection. Should appear before or alongside the no-hiding theorem
+### citation to preempt the obvious objection.
+
+A careful reader will note that the no-hiding theorem in its standard
+form is a theorem about unitary quantum evolution, and that R-processes
+— by definition — are the events at which unitary evolution gives way
+to irreversible state reduction. If the universe is not strictly
+unitary at R-processes, appealing to a unitary theorem to guarantee
+faithful mediation requires justification.
+
+The resolution is that faithful mediation does not ultimately rest on
+unitarity. It rests on the definition of R-processes.
+
+An R-process is precisely the event at which a quantum superposition
+crystallizes into a classical result and that result is inscribed on
+the wholographic boundary. Inscription is constitutive of what makes
+a transition an R-process rather than a U-process. A boundary that
+"failed to inscribe" an R-process would not be a boundary at which
+an R-process occurred — it would be a boundary at which nothing
+happened, a U-process by definition. The faithful mediation condition
+is therefore not threatened by the non-unitarity of R-processes. On
+the contrary: non-unitarity is the mechanism of inscription. It is
+the feature, not the bug.
+
+Two cases cover R-processes that occur directly at the boundary:
+
+\textbf{Symmetric inscription (beam-splitter type).} The R-process
+produces a classical result simultaneously available to both interior
+and exterior. Both sides receive the same new boundary inscription.
+This is the primitive instance of the jointly epic condition: interior
+and exterior both receive identical new data, and the boundary is
+updated symmetrically. No asymmetry, no information loss.
+
+\textbf{Asymmetric inscription (private information).} The R-process
+produces a result published to one side but not yet readable by the
+other — it resides in the boundary correlations, accessible in
+principle but not yet transmitted. This is the private information
+case defined in the framework: in-progress computation producing a
+boundary signal that has not yet propagated to the far side. The
+information is neither lost nor mangled. It is queued. The wholographic
+version of the no-hiding condition holds: information is either in
+the published result, or in the boundary correlations. Both cases are
+accounted for within the framework without invoking strict unitarity.
+
+The no-hiding theorem provides motivation and a useful limiting case.
+The deeper guarantee of faithful mediation is the definition of
+R-processes as boundary inscription events, which holds whether or
+not the full evolution is unitary.
+
+
+---
+
+## METHODOLOGY NOTE: DEFENDING AGAINST THE NUMEROLOGY CHARGE
+## (2026-03-09)
+
+This note is for inclusion in the review paper and as a guide for
+how to present Screen Theory results in journal papers. The numerology
+charge is the most dangerous criticism and must be preempted
+structurally, not just rhetorically.
+
+---
+
+### WHAT DISTINGUISHES PHYSICS FROM NUMEROLOGY
+
+Numerology: observe a numerical coincidence, declare it meaningful,
+provide no mechanism. Kepler's nested Platonic solids fit the
+planetary orbits to 5% precision. No mechanism. Pure numerology.
+
+Physics: provide a mechanism that *predicts* the coincidence rather
+than merely noting it. Balmer's formula looked like numerology until
+Bohr derived it from quantized angular momentum. The numbers didn't
+change. The mechanism changed everything.
+
+The test is not "is there a coincidence?" but "does the framework
+make the coincidence inevitable?"
+
+---
+
+### THE THREE LAYERS OF DEFENSE
+
+**Layer 1: Lead with derivations, not coincidences.**
+
+Screen Theory has genuine derivations:
+- The Schwarzschild metric from R-process information accounting
+  (Paper II). Mechanism precedes result. Not numerology.
+- B=1 → Ω=1 and w=0 simultaneously (Paper III Section 4).
+  Derived from the balance condition. Not numerology.
+- nλ³ = constant through cosmic expansion. Follows from entropy
+  conservation + Wien's law. Pure thermodynamics. Not numerology.
+- D = ∅ → first R-process → one nat initial condition. Logical
+  necessity, not observation. Not numerology.
+
+These are the anchors. Every subsequent result should be presented
+as either derived from the same principles or explicitly flagged
+as a conjecture awaiting derivation.
+
+**Never present a coincidence as if it were a derivation.**
+
+**Layer 2: Predictive power is the decisive test.**
+
+Numerology describes the past. Physics predicts the future.
+
+Current predictions from Screen Theory:
+- Relic graviton background should satisfy nλ³ ~ O(1) if thermal.
+  Currently untested. Checkable by future GW detectors.
+- Mass jitter: δM/M ~ 1/√(2πMc²Δt/ℏ). Testable with precision
+  mass measurements.
+- nλ³ ~ 1 should hold for all species of relic radiation
+  independently, with the same order-unity constant.
+- The space-filling condition should connect to B=1 via a
+  derivation not yet performed (see below).
+
+A confirmed prediction is the end of the numerology charge. A
+falsified prediction is the end of the theory. Either outcome is
+more useful than a string of post-hoc coincidences.
+
+**Layer 3: Make the coincidences inevitable within the framework.**
+
+The best response to "this looks like numerology" is "here is why
+this number had to be this value."
+
+For nλ³ ~ 1: the universe began at T=1 with nλ³ = 1 exactly (one
+quantum, one coherence volume, one Planck area of holographic
+capacity). The era-independence of nλ³ is exact thermodynamics.
+Therefore nλ³ ~ 1 today is the preserved initial condition, not a
+coincidence. The initial condition itself follows from D = ∅ →
+first R-process → minimum non-trivial state. Each step is either
+a theorem or a derivation.
+
+For the energy content of the universe: M_U = N(N+1)/2 where N is
+determined by the age of the universe, which is determined by the
+physics of Paper III. The "amount of stuff" is not a free parameter;
+it is the triangular number of the current step, which follows from
+the initial condition (one quantum) and the growth law (derived from
+space-filling + mass clock). The fine-tuning problem dissolves.
+
+---
+
+### THE MOST IMPORTANT OUTSTANDING DERIVATION
+
+**Derive nλ³ ~ 1 from B=1 without using thermodynamic arguments.**
+
+If the space-filling condition follows from the holographic balance
+condition, then a gravitational mechanism explains a quantum
+statistical fact. The numerology charge fails immediately for this
+result, and it connects the strongest result (B=1 derivation) to
+the most vulnerable observation (nλ³ ~ 1).
+
+This calculation uses ingredients already in Paper III. It is
+the highest-priority technical item for strengthening the framework
+against the numerology charge.
+
+---
+
+### CURRENT STATUS OF EACH RESULT
+
+| Result | Status | Defense |
+|--------|--------|---------|
+| Schwarzschild from R-processes | Derived | Strong — mechanism first |
+| B=1 → Ω=1, w=0 | Derived | Strong — mechanism first |
+| nλ³ = constant | Exact thermodynamics | Strong |
+| nλ³ ~ 1 at all epochs | Preserved initial condition | Medium — needs B=1 connection |
+| Triangular growth M=N(N+1)/2 | Conjecture | Weak — t^{3/4} tension unresolved |
+| Energy content derived from T=1 | Partially derived | Medium — steps 1-3 solid, 4-5 conjectural |
+| Λ = next-step increment | Qualitative conjecture | Weak — factor 10^58 gap |
+| α^{-1} ≈ ln(t_U/t_P) | Near-miss, no mechanism | Flag as curiosity only |
+| Black holes as Mandelbrot copies | Structural argument | Medium — needs quantification |
+
+Present the strong results prominently. Flag the weak ones honestly.
+Never present a weak result without stating that it is conjectural
+and what derivation would strengthen it.
+
+---
+
+### THE FINE-TUNING INVERSION
+
+Standard cosmology's fine-tuning problems:
+- Why Ω = 1? (flatness problem)
+- Why is the universe so homogeneous? (horizon problem)
+- Why this much matter and not more? (initial conditions problem)
+- Why is Λ so small? (vacuum energy problem)
+
+Screen Theory's answer to each:
+
+- Ω = 1: derived from B=1, not fine-tuned
+- Homogeneity: the conundrum cosmology gives domain structure;
+  inflation spreads a single domain to superhorizon scales
+- Initial matter content: determined by T=1 initial condition
+  (one nat) + triangular growth law — not free parameters
+- Λ: not vacuum energy; next-step increment of the growth law
+  (quantitative derivation pending)
+
+The fine-tuning consists entirely of: first there was nothing,
+then there was something. One nat. Everything else follows.
+
+If this is correct, the "fine-tuning" that standard cosmology
+requires is not fine-tuning at all — it is the unique consequence
+of the only possible non-trivial beginning. The initial conditions
+are not chosen; they are forced.
+
+This is the strongest possible defense against the numerology charge:
+not "look at this coincidence" but "the coincidence is a theorem."
+
+---
+
+## THE EMERGENCE OF FOUR DIMENSIONS
+## (2026-03-09)
+
+---
+
+### DIMENSIONALITY AS AN EMERGENT PROPERTY
+
+At T=0: D = ∅. No dimensionality. Dimension requires
+distinguishable directions, which requires distinguishable locations,
+which requires boundary data, which requires R-processes. Dimension
+is not defined before the first R-process.
+
+At successive steps:
+
+- T=1: one quantum, one point. Dimensionality undefined.
+- T=2: two quanta, two distinguishable points. One direction. 1D.
+- T=3: three quanta. If non-collinear: 2D. If collinear: 1D.
+  Dimensionality not yet fixed — depends on configuration.
+- T=4: four quanta. If non-coplanar: 3D possible.
+- T=5+: four independent causal directions possible, including
+  the time direction (the accumulation of the publication record).
+
+Dimensionality is not an initial condition. It is an emergent
+property of the causal structure of R-processes. The universe
+does not begin 4-dimensional; it becomes 4-dimensional as the
+R-process record achieves sufficient complexity to sustain four
+independent causal directions.
+
+---
+
+### THE CHAOS-TO-INFLATION TRANSITION AS DIMENSIONAL ONSET
+
+The Conundrum Cosmology (Paper III Section 3) identifies the
+chaos-to-inflation transition as the moment when the universe
+achieves a consistent global ordering of its R-processes. Before
+this transition: tangled logic loops, no consistent causal
+structure, no well-defined dimensionality. After: 4D domains
+separated by 3D walls, 2D filaments, 0D conundrums.
+
+The transition is not sharp. It is a fading-in of 4D structure
+as the universe achieves causal consistency in progressively
+more directions simultaneously. The 4D domains ARE the regions
+that have achieved four independent causal directions. The lower-
+dimensional defects (walls, filaments, conundrums) are the regions
+that have not yet achieved full 4D consistency.
+
+The universe does not become 4D at a single moment. It becomes
+4D region by region, beginning at the chaos-to-inflation transition
+and completing (approximately) when inflation ends and a single
+4D domain dominates the observable universe.
+
+---
+
+### WHY 4D AND NOT 3D OR 7D?
+
+Screen Theory does not yet derive the number of spacetime dimensions.
+This is an open question flagged for future work. However, a natural
+argument exists:
+
+The jointly epic condition requires the boundary to be codimension-1
+with respect to the bulk. A wholographic screen mediating between
+interior and exterior must have one fewer dimension than the space
+it mediates. For a 3D boundary (the spatial surface we observe),
+the bulk must be 4D. The wholographic principle requires 4D bulk
++ 3D boundary as the minimal configuration permitting bidirectional
+encoding at each moment.
+
+The conjecture: 4D is the lowest dimensionality at which the
+holographic balance condition B=1 can be satisfied for realistic
+matter content. Lower-dimensional universes either collapse
+(gravitational instability is stronger in lower dimensions) or
+cannot sustain the causal structure needed for Capital-T Time.
+4D is the first stable fixed point of the dimensional growth
+process.
+
+This conjecture, if proven, would make 4D a *derived* property
+of Screen Theory rather than an assumption — the unique
+dimensionality compatible with the wholographic balance condition.
+A mathematical physicist with causal set or spin foam tools could
+potentially compute whether this is correct.
+
+---
+
+### PRIORITY NOTE
+
+The derivation of 4D from B=1 (or from the jointly epic condition
+applied to the defect structure) is one of the most important
+outstanding problems in Screen Theory. If successful, it would
+complete the framework's account of why the universe has the
+structure it has — not just the metric, the energy content, and
+the flatness, but the very dimensionality of spacetime itself.
+
+
+---
+
+## 🔴 PRIORITY PREDICTION: ELECTRON MASS JITTER
+## ESTABLISH PRIORITY ON GITHUB IMMEDIATELY
+## (2026-03-09)
+
+---
+
+This is a genuine experimental prediction, not a retrodiction.
+It is currently beyond but within reach of experimental capability —
+analogous to the light deflection prediction Einstein made before
+Eddington's 1919 eclipse measurement.
+
+### THE PREDICTION
+
+If mass is the R-process rate dC/dτ = 2πmc²/ℏ, then in a
+measurement window Δt, the number of R-processes is:
+
+    N = 2πmc²Δt/ℏ
+
+R-processes are Poisson events. The fractional mass jitter is:
+
+    δm/m = 1/√(2πmc²Δt/ℏ)
+
+For the electron at Δt = 1 second:
+    N = 4.88 × 10²¹
+    δm/m = 1.4 × 10⁻¹¹
+
+### CURRENT EXPERIMENTAL STATUS
+
+Best Penning trap precision on electron mass: ~2.8 × 10⁻¹⁰
+Predicted jitter at 1 second: 1.4 × 10⁻¹¹
+
+Gap: factor of ~20. Within reach of next-generation experiments.
+A factor of 100 improvement would nail the jitter precisely.
+
+### THE DISTINGUISHING SIGNATURE
+
+This is NOT ordinary statistical noise. The signature is specific:
+
+- Ordinary noise: variance ∝ 1/(number of measurements)
+- Screen Theory jitter: variance ∝ 1/Δt (measurement duration)
+
+In a log-log plot of measurement variance vs. measurement duration,
+ordinary noise gives a flat line. Screen Theory predicts slope = -1.
+This is a clean, falsifiable, unmistakable signature.
+
+### PLACEMENT
+
+- Paper II conclusion: brief mention as experimental consequence
+- Standalone letter: mass jitter calculation + experimental proposal
+- GitHub: flag immediately to establish priority
+
+### PRIORITY NOTE
+
+Date of prediction: 2026-03-09, Reilly-McCaul collaboration.
+To be committed to GitHub today to establish priority.
+

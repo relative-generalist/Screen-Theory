@@ -1,0 +1,1417 @@
+NOTE: THE SPACE-FILLING RADIATION CONJECTURE
+For inclusion in Paper III — Section 8 (Open Questions) or Section 9
+(Discussion/Conclusion)
+Paul A. I. Reilly
+Draft: 2026-03-09
+
+Flagged as: genuine open question, Screen Theory conjecture,
+requires proper derivation by someone with appropriate QFT/QG tools.
+Suitable for presentation to mathematical physics community.
+
+---
+
+TITLE SUGGESTION FOR PAPER:
+"8.N The Space-Filling Radiation Conjecture"
+or in Section 9: "The Quantum-Gravitational Coincidence"
+
+---
+
+THE OBSERVATION
+
+The cosmic microwave background has a photon number density of
+approximately n ≈ 411 cm⁻³. The Wien peak wavelength at T = 2.725 K
+is λ_peak ≈ 1.06 mm. The mean inter-photon spacing is n^{-1/3} ≈
+1.44 mm. Therefore:
+
+    n λ³_peak ≈ 0.4                                            (*)
+
+The thermal radiation of the universe fills space to within a factor
+of order unity: approximately one photon per coherence volume. The
+universe is neither empty of photons nor packed with them — it is at
+the boundary condition nλ³ ~ 1.
+
+The same statement holds for the cosmic neutrino background (n ~ 336
+cm⁻³ per flavor, de Broglie wavelength ~ 7 mm, giving nλ³ ~ 100,
+within two orders of magnitude) and would hold for relic gravitons
+if detected.
+
+---
+
+ERA INDEPENDENCE
+
+The condition nλ³ ~ O(1) is preserved exactly through cosmic expansion.
+Photon number density scales as n ∝ T³ (entropy conservation). The
+Wien peak wavelength scales as λ_peak ∝ 1/T. Therefore:
+
+    n λ³_peak ∝ T³ × T^{-3} = constant
+
+This is not a coincidence of the present epoch. It is an exact,
+era-independent statement: thermal radiation always fills space to
+order one quantum per coherence volume, regardless of the expansion
+history. The universe has always been in this condition for its
+thermal radiation, from the radiation era to the present.
+
+---
+
+THE CONSTRAINT
+
+This condition is not cosmetically innocuous. Suppose the photon
+density were 1000 times higher (nλ³ ~ 400 instead of ~ 0.4). Today,
+Ω_CMB would increase from ~ 5 × 10^{-5} to ~ 0.05 — gravitationally
+subdominant, apparently harmless.
+
+But running the clock backward: in the radiation-dominated era
+(t ~ 10,000 years), radiation density scales as a^{-4} while critical
+density scales identically during radiation domination, keeping Ω_rad
+constant. A universe with 1000× more photons would have Ω_rad ~ 1000
+at the onset of radiation domination. Such a universe would be
+violently overclosed, would collapse before BBN, and would produce no
+observable large-scale structure. A factor of 1000 fewer photons would
+give Ω_rad ~ 10^{-3} at the same epoch, producing a severely
+underdense universe with no structure formation.
+
+The nλ³ ~ 1 condition is therefore not a coincidence of the present
+epoch but a precondition for the cosmic history we observe. The
+universe is not merely at this condition — it must be, or the universe
+as we know it does not exist.
+
+---
+
+THE PUZZLE: A QUANTUM CONDITION EQUALS A GRAVITATIONAL CONDITION
+
+Standard cosmology offers two independent explanations:
+- nλ³ ~ 1 follows from thermal equilibrium and Bose-Einstein statistics.
+  At the peak of the Planck distribution, the occupation number per
+  mode is of order unity. This is what thermal equilibrium means for
+  bosons. It is a quantum statistical result.
+- Ω = 1 (flatness) is imposed separately, either by inflation or — in
+  Screen Theory — by the balance condition B = 1 derived in Section 4.
+  This is a gravitational result.
+
+These conditions are simultaneously satisfied throughout cosmic history,
+to the same order of magnitude, with no obvious connecting principle
+in standard physics. One is quantum; the other is gravitational. They
+have different physical origins and yet appear to be the same condition
+numerically.
+
+No principle in either quantum field theory or classical general
+relativity predicts that the thermal occupation number at the
+radiation peak should be of order unity at exactly the energy density
+corresponding to gravitational criticality. The simultaneous
+satisfaction of both conditions appears to require a quantum-
+gravitational explanation.
+
+---
+
+THE SCREEN THEORY CONJECTURE
+
+In Screen Theory, the Ω = 1 condition is derived from the information
+balance condition B = 1 (Section 4): the rate of information generation
+by mass-energy equals the rate at which the horizon can accommodate
+new holographic area. This is a holographic saturation statement at
+the horizon scale.
+
+The nλ³ ~ 1 condition states that each radiation quantum occupies
+exactly one coherence volume — the radiation field fills space with
+one information carrier per available quantum cell. This is also,
+arguably, a saturation statement: the field is filling its available
+mode capacity to order unity.
+
+**Conjecture:** The conditions nλ³ ~ 1 and B = 1 are two expressions
+of the same underlying holographic saturation condition, stated in
+quantum and gravitational languages respectively. Both conditions hold
+because both are consequences of the universe operating at holographic
+capacity — generating and distributing information at exactly the rate
+its geometry can accommodate.
+
+A proper derivation would need to show that nλ³ ~ 1 follows from
+the same balance condition that gives B = 1, or that both follow from
+a common more fundamental condition. This requires tools from quantum
+field theory in curved spacetime and holographic thermodynamics that
+are beyond the scope of this paper.
+
+---
+
+THE HAWKING COMPARISON
+
+A suggestive parallel: Hawking radiation from a black hole of
+Schwarzschild radius r_S has temperature T_H = ℏc/(4πk_B r_S), giving
+a Wien peak wavelength:
+
+    λ_peak^{Hawking} ≈ 16 r_S
+
+The characteristic wavelength of Hawking radiation is of order the
+horizon scale — the same space-filling relationship, with the
+cosmological horizon replaced by the black hole horizon.
+
+The Hawking emission rate is:
+
+    dN/dt = c / (960 r_S)
+
+approximately one photon per 960 horizon light-crossing times. The
+naive space-filling rate would be c/r_S — one photon per light-crossing
+time. The suppression factor of 960 arises entirely from grey-body
+factors: the Schwarzschild effective potential creates a barrier at
+the photon sphere (r ~ 3r_S) that partially reflects outgoing modes,
+suppressing the total emission by a geometric factor that must be
+integrated over all frequencies and angular momenta.
+
+The wavelength coincidence is therefore clean (λ ~ r_S to within a
+factor of 16). The rate coincidence is present but suppressed by the
+grey-body correction. Whether this suppression factor is itself
+physically meaningful — whether the factor of 960 encodes something
+about the geometry of information escape from a black hole horizon —
+is an open question.
+
+The pattern across both cases: thermal radiation associated with any
+horizon (cosmological or black hole) has characteristic wavelength of
+order the horizon scale, placing it at the boundary of the space-
+filling condition. The precise numerical factors depend on the geometry
+of the horizon and the mode structure of the escape problem.
+
+---
+
+OPEN QUESTIONS FOR THE COMMUNITY
+
+1. Does nλ³ ~ O(1) follow from holographic saturation at the horizon
+   scale, independently of the thermal equilibrium argument? If so,
+   it would provide a quantum-gravitational derivation of the photon
+   density that standard cosmology cannot give.
+
+2. Is there a single condition — stated in the language of Screen
+   Theory, or of quantum field theory in curved spacetime, or of
+   holographic thermodynamics — from which both nλ³ ~ 1 and Ω = 1
+   follow as consequences?
+
+3. For Hawking radiation: is the factor of 960 (the grey-body
+   suppression of the emission rate) related to the factor 4/3
+   appearing in the cosmological holographic integral (Section 3)?
+   Both are geometric factors arising from integrating over mode
+   spectra near a horizon. Their coincidence (both O(10²)) may be
+   accidental, but should be checked.
+
+4. Is the space-filling condition nλ³ ~ O(1) a necessary consequence
+   of any self-consistent quantum gravity theory, in the sense that
+   a universe violating it cannot form horizons? The early-universe
+   constraint (Section above) suggests that nλ³ >> 1 is cosmologically
+   lethal. Is nλ³ << 1 also ruled out by some gravitational argument?
+
+---
+
+SUGGESTED PLACEMENT IN PAPER III
+
+Option A: Add as Section 8.N (new numbered item in Open Questions),
+after the fill factor f(t) discussion. This keeps it with the other
+flagged open questions and makes clear it requires future work.
+
+Option B: Add as a subsection of Section 9 (Discussion), framed as
+"a quantum-gravitational coincidence whose explanation the present
+framework points toward but does not yet provide." This gives it more
+prominence and signals to readers that it is a priority target.
+
+Recommendation: Option B. The result is striking enough that it
+deserves prominence. The honest framing — "we observe this, we have
+a conjecture, we cannot yet derive it" — is scientifically appropriate
+and will attract exactly the kind of mathematical physicist who can
+crack it.
+
+---
+
+TONE NOTE
+
+This puzzle has the character of a bone with marrow: the coincidence
+is real, the constraint is tight, the Screen Theory interpretation
+is natural, and yet the derivation is missing. Present it exactly
+that way. Offer the observation, the constraint, the conjecture, and
+the open questions in that order. Make it easy for someone with the
+right tools to pick it up and run with it. The community will respond
+to a well-posed puzzle faster than to a claimed result.
+
+---
+
+ADDENDUM: THE PLANCK EPOCH — ALL SCALES COINCIDE
+(added 2026-03-09)
+
+---
+
+THE CALCULATION
+
+Run the space-filling condition nλ³ ~ 1 backward to the epoch at
+which λ_thermal = ℓ_P. Setting the Wien peak wavelength equal to the
+Planck length:
+
+    T* = b / ℓ_P = 2.898 × 10⁻³ / 1.616 × 10⁻³⁵ ≈ 1.79 × 10³² K
+
+The Planck temperature T_P = √(ℏc⁵/Gk_B²) ≈ 1.42 × 10³² K.
+
+These agree to within a factor of 1.26. The epoch at which the thermal
+wavelength equals the Planck length is the Planck epoch. This is not
+a coincidence: it is essentially the definition of the Planck
+temperature stated in two ways.
+
+At this epoch:
+
+1. THERMAL WAVELENGTH: λ_peak ~ ℓ_P  (by construction)
+
+2. HUBBLE RADIUS: In the radiation-dominated Friedmann equation,
+   H² = (8πG/3)ρ_rad with ρ_rad ∝ T⁴. At T = T_P, this gives
+   H ~ c/ℓ_P, so r_H = c/H ~ ℓ_P. ✓
+
+3. COMPTON WAVELENGTH: A quantum with energy k_BT_P = m_Pc² has
+   Compton wavelength λ_C = ℏ/m_Pc = ℓ_P. ✓
+
+4. SPACE-FILLING CONDITION: Since nλ³ is era-independent, scaling
+   from today:
+   n(T_P) ~ 411 × (T_P/T_0)³ ~ 5 × 10⁹⁷ cm⁻³
+   Mean spacing: n^{-1/3} ~ ℓ_P
+   Therefore nλ³ ~ 0.2 at the Planck epoch. ✓
+
+All three length scales — thermal wavelength, Hubble radius, Compton
+wavelength of a Planck-energy quantum — coincide at the Planck length
+at the Planck epoch. They are the same scale. After the Planck epoch
+they diverge, and the era-independent maintenance of nλ³ ~ O(1) is
+what keeps the space-filling condition satisfied as they separate.
+
+---
+
+ONE QUANTUM PER HORIZON VOLUME
+
+The number of thermal quanta within the Hubble volume at t_P:
+
+    N ~ n × (4π/3)r_H³ ~ (1/λ³) × λ³ ~ 1
+
+The universe at the Planck epoch contains approximately one quantum
+per causal horizon volume. This is the minimum value: as the universe
+expands and cools, r_H grows faster than λ_thermal (r_H ∝ t ∝ T⁻²
+in radiation domination, λ ∝ T⁻¹), so N ~ (r_H/λ)³ grows with time.
+The Planck epoch is the unique moment at which this number is
+minimized at order unity.
+
+Simultaneously: at T = T_P, the radiation energy density
+
+    ρ_rad ~ g* m_Pc²/ℓ_P³ ~ g* ρ_P
+
+equals the Planck density (and the critical density) up to the
+species-counting factor g*. For g* ~ 1, all three densities coincide.
+
+---
+
+THE INITIAL CONDITION INTERPRETATION
+
+This calculation suggests a natural initial condition for cosmology:
+the universe begins with approximately one quantum per causal horizon
+volume. This is simultaneously:
+
+- The minimum non-trivial state: one quantum per causal patch
+- The space-filling condition: nλ³ ~ 1
+- The holographic saturation condition at the Planck scale
+- The critical density condition: ρ ~ ρ_crit
+
+In Screen Theory language, this is compelling. The initial state is
+D = ∅ — the empty wholographic data set everywhere. The first
+R-process produces one quantum. "One quantum per horizon volume" is
+the minimal non-empty wholographic state: the first departure from
+D = ∅, with exactly enough data to specify one settled question per
+causal patch.
+
+The initial condition of the universe is not an arbitrary parameter
+requiring fine-tuning or anthropic explanation. It is the minimal
+non-empty wholographic state. There is no simpler non-trivial
+beginning.
+
+---
+
+OPEN QUESTION: IS THIS IN THE LITERATURE?
+
+The coincidence of all three Planck scales at the Planck epoch is
+known in fragmentary form. Hartle-Hawking and related quantum
+cosmology approaches discuss initial conditions but not in this
+language. The specific conjunction:
+
+    "one quantum per horizon volume" = "space-filling condition"
+    = "critical density" = "minimal non-empty wholographic state"
+
+does not appear to be in the literature as an explicit unified
+statement. If it is known, the reference should be found and cited.
+If it is not, this is a new observation worth a brief note.
+
+---
+
+THE GREY-BODY / PHOTON SPHERE ADDENDUM
+
+The grey-body suppression of Hawking radiation (factor ~960) has a
+natural geometric interpretation in radar-distance coordinates. The
+Schwarzschild photon sphere at r = 3r_S/2 acts as a waist: in
+radar-distance coordinates, the effective aperture for wave
+propagation through the photon sphere is minimized there. Long-
+wavelength photons (λ >> r_S) attempting to escape are trying to
+pass a large object through a small aperture — they are reflected
+back. The grey-body factor Γ(ω) is precisely the transmission
+coefficient for this aperture, integrated over all modes.
+
+This image makes the grey-body suppression physically transparent:
+the factor of 960 is the geometric cost of squeezing the thermal
+emission spectrum through the photon-sphere aperture. It does not
+change the characteristic wavelength λ ~ r_S. It suppresses the rate.
+
+The conjecture: the space-filling condition nλ³ ~ 1 holds at every
+horizon (cosmological or black hole) as a statement about the
+characteristic wavelength. The rate at which quanta are emitted is
+separately determined by the geometry of the escape problem — the
+aperture function integrated over modes — and may differ from the
+naive c/r_H by a geometric factor of order 10² to 10³ depending on
+the horizon type. The wavelength coincidence is fundamental; the rate
+coincidence is approximate and geometry-dependent.
+
+
+---
+
+ADDENDUM 2: FROM ZERO TO ONE — THE MINIMAL BEGINNING
+(added 2026-03-09)
+
+---
+
+THE INFORMATION CONTENT AT T = t_P
+
+At T = t_P (one Planck time after Capital-T Time begins), the
+horizon area is A ~ ℓ_P². The holographic capacity of this horizon
+is:
+
+    N_bits = A / 4ℓ_P² ~ 1/4
+
+Approximately one binary fact. The entire information content of the
+observable universe at T = t_P is of order one nat — enough to answer
+a single yes/no question and nothing more.
+
+In Screen Theory language: the universe transitions from D = ∅ (no
+settled questions, T = 0) to D containing approximately one settled
+question (T = t_P). This is the minimal non-empty wholographic state.
+There is no simpler non-trivial beginning.
+
+---
+
+THE INITIAL DENSITY
+
+With one quantum of energy E ~ k_BT_P = m_Pc² in a volume V ~ ℓ_P³:
+
+    ρ_initial ~ ρ_P = m_P/ℓ_P³ = c⁵/(ℏG²)
+
+The critical density at t = t_P, with H ~ c/ℓ_P:
+
+    ρ_crit(t_P) = 3H²/(8πG) = (3/8π) ρ_P ≈ 0.12 ρ_P
+
+The ratio ρ_initial/ρ_crit ~ 8π/3 ~ 8 for a single species. This
+is the same order of magnitude — the initial density is neither 10⁻¹²⁰
+nor 10¹²⁰ times the critical density, but within a factor of ~8.
+Whether a species-counting correction or a geometric factor closes
+this gap to exact equality is an open question flagged for future
+work.
+
+---
+
+DOES THE UNIVERSE GROW ONE QUANTUM AT A TIME?
+
+At the Planck epoch, yes — exactly one quantum per Planck time is
+being added. In radiation domination:
+
+    N_quanta in horizon ~ (r_H/λ_thermal)³ ∝ t^{3/2}
+
+    dN/dt ~ (3/2) t^{1/2} / t_P^{3/2}
+
+At t = t_P: dN/dt ~ 1/t_P. One quantum per Planck time.
+
+The first step from T=0 to T=1 (in Planck units) is precisely zero
+to one quantum. After that the rate accelerates as t^{1/2}: by
+t = 100 t_P the rate is ~10 quanta per Planck time. The "one at a
+time" picture is exactly right for the first step and becomes an
+increasing undercount as the universe ages.
+
+This is the natural growth law for a system starting from D = ∅:
+the first R-process adds one settled question, the second adds one
+more, but each new settled question creates context that makes
+subsequent R-processes more likely, and the rate accelerates. The
+universe begins maximally simple and becomes more complex at an
+accelerating rate from its first moment.
+
+---
+
+SUMMARY: THE MINIMAL BEGINNING
+
+The universe begins with:
+- Zero information: D = ∅
+- Zero quanta: N = 0
+- Zero holographic capacity: A = 0
+
+At T = t_P it has:
+- One settled question: |D| ~ 1
+- One quantum: N ~ 1
+- One Planck area of holographic capacity: A ~ ℓ_P²
+- Density within a factor of ~8 of critical density
+- All length scales (r_H, λ_thermal, λ_Compton) equal to ℓ_P
+
+From this minimal beginning, the universe grows by adding quanta
+at a rate that starts at one per Planck time and accelerates as
+t^{1/2}. The nλ³ ~ 1 condition is maintained exactly throughout,
+era-independently. The space-filling condition is not a property
+the universe achieves — it is the condition the universe starts in
+and never leaves.
+
+---
+
+NOTE ON PUBLICATION
+
+This calculation is simple enough — middle school algebra plus the
+Bekenstein bound — that it could stand alone as a short letter to
+Physical Review Letters or similar, separate from Paper III. The
+core result:
+
+"The universe begins with approximately one quantum per causal
+horizon volume. This is simultaneously the holographic saturation
+condition, the space-filling radiation condition, the minimal
+non-empty wholographic state, and the condition closest to the
+critical density achievable with a single quantum species. The
+space-filling condition nλ³ ~ 1 is era-independent and is maintained
+from the Planck epoch to the present."
+
+This is a self-contained, checkable, falsifiable claim that requires
+no machinery beyond the Bekenstein bound and the Friedmann equation.
+It would likely be of interest to the quantum cosmology and quantum
+gravity communities independently of the broader Screen Theory
+framework.
+
+
+---
+
+ADDENDUM 3: TRIANGULAR NUMBERS, RELATIONAL TIME, AND MASS AS CLOCK
+(added 2026-03-09)
+
+---
+
+THE MASS CLOCK
+
+In the Wheeler-DeWitt equation — the quantum gravity wave equation
+for the universe — there is no external time variable. Time
+disappears from the fundamental equation. To recover a notion of
+time, one must select an internal dynamical variable as a relational
+clock (Page and Wootters 1983; DeWitt 1967).
+
+In Screen Theory, mass is the natural clock. Capital-T Time is
+defined as the accumulated publication record of R-processes. The
+total mass-energy of the universe is the accumulated rate of R-process
+generation integrated over cosmic history. Using M as the clock means:
+count time by counting settled questions — which is precisely the
+definition of Capital-T Time in Screen Theory, not an external imposition.
+
+We define the step number N as the relational clock variable, with
+the mass M related to N by the triangular number relation (to be
+justified below):
+
+    M = T_N = N(N+1)/2                                        (A)
+
+---
+
+THE TRIANGULAR STRUCTURE
+
+At step N, in Planck units, the universe has:
+
+- N available modes (degrees of freedom)
+- N quanta — one per mode, the space-filling condition
+- Total quanta since step 1: T_N = N(N+1)/2 = M ✓
+- State space dimension: N
+- Mass: M = N(N+1)/2
+
+The universe adds one degree of freedom per step. Each new degree
+of freedom is born occupied. The mass equals the total quantum count
+equals the triangular number of the step count.
+
+At step N, the new quanta added is exactly N — one quantum for each
+existing mode, because the arrival of a new mode excites the entire
+existing system by one quantum each. The Nth step adds N quanta,
+not one.
+
+This is the quantum harmonic oscillator ladder structure applied to
+cosmology: at level N, there are N modes and one quantum per mode.
+The total excitation number is T_N. The state space dimension — the
+number of ways to specify the system — is N.
+
+---
+
+CONSISTENCY CHECK: M = N(N+1)/2 AND RADIATION DOMINATION
+
+In radiation domination with coordinate time t (Planck units):
+- M ~ t
+- N_quanta ~ t^(3/2)
+- If N ~ t^(3/4), then T_N ~ N² ~ t^(3/2) ✓
+- And M = T_N ~ t^(3/2)... but M ~ t, not t^(3/2)
+
+There is a tension. The resolution is that the relational clock N
+and the coordinate time t are genuinely different clocks, related by
+N ~ t^(3/4). This is not a problem — in quantum gravity there is no
+preferred clock. The mass clock and the coordinate time clock run at
+different rates; the physical content is in the relationships between
+observables, not in the rate of either clock.
+
+Alternatively: the triangular structure may be exact near the Planck
+epoch where the approximations of radiation-dominated FLRW break down,
+and the t^(3/4) correction reflects the departure from exact
+triangularity in the semiclassical regime. This possibility is flagged
+for investigation.
+
+---
+
+DEGREES OF FREEDOM AS THE FUNDAMENTAL COUNT
+
+The number of quanta, the number of degrees of freedom, and the
+dimension of the state space are the same quantity in this framework:
+
+    |D(t)| = N_quanta = dim(state space) = N_dof = N (at step N)
+
+This is not a coincidence — it is the space-filling condition nλ³ ~ 1
+stated in the language of quantum statistical mechanics. When each
+mode is occupied by exactly one quantum, the mode count and the
+quantum count are identical.
+
+The universe at step N has precisely N facts to specify its state:
+one quantum number per mode, each equal to 1. The state is maximally
+simple given N degrees of freedom. Any other occupation pattern —
+some modes empty, some doubly occupied — would require more information
+to specify. The space-filling condition is the minimum-description-
+length state for a system of N modes.
+
+---
+
+THE MINIMAL STATEMENT
+
+Using mass as the relational clock:
+
+- Step 0: M = 0, zero modes, zero quanta, D = ∅
+  "Nothing exists"
+
+- Step 1: M = 1, one mode, one quantum, dim = 1
+  "Something exists"
+  One binary fact: the universe answers its first yes/no question.
+
+- Step N: M = N(N+1)/2, N modes, N quanta, dim = N
+  N facts specify the state completely.
+
+The universe grows by adding one degree of freedom at each step,
+populating it immediately with one quantum (space-filling), and
+recording one new settled question in the wholographic boundary.
+The mass is the triangular number of the step count. The step count
+is the dimension of the state space. The state space dimension is
+the number of quanta. All three are the same quantity.
+
+This is simpler than any existing quantum cosmology proposal. It
+requires no additional structure beyond the space-filling condition
+and the identification of mass as the relational clock. It produces
+a definite prediction: the relationship between mass (measured in
+Planck masses) and the number of degrees of freedom follows a
+triangular number pattern, M = N(N+1)/2, testable in principle
+against any quantum gravity model that can count modes.
+
+---
+
+CONNECTION TO GAUSS
+
+The sum 1 + 2 + 3 + ... + N = N(N+1)/2 is Gauss's formula, which
+he reportedly derived as a schoolboy by noticing that pairing the
+first and last terms gives a constant sum. In the present context:
+the universe at step N is summing up all the previous steps —
+the Nth step adds N quanta because all N modes from steps 1
+through N are now available. The universe is doing Gauss's sum
+physically, one step at a time. Each step is one mode added, and
+the running total of quanta is the running total of the step numbers:
+the triangular number.
+
+---
+
+SUGGESTED PLACEMENT
+
+This material, along with the Planck epoch calculation (Addendum 2),
+belongs in Paper III Section 9 (Discussion) as a subsection titled
+something like:
+
+"9.N From Nothing to Something: The Triangular Structure of
+Early-Universe Quantum Cosmology"
+
+It should be presented as a conjecture with the coordinate-time
+tension noted honestly. The core claim — one quantum per mode, mass
+equals triangular step number, state space grows by one dimension
+per step — is simple enough to state in two paragraphs and striking
+enough to attract attention from quantum cosmologists.
+
+The Wheeler-DeWitt connection should be cited: Page and Wootters
+(1983) for relational time; DeWitt (1967) for the original equation.
+This places the idea in the correct technical lineage without
+overclaiming.
+
+
+---
+
+ADDENDUM 4: THE COSMIC HARMONIC OSCILLATOR — FREQUENCY, TEMPERATURE,
+AND THE ADIABATIC INVARIANT
+(added 2026-03-09)
+
+---
+
+THE OSCILLATOR FREQUENCY
+
+For the cosmic harmonic oscillator at step N, with N modes each
+containing one quantum and total energy M = N(N+1)/2 in Planck units:
+
+    E_total = Nℏω    →    ω ~ M/N ~ N/2                       (B)
+
+The oscillator frequency grows as the step number N ~ √(2M), or
+equivalently ω ~ √M. As the universe gets more massive, its
+characteristic frequency increases.
+
+---
+
+THE TEMPERATURE
+
+In radiation domination, the thermal wavelength scales as
+λ ~ a ~ t^(1/2) ~ M^(1/2), so:
+
+    T_thermal ~ 1/λ ~ M^(-1/2) ~ 1/N                         (C)
+
+The temperature decreases as the universe grows, inversely as the
+step number.
+
+---
+
+THE ADIABATIC INVARIANT
+
+Multiplying (B) and (C):
+
+    ω × T_thermal ~ (N/2) × (1/N) = 1/2                      (D)
+
+**The product ωT is constant throughout the evolution, equal to 1/2
+in Planck units.**
+
+This is the adiabatic invariant of the cosmic harmonic oscillator.
+As the universe expands: it cools (T decreases as 1/N), its frequency
+drops proportionally (ω decreases as N... wait:
+
+CORRECTION: ω ~ N/2 increases while T ~ 1/N decreases, and their
+product is constant. The frequency INCREASES as the universe ages
+(more modes, higher characteristic frequency) while the temperature
+DECREASES (longer wavelengths). They track each other inversely,
+keeping ωT = 1/2.
+
+---
+
+PHYSICAL MEANING OF ωT = 1/2
+
+The condition ωT = constant is the statement that the system remains
+at the same quantum occupancy throughout its evolution. For a harmonic
+oscillator at temperature T, the mean occupation number of a mode
+of frequency ω is:
+
+    <n> = 1/(exp(ℏω/k_BT) - 1)
+
+When ℏω/k_BT = 1/2 (our result in Planck units), <n> = 1/(e^(1/2) - 1)
+≈ 1/(0.649) ≈ 1.54.
+
+The mean occupation number is of order unity — confirming nλ³ ~ 1
+from a completely different angle. The adiabatic invariant ωT = 1/2
+is exactly the condition that keeps the mean mode occupancy at order
+unity throughout cosmic evolution.
+
+The universe is a harmonic oscillator permanently tuned to sit at
+the boundary between quantum and classical behavior — one quantum per
+mode, no more, no less — because the adiabatic invariant enforces
+this at every epoch. The space-filling condition is not a property
+the universe achieves by accident; it is maintained by the adiabatic
+invariance of the cosmic oscillator.
+
+---
+
+THE TRIALITY: ω, H, T
+
+In radiation domination (Planck units, M ~ t):
+
+    ω ~ √t        (oscillator frequency, increases)
+    H ~ 1/t       (Hubble rate, decreases)
+    T ~ t^(-1/2)  (temperature, decreases)
+
+Their relationships:
+
+    ω × T ~ √t × t^(-1/2) = 1           (constant) ✓
+    ω × H ~ √t × t^(-1) = t^(-1/2) ~ T  (product = temperature)
+    T / H ~ t^(-1/2) / t^(-1) = t^(1/2) ~ ω/1  
+
+Any two of {ω, H, T} determine the third throughout radiation
+domination. They form a triality — three quantities locked together
+by the adiabatic invariant and the Friedmann equation.
+
+In Screen Theory language:
+- T is the rate at which new information is distinguishable
+  (shorter wavelength = finer resolution)
+- H is the rate at which new causal volume is becoming accessible
+- ω is the characteristic rate of R-processes in the current epoch
+
+The triality says these three rates are not independent — they are
+three aspects of the same underlying information-processing rate of
+the universe at each epoch.
+
+---
+
+QUANTUM OPTICS CONNECTION
+
+In quantum optics, a mode at the boundary between quantum and classical
+behavior — with mean occupation number of order unity — is called a
+coherent thermal state near the vacuum. It is the state where quantum
+fluctuations and thermal fluctuations are comparable: neither
+dominates. This is the most "information-rich" state per mode: a
+vacuum has zero information, a highly excited thermal state has
+classical information, and the boundary state has genuinely quantum
+information — superpositions, entanglement, measurement-dependence.
+
+The universe at every epoch is in this boundary state for its
+characteristic radiation. It is always at the quantum-classical
+boundary for its own thermal quanta. This may be the deepest
+statement of the space-filling condition: the universe maintains
+itself at maximal quantum information density per mode throughout
+its evolution.
+
+---
+
+SUMMARY OF ADDENDA 2-4
+
+The space-filling condition nλ³ ~ 1, the triangular growth structure,
+the mass clock, and the adiabatic invariant ωT = 1/2 are four
+expressions of the same underlying fact:
+
+The universe is a harmonic oscillator that begins at step N=1
+(one mode, one quantum, one Planck mass, one bit of information)
+and grows by adding one degree of freedom at each step. The
+adiabatic invariant ensures the system remains at one quantum per
+mode at every step. The mass is the triangular number of the step
+count. The oscillator frequency and temperature are inverse to each
+other and together conserve their product at 1/2 in Planck units.
+
+This structure is era-independent, requires no fine-tuning, emerges
+from two ingredients (space-filling condition + mass as relational
+clock), and is simpler than any existing quantum cosmology framework.
+
+It is a conjecture. The coordinate-time consistency check (Addendum 3)
+shows a tension with radiation-dominated FLRW at the t^(3/4) level
+that requires resolution. But the internal consistency of the
+structure — four independent derivations pointing at the same answer
+— is compelling evidence that something real is being identified.
+
+
+---
+
+ADDENDUM 5: THE FIRST FACT DETERMINES EVERYTHING
+THE ENERGY CONTENT OF THE UNIVERSE AS A DERIVED QUANTITY
+(added 2026-03-09)
+
+---
+
+THE STANDARD PROBLEM
+
+In standard cosmology, the total energy content of the observable
+universe is an initial condition — a free parameter requiring either
+external specification, inflationary explanation, or anthropic
+selection. Why 10^60 Planck masses and not 10^120 or 10^{-60}? The
+question has no answer within standard cosmology.
+
+---
+
+THE TRIANGULAR NUMBER RESOLUTION
+
+In Screen Theory with the triangular growth law, the energy content
+is not a free parameter. It is determined by three quantities, none
+of which is freely chosen:
+
+1. THE FIRST R-PROCESS: one Planck quantum of energy.
+
+At T=0: D = ∅, E = 0. Nothing exists.
+At T=1: one R-process occurs. The universe answers its first
+question — does something exist? The answer yes costs exactly one
+Planck unit of energy. This is not a choice. A sub-Planckian quantum
+is physically meaningless — below the minimum resolution of any
+physical measurement. Once something exists, it contains at least
+one Planck quantum. There is no intermediate state between nothing
+and one Planck quantum. The initial energy is fixed by the binary
+nature of the first fact.
+
+2. THE TRIANGULAR GROWTH LAW: M = N(N+1)/2
+
+Derived from the space-filling condition nλ³ ~ 1 and the mass
+relational clock (Addendum 3). At step N, the universe contains
+T_N = N(N+1)/2 Planck masses. This is not a free parameter — it
+follows from the adiabatic invariant ωT = 1/2 (Addendum 4).
+
+3. THE CURRENT STEP NUMBER N
+
+N is determined by the age of the universe:
+
+    N ~ √(2M_U) ~ √(2 × 10^60) ~ 1.4 × 10^30 Planck steps
+
+The current energy content:
+
+    M_U = T_N = N(N+1)/2 ~ N²/2 ~ 10^60 Planck masses ✓
+
+This matches the observed mass-energy of the observable universe.
+The energy content is the triangular number of the current step,
+which is itself determined by the cosmic history. No free parameters.
+
+---
+
+THE COSMOLOGICAL CONSTANT AS THE NEXT QUANTUM
+
+In the triangular picture, the cosmological constant has a natural
+interpretation. At step N, the universe is about to add step N+1:
+one new quantum in the new horizon volume. The energy density of
+this waiting quantum is:
+
+    ρ_Λ ~ m_P / r_H³ ~ m_P / (ct_U)³
+
+In Planck units with t_U ~ N²:
+
+    ρ_Λ ~ 1/N^6 ... 
+
+Hmm, let me be more careful. r_H ~ ct_U ~ N² (since M ~ N² and
+M ~ t in radiation domination, giving t ~ N² and r_H ~ t ~ N²):
+
+    ρ_Λ ~ 1/r_H³ ~ 1/N^6
+
+And ρ_P = 1 in Planck units, so:
+
+    ρ_Λ/ρ_P ~ N^{-6} ~ (10^30)^{-6} = 10^{-180}
+
+That gives 10^{-180}, not 10^{-122}. The discrepancy suggests the
+cosmological constant is not simply one quantum per horizon volume
+in this naive estimate. The correct calculation requires the full
+balance condition from Section 4. This is flagged for resolution.
+
+The qualitative point stands: in the triangular picture, Λ
+corresponds to the energy increment of the next step, not to vacuum
+fluctuations. Its small value reflects the large size of the current
+step, not a catastrophic fine-tuning. The 120-order-of-magnitude
+discrepancy is not present in this framework; the discrepancy between
+the naive estimate above (10^{-180}) and the observed value (10^{-122})
+is a factor of 10^{58} that requires a more careful geometric
+treatment.
+
+---
+
+THE PHILOSOPHICAL CONTENT
+
+The energy content of the universe is determined at the first R-process.
+Not approximately. Not as a parameter to be tuned. The first fact —
+something exists rather than nothing — has exactly one energy value:
+one Planck quantum. Sub-Planckian energies are not physical. The
+only alternative to one Planck quantum is zero, which is nothing,
+which is T=0.
+
+Once you have one quantum, the triangular growth law determines
+every subsequent step. The mass of the universe today is the
+triangular number of the current cosmic step, which is the
+triangular number of √(2M_U) — a self-referential equation with
+a unique solution. The universe's energy content is the fixed point
+of this equation, not a free parameter.
+
+This is the Screen Theory answer to "why is there something rather
+than nothing, and why that much?"
+
+The answer to the first part: because the empty set is not stable
+under R-processes. D = ∅ is the initial object in WDS, the universal
+lower bound, but it is not an absorbing state. The first R-process
+is inevitable once the structure of logic permits it — and the
+Conundrum Cosmology (Paper III Section 3) establishes that the
+chaos-to-inflation transition makes the first R-process inevitable.
+
+The answer to the second part: because once you have one quantum,
+you have no choice about how much you will eventually have. The
+triangular growth law is the only consistent growth law compatible
+with the space-filling condition and the adiabatic invariant. The
+current energy content follows from running that law forward from
+T=1 to today.
+
+The universe had no freedom about how much energy to contain. It
+had only the freedom to begin or not begin. And once it began, the
+rest was arithmetic.
+
+---
+
+DIRAC LARGE NUMBERS, PLANCK, MANDELBROT, AND DARK ENERGY
+(to be written as a combined section — flagged here)
+
+The following topics are flagged for the combined write-up:
+
+1. THE DIRAC LARGE NUMBERS
+   10^61, 10^122, 10^183, 10^244 are the 1st through 4th powers of
+   the fundamental ratio r_H/ℓ_P = t_U/t_P ~ 8 × 10^60. These are
+   holographic counts in 1D, 2D, 3D, 4D. The vacuum energy
+   discrepancy 10^{-122} = (ℓ_P/r_H)² is the inverse 2D count —
+   the holographic capacity of the universe inverted. Not a
+   fine-tuning problem; a geometric identity.
+   
+   Near-miss: ln(t_U/t_P) ≈ 140.2 ≈ α^{-1} = 137.036 (2.3% off).
+   Worth investigating whether α^{-1} at the Planck scale (where
+   running stops) equals ln(t_U/t_P) exactly. Flagged as open
+   question; not claiming a result.
+
+2. PLANCK'S HARMONIC OSCILLATORS
+   Planck solved the ultraviolet catastrophe by quantizing harmonic
+   oscillators. The space-filling condition nλ³ ~ 1 is the
+   cosmological version of the same cure: the universe sits at
+   ℏω ~ kT (one quantum per mode) at every epoch, preventing the
+   cosmological analog of the ultraviolet catastrophe (a universe
+   wildly over- or under-dense in quanta). Planck's quantization
+   and Screen Theory's space-filling condition are the same
+   principle at different scales.
+
+3. BLACK HOLES AS MANDELBROT COPIES
+   A black hole satisfies the same equations as the universe with
+   r_S replacing r_H and M_BH replacing M_U. The Schwarzschild
+   metric IS the metric of Paper II. The Bekenstein-Hawking entropy
+   uses the same 4ℓ_P² per nat. The Hawking temperature places
+   λ_Hawking ~ r_S — the same space-filling condition at the black
+   hole scale. Black holes are self-similar copies of the universe
+   at smaller scales, embedded within it: the Mandelbrot structure
+   of Screen Theory.
+
+4. DARK ENERGY AS THE BUCKET GROWING
+   The sloshing/bucket metaphor: the universe is both the water
+   (energy content, the sloshing) and the bucket (spacetime, the
+   container). At Ω=1, bucket and slosh grow together — each new
+   degree of freedom exactly fills its new volume. Dark energy is
+   the regime where the bucket grows faster than the slosh: the
+   geometric accommodation rate exceeds the information generation
+   rate (B < 1 in Section 4 language). The expansion accelerates
+   because spacetime is being created faster than R-processes can
+   fill it with settled questions. The universe is not being pushed
+   apart by dark energy; it is outgrowing its own information
+   content.
+
+
+---
+
+ADDENDUM 6: CORRECTIONS AND THE RESOLUTION OF THE t^{3/4} TENSION
+(2026-03-09)
+
+---
+
+THREE CORRECTIONS TO ADDENDA 2-5
+
+CORRECTION 1: FIFTH LENGTH SCALE AT T=1
+
+The Schwarzschild radius r_S = 2GM/c² = 2ℓ_P (in Planck units,
+for M = one Planck mass). All five fundamental length scales
+coincide at T=1:
+
+- Thermal wavelength:     λ ~ ℓ_P
+- Hubble radius:          r_H ~ ℓ_P
+- Compton wavelength:     λ_C ~ ℓ_P
+- Mean quantum spacing:   n^{-1/3} ~ ℓ_P
+- Schwarzschild radius:   r_S = 2ℓ_P (same order)
+
+The Planck epoch is the unique moment when all five coincide.
+
+
+CORRECTION 2: INITIAL AREA IS EXACTLY 4ℓ_P²
+
+From Bekenstein: one nat of information requires exactly 4ℓ_P²
+of boundary area. The initial state has exactly one nat of
+information, so:
+
+    A_initial = 4ℓ_P²  (exact, not approximate)
+    Holographic capacity = A/4ℓ_P² = 1 nat  (exact)
+
+The earlier statement "A ~ ℓ_P², capacity ~ 1/4 nat" was
+internally inconsistent. The correct statement: initial area
+is exactly 4ℓ_P², storing exactly 1 nat.
+
+
+CORRECTION 3: MASS IS THE RATE, NOT THE ACCUMULATED TOTAL
+
+Previous phrasing stated: "the total mass-energy of the universe
+is the accumulated rate of R-process generation integrated over
+cosmic history."
+
+This is wrong. The correct attribution:
+
+    M = dC/dT    (mass is the RATE of information generation)
+    C = ∫M dT    (information content is the accumulated integral)
+    C ~ A/4ℓ_P²  (information content = holographic area, Bekenstein)
+
+Mass is to information content as velocity is to distance.
+Mass is the rate; information content is the accumulated total.
+
+Capital-T Time increment: dT = dC/M = dA/(4ℓ_P² M)
+
+---
+
+RESOLUTION OF THE t^{3/4} TENSION
+
+The tension arose from incorrectly identifying the triangular
+number with the mass. The correct identification:
+
+    N(N+1)/2 = C  (information content, not mass)
+    M = N          (mass = step number)
+
+These are different quantities. In radiation domination:
+
+    N ~ t   (step number grows linearly)
+    M = N ~ t   (mass grows linearly ✓)
+    C = N(N+1)/2 ~ N²/2 ~ t²/2   (information grows as t² ✓)
+    A = 4ℓ_P² C ~ t²   (holographic area grows as t² ✓, since r_H ~ t)
+
+Check: M = dC/dT. With C ~ N²/2 and T ~ N (Capital-T Time
+equals step number in radiation domination):
+    dC/dT = dC/dN = N = M ✓
+
+The tension dissolves completely. It existed because we tried
+to make N(N+1)/2 equal to M. It equals C. The triangular
+number is the information content; the mass is the step number.
+
+---
+
+THE CLEAN PICTURE
+
+At step N (= Capital-T Time T, in radiation domination):
+
+    Mass:                M = N          (rate of information generation)
+    Information content: C = N(N+1)/2  (accumulated holographic area)
+    Holographic area:    A = 4ℓ_P² × N(N+1)/2
+    State space dim:     N              (one mode per step)
+    Quanta per step:     N              (one per existing mode)
+
+Capital-T Time = step number = mass (in Planck units, radiation era).
+These are the same clock.
+
+Information content is the triangular number of the mass:
+    C = M(M+1)/2
+
+For large M: C ~ M²/2, so M ~ √(2C). Mass is the square root
+of the information content. The holographic area scales as M².
+
+---
+
+IMPLICATION FOR THE INITIAL STATE
+
+At T = 1 (step 1):
+    M = 1 Planck mass
+    C = 1(2)/2 = 1 nat  (exactly)
+    A = 4ℓ_P²           (exactly)
+    r_S = 2ℓ_P          (Schwarzschild radius)
+    Holographic capacity = 1 nat (exactly)
+
+One fact, one nat, one Planck mass, one Schwarzschild radius
+worth of area, exact holographic saturation. No approximations.
+
+
+---
+
+ADDENDUM 7: THE SMALL INTEGER UNIVERSE — TIMESTEPS 1 THROUGH 5
+(2026-03-09)
+
+---
+
+QUANTITIES AT EACH STEP
+
+Using: M = N, C = N(N+1)/2, A = 4ℓ_P² × C, r_S = 2Nℓ_P, r_H ~ Nℓ_P
+
+| Step N | Mass M | Info C (nats) | Area A | r_S | r_H | C capacity |
+|--------|--------|---------------|--------|-----|-----|------------|
+| 1 | 1 m_P | 1 | 4ℓ_P² | 2ℓ_P | ~ℓ_P | 1 nat |
+| 2 | 2 m_P | 3 | 12ℓ_P² | 4ℓ_P | ~2ℓ_P | 3 nats |
+| 3 | 3 m_P | 6 | 24ℓ_P² | 6ℓ_P | ~3ℓ_P | 6 nats |
+| 4 | 4 m_P | 10 | 40ℓ_P² | 8ℓ_P | ~4ℓ_P | 10 nats |
+| 5 | 5 m_P | 15 | 60ℓ_P² | 10ℓ_P | ~5ℓ_P | 15 nats |
+
+Note: r_S = 2r_H at every step. The universe is always marginally
+a black hole — Ω=1 expressed geometrically. The Schwarzschild
+radius always equals twice the Hubble radius. This is not a
+coincidence: it is the flatness condition r_S ~ r_H restated
+in small-integer language.
+
+---
+
+STEP 1: THE FIRST FACT
+
+M=1, C=1, A=4ℓ_P², r_S=2ℓ_P
+
+One fact in the ledger. No implication relations possible yet —
+you need at least two facts to have an arrow between them.
+No time, no space, no direction. Just: something exists.
+
+Logical structure: a single node. No edges.
+
+---
+
+STEP 2: THE FIRST RELATION
+
+M=2, C=3, A=12ℓ_P², r_S=4ℓ_P
+
+Two facts: A (from step 1) and B (new). Three nats total.
+One relation between them — exactly one of:
+
+CASE 1 — TIME-LIKE: A → B (B implied by A, not vice versa).
+The first arrow of time. Before and after. A causal direction
+exists. This is the generic case.
+
+CASE 2 — SPACE-LIKE: A and B are independent. No implication
+either way. No ordering possible. The first spatial separation.
+Two facts that simply coexist without one causing the other.
+
+CASE 3 — SIMULTANEOUS: A ↔ B (mutual implication). They are
+logically equivalent — possibly the same fact stated twice,
+or two descriptions of the same event. On the same light cone.
+
+CASE 4 — CONTRADICTORY: A and B together imply the void.
+Both cannot be in the same ledger. They belong to different
+universes. This branch terminates.
+
+Step 2 is when the universe first acquires structure. Before
+step 2 there is only existence. At step 2 there is existence
+plus relation.
+
+---
+
+STEP 3: THE FIRST FORK — SPACE BECOMES POSSIBLE
+
+M=3, C=6, A=24ℓ_P², r_S=6ℓ_P
+
+Three facts: A, B, C. Six nats.
+
+The first genuinely new structure: a FORK.
+A → B and A → C, where B and C are mutually independent.
+B and C share a common antecedent (A) but do not imply each other.
+
+This is the first space-like separation with a common cause —
+the first causal fork. In geometry: A is a point, B and C are
+two points in its future that are space-like separated from
+each other. The minimum structure needed to define a spatial
+direction is now present.
+
+Also at step 3: three non-collinear points define a plane.
+2D spatial structure first becomes possible.
+
+The first CLOSED TRIANGLE of implications would require
+A→B, B→C, C→A — but this collapses to mutual implication
+(all three equivalent). No genuine closed causal loops.
+Causal consistency excludes them automatically.
+
+---
+
+STEP 4: THE FIRST CAUSAL DIAMOND — SPACETIME BECOMES POSSIBLE
+
+M=4, C=10, A=40ℓ_P², r_S=8ℓ_P
+
+Four facts. Ten nats.
+
+The first CAUSAL DIAMOND:
+A → B, A → C, B → D, C → D
+where B and C are space-like separated.
+
+This is the fundamental structure of relativistic causality:
+a common past (A), two space-like separated intermediaries
+(B, C), and a common future (D). The diamond is the minimal
+structure in which the question "did B cause D through C,
+or did C cause D through B?" is meaningful but unanswerable —
+both paths are valid, and the question has no invariant answer.
+This is the causal structure of interference.
+
+Also: four non-coplanar points define a 3D space.
+3D spatial structure first becomes possible at step 4.
+
+The wholographic screen at step 4 must encode both B and C
+on a 2D boundary visible from both A (past) and D (future).
+The jointly epic condition for the diamond: B and C together
+determine D; neither alone is sufficient. The screen is the
+2D surface separating {A,B,C} from {D}.
+
+---
+
+STEP 5: FOUR DIMENSIONS — SPACETIME COMPLETE
+
+M=5, C=15, A=60ℓ_P², r_S=10ℓ_P
+
+Five facts. Fifteen nats.
+
+Five points in general position span 4D.
+Full spacetime dimensionality first becomes possible at step 5.
+
+More precisely: step 5 is the first step at which you can have
+four mutually space-like facts (B, C, D, E) all sharing a
+common antecedent A. Four space-like directions from a single
+point — the first moment at which 3+1 dimensional spacetime
+structure is geometrically realizable.
+
+This may be why spacetime is 4-dimensional: it is the minimum
+dimensionality that first becomes available at step 5, which
+is also the first step at which the causal diamond structure
+(step 4) can be embedded in a space with one additional
+time-like direction. The universe reaches 4D not by assumption
+but because 4D is what step 5 naturally provides.
+
+This is a conjecture, not a theorem. But the chain:
+step 1 (existence) → step 2 (relation) → step 3 (space) →
+step 4 (causal diamond / interference) → step 5 (4D spacetime)
+is suggestive of a derivation waiting to be made rigorous.
+
+---
+
+THE PERSISTENT RATIO r_S = 2r_H
+
+At every step: r_S = 2Nℓ_P and r_H ~ Nℓ_P, so r_S/r_H ~ 2.
+
+The universe is always marginally a black hole. The Schwarzschild
+radius always exceeds the Hubble radius by a factor of order 2.
+This is Ω = 1 — the critical density condition — expressed as
+a geometric ratio that holds from step 1 onward.
+
+At step 1: r_S = 2ℓ_P, r_H ~ ℓ_P. The universe begins as
+a black hole of the minimum possible size.
+
+As N grows: both r_S and r_H grow as N, maintaining the ratio.
+The universe remains at the black-hole boundary — never
+collapsing (r_S not growing faster than r_H) and never
+freely expanding (r_H not growing faster than r_S).
+
+This is the triangular growth law enforcing Ω=1 from the
+very first step. The flatness condition is not fine-tuned —
+it is built into the structure of the small-integer universe
+from T=1 onward.
+
+
+---
+
+ADDENDUM 8: EVENTS, CONUNDRUMS, AND THE ARRIVAL OF QUANTUM MECHANICS
+(2026-03-09)
+
+---
+
+THE CONUNDRUM IS FOUR FACTS. THE EVENT IS FIVE.
+
+In the defect hierarchy of the Conundrum Cosmology (Paper III
+Section 3), four 4D domains meeting at a point is a 0D conundrum
+— a maximally irreducible open question where four incompatible
+information regimes collide simultaneously.
+
+The conundrum is not a contradiction. It is four things that
+cannot all be true according to any single domain's rules —
+but which ARE all instantiated in physical reality. Otherwise
+they would not be there. The incompatibility is apparent, not
+fundamental. Reality is ahead of the rules.
+
+The 5th domain arriving is the R-process. The event. The Sword
+of Alexander cutting the Gordian Knot — not by following the
+rules of untying, but by transcending them. The resolution is
+not derived from any single domain's logic. It synthesizes
+all four into a new fifth domain whose rules contain the others
+as limiting cases.
+
+In the small-integer universe:
+- 4 facts = conundrum = open question = wavefunction before
+  measurement. Four incompatible antecedents, no consistent
+  resolution yet available.
+- 5th fact = R-process = published result = collapse.
+  The event. One nat added to the ledger.
+- 5 facts together = complete event in the causal set =
+  one vertex in the Feynman diagram.
+
+---
+
+THE FEYNMAN DIAGRAM CONNECTION
+
+In the generic hypertriangulation of 4D spacetime, each node
+has 5 edges — the natural valency requiring no conspiracy.
+A Feynman vertex has legs summing to 5 in the same generic
+sense: 4 worldlines in, 1 out (or any partition summing to 5).
+
+The Feynman rules are the combinatorics of conundrum resolution:
+- Worldlines are the trajectories of domains through spacetime
+- Vertices are the events where 4 domains meet and a 5th resolves
+- Amplitudes are the ways the resolution can proceed
+
+Quantum mechanics is the calculus of conundrum resolution. The
+sum over histories is the sum over all possible 5th facts
+consistent with the four antecedent domains. The Born rule
+gives the probability of each resolution. The wavefunction
+is the superposition of possible resolutions before the
+R-process selects one.
+
+---
+
+THE RESOLUTION DISSOLVES THE OLD BOUNDARIES
+
+After the event, the 5th domain begins spreading. Its rules
+synthesize the four prior domains — it contains them as
+special cases or limiting approximations. The old boundaries
+between the four domains begin to dissolve as the new domain
+expands.
+
+This is domain growth after a phase transition. The new domain
+is informationally hotter in some directions (it has resolved
+the conundrum) and cooler in others (the question is settled,
+no longer generating heat). The boundary between old and new
+is a 3D wall in 4D spacetime — a temporal domain wall spreading
+at c.
+
+Historically: the conundrum of classical mechanics + thermodynamics
++ electromagnetism + gravity was resolved by quantum mechanics.
+Four incompatible domains, each internally consistent, each
+physically real, each instantiated. The 5th domain — quantum
+field theory, or eventually a theory of quantum gravity — is
+the R-process event that synthesizes them. We are living inside
+the spreading domain wall of that resolution.
+
+---
+
+THE DEEP POINT
+
+"We know that at some level they are all true, otherwise they
+wouldn't be instantiated in physical reality."
+
+This is the Screen Theory epistemology in one sentence. Physical
+instantiation is the proof of consistency. If four apparently
+incompatible things are all physically real, the incompatibility
+is a failure of our rules, not a failure of reality. Reality
+is the consistency check. The conundrum is the signal that our
+ruleset is incomplete, not that nature is contradictory.
+
+The R-process event is nature's way of showing us the missing
+rule — the 5th fact that makes all four compatible. We didn't
+derive it from first principles. It arrived from outside the
+existing logical structure. That is why it feels like it came
+from nowhere. It came from the next domain, which our current
+rules cannot see until the event occurs.
+
+This is also why fundamental physics progresses by apparent
+miracles: Maxwell's equations, special relativity, quantum
+mechanics, each arrived as a resolution of a conundrum that
+the previous framework could not solve from within itself.
+Each was a 5th fact synthesizing four incompatible antecedents.
+
+---
+
+CAUSAL SET MAPPING
+
+The causal set program (Bombelli, Lee, Meyer, Sorkin 1987)
+replaces spacetime with a partially ordered set of events.
+The Screen Theory mapping:
+
+- Causal set element = R-process event = 5-fact conundrum
+  resolution
+- Causal relation (x ≤ y) = logical implication (x → y)
+  = one domain's facts are antecedents of another's
+- Sprinkling density = R-process rate = 2πMc²/ℏ per unit
+  proper time per unit mass
+- Lorentz invariance = invariance of the implication structure
+  under relabeling of domain boundaries
+- Continuum approximation = the regime where 𝒩 >> 1 and
+  individual events are too fine to resolve
+
+What Screen Theory adds to causal sets: the wholographic
+mechanism. The causal set tells you which events are related.
+The wholographic principle tells you HOW the information about
+those relations is encoded — on the boundary, bidirectionally,
+via the jointly epic condition. Causal sets have the right
+skeleton; Screen Theory provides the flesh.
+
