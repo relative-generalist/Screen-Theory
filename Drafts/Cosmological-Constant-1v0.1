@@ -1,0 +1,306 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\usepackage{hyperref}
+\geometry{margin=1in}
+
+\title{A Parameter-Free Estimate of the Cosmological Constant\\
+from the Geometric Mean of the Planck Length and Hubble Radius}
+
+\author{Paul A.~I.~Reilly\\
+\small Independent researcher, Pittsburgh, PA\\
+\small \texttt{relative-generalist@gmail.com}}
+
+\date{March 2026 \\ \small [Preprint --- comments welcome]}
+
+\begin{document}
+
+\maketitle
+
+%% ============================================================
+\begin{abstract}
+%% ============================================================
+
+We observe that the geometric mean of the Planck length $\ell_P$
+and the particle horizon $r_H$,
+$$\lambda_* = \sqrt{\ell_P \, r_H} \approx 0.084~\text{mm},$$
+yields a natural mass density $\rho_* \equiv \hbar c/\lambda_*^4 c^2$
+--- one quantum of action per hypercube of side $\lambda_*$,
+converted to equivalent mass density by $c^2$ following standard
+cosmological convention ---
+that agrees with the observed cosmological constant mass density
+$\rho_\Lambda \approx 6 \times 10^{-27}$~kg/m$^3$ to within 15\%,
+with no free parameters.
+The same scale reproduces the observed $10^{122}$ suppression
+of $\rho_\Lambda$ relative to the naive quantum field theory
+vacuum mass density $\hbar c / \ell_P^4 c^2$ as the exact ratio
+$(\ell_P / r_H)^2$, again with no free parameters.
+We also offer a speculative physical mechanism, developed in the
+context of a broader research programme, in which this scale
+arises naturally as the characteristic spacing of vacuum
+information threads anchored at the cosmic horizon.
+We present the numerical coincidence as warranting attention from
+the quantum gravity community independent of whether the proposed
+mechanism is correct.
+
+\end{abstract}
+
+%% ============================================================
+\section{The Coincidence}
+%% ============================================================
+
+The cosmological constant problem has two aspects.
+The first is a coincidence problem: why is the observed dark
+energy density $\rho_\Lambda$ of the same order as the present
+matter density $\rho_m$, given that the two evolve differently
+with cosmic expansion?
+The second, and more severe, is the magnitude problem: why is
+$\rho_\Lambda$ suppressed by approximately $10^{122}$ relative
+to the naive vacuum mass density $\rho_\text{QFT} \sim \hbar c/\ell_P^4 c^2$
+obtained by integrating zero-point fluctuations to the Planck scale?
+
+We do not address the first problem here; it will be taken up
+in a companion paper on cosmology \cite{ReillyCosmo}.
+We address the second by identifying a natural length scale
+that gives the correct magnitude with no free parameters.
+
+Throughout this paper we follow the standard cosmological convention
+of expressing energy densities as equivalent mass densities
+via $\rho = u/c^2$, so that all densities carry units of kg/m$^3$.
+
+Define
+\begin{equation}
+  \lambda_* \equiv \sqrt{\ell_P \, r_H},
+  \label{eq:lambda}
+\end{equation}
+where $\ell_P = \sqrt{G\hbar/c^3} \approx 1.616 \times 10^{-35}$~m
+is the Planck length and $r_H = 2c/H_0$ is the particle horizon,
+with $H_0 \approx 67.4$~km/s/Mpc giving
+$r_H \approx 4.4 \times 10^{26}$~m.
+The particle horizon is the boundary of causal contact --- the
+surface beyond which no signal has ever reached a given observer
+--- and is the natural scale for any picture in which the
+large-scale structure of spacetime is set by causal information
+exchange across the full observable universe.
+
+Numerically,
+$$\lambda_* = \sqrt{1.616\times10^{-35} \times 4.4\times10^{26}}
+            \approx 8.4\times10^{-5}~\text{m}
+            \approx 0.084~\text{mm.}$$
+This is an unremarkable length by everyday standards ---
+roughly the diameter of a human hair --- but it is the unique
+scale that is the geometric mean of the two extreme scales of
+known physics.
+It is also the unique fixed point of the conformal inversion
+$r \mapsto r_H^2/r$ that exchanges the Planck scale and the
+particle horizon; its role as such a fixed point is developed
+in a companion paper.
+
+%% ============================================================
+\section{The Mass Density Calculation}
+%% ============================================================
+
+The natural energy density associated with a length scale $\lambda$
+is $\hbar c/\lambda^4$ --- one quantum of action per volume
+$\lambda^3$, with $\lambda = c\tau$ for the corresponding time.
+Dividing by $c^2$ to convert to equivalent mass density and
+evaluating at $\lambda_*$:
+
+\begin{equation}
+  \rho_* \equiv \frac{\hbar c}{\lambda_*^4 c^2}
+         = \frac{\hbar}{c\,(\ell_P r_H)^2}.
+  \label{eq:rho}
+\end{equation}
+
+Substituting numerically:
+$$\rho_*
+  = \frac{(1.055\times10^{-34}~\text{J\,s})}
+         {(3\times10^8~\text{m/s})
+          (8.4\times10^{-5}~\text{m})^4}
+  = \frac{1.055\times10^{-34}}{1.498\times10^{-8}}
+  \approx 7\times10^{-27}~\text{kg/m}^3.$$
+
+The observed value from Planck 2018 \cite{Planck2018} is:
+\begin{equation}
+  \rho_\Lambda = \frac{\Lambda c^2}{8\pi G}
+              \approx 6\times10^{-27}~\text{kg/m}^3.
+  \label{eq:rho-observed}
+\end{equation}
+
+The agreement is within 15\%.
+There are no free parameters: $\lambda_*$ is constructed from
+$G$, $\hbar$, $c$, and $H_0$ alone.
+
+%% ============================================================
+\section{The $10^{122}$ Suppression}
+%% ============================================================
+
+The naive QFT mass density $\rho_\text{QFT} \sim \hbar c/\ell_P^4 c^2$
+exceeds the observed value by $\sim 10^{122}$.
+The ratio of the observed value to this estimate is:
+
+\begin{equation}
+  \frac{\rho_\Lambda}{\rho_\text{QFT}}
+  \approx \frac{\hbar c/\lambda_*^4}{\hbar c/\ell_P^4}
+  = \frac{\ell_P^4}{\lambda_*^4}
+  = \left(\frac{\ell_P}{\lambda_*}\right)^4
+  = \left(\frac{\ell_P}{\sqrt{\ell_P r_H}}\right)^4
+  = \left(\frac{\ell_P}{r_H}\right)^2.
+  \label{eq:suppression}
+\end{equation}
+
+Numerically:
+$$\left(\frac{\ell_P}{r_H}\right)^2
+  = \left(\frac{1.616\times10^{-35}}{4.4\times10^{26}}\right)^2
+  \approx \left(3.7\times10^{-62}\right)^2
+  \approx 1.4\times10^{-122}.$$
+
+The $10^{122}$ suppression emerges as the square of the ratio
+of the Planck length to the particle horizon.
+It is not a cancellation between large numbers and requires
+no fine-tuning: it follows from using $\lambda_*$ rather than
+$\ell_P$ as the physically relevant scale.
+
+%% ============================================================
+\section{Relation to Prior Work}
+%% ============================================================
+
+Padmanabhan \cite{Padmanabhan2005} made the core observation
+that the observed dark energy density is close to the geometric
+mean of the UV density $\hbar c/\ell_P^4$ and the IR density
+$\hbar c/r_H^4$, obtaining $\rho_\text{vac} \simeq \sqrt{\rho_{UV}\rho_{IR}}$
+--- which is equivalent to our $\hbar c/\lambda_*^4$ --- via a
+vacuum fluctuation bootstrapping argument.
+His observation was correct and deserves more attention than it
+has received.
+Cohen, Kaplan, and Nelson \cite{Cohen1999} derived a related UV/IR
+connection from holographic arguments; Li \cite{Li2004} used the
+Hubble radius directly as a holographic dark energy scale.
+
+The present note adds three things to this body of work.
+First, the geometric identification: $\lambda_*$ is the unique
+fixed point of the conformal inversion $r \mapsto r_H^2/r$,
+giving the geometric mean a precise invariance interpretation
+rather than merely a numerical one.
+Second, the suppression formula~\eqref{eq:suppression} states
+the $10^{122}$ result as an exact algebraic chain with no
+residual factors.
+Third, and most speculatively, we offer a candidate physical
+mechanism in the following section.
+
+%% ============================================================
+\section{A Candidate Physical Mechanism}
+%% ============================================================
+
+We offer a speculative physical reason why $\lambda_*$ rather
+than $\ell_P$ is the correct scale, drawn from a broader
+research programme (Screen Theory, papers in preparation
+\cite{ReillyPaperI, ReillyCosmo}).
+
+In that framework the quantum vacuum is modeled as a fabric of
+information threads anchored at the cosmic horizon.
+The natural thread tension is $\hbar c/\lambda^2$ --- one quantum
+of action per characteristic area --- and the natural anchor
+spacing at the horizon is $\lambda_*$, the unique scale invariant
+under conformal inversion and hence the geometric mean of the
+two scales bounding known physics.
+The resulting mass density is
+$\hbar c / \lambda_*^4 c^2$,
+reproducing the calculation of Section~2.
+
+In this picture the $10^{122}$ suppression has a physical
+explanation: sub-quantum processes --- physical processes below
+the threshold of an irreversible quantum event --- carry existing
+information but generate no new information.
+They therefore require no new geometric area and contribute
+zero to $\Lambda$.
+Only horizon-anchored threads at scale $\lambda_*$, which do
+generate new irreversible information, source the cosmological
+constant.
+The correct physical scale is $\lambda_*$, not $\ell_P$, because
+$\ell_P$ is the scale of sub-quantum vacuum structure that does
+not gravitate in this way.
+
+This mechanism offers a further distinction from
+Padmanabhan's fluctuation approach: the negative pressure
+$w = -1$ characteristic of dark energy emerges naturally
+from the tension of a membrane or thread fabric under stress,
+without additionally identifying the energy density with a
+cosmological constant by hand.
+A fabric of threads anchored at the horizon resists contraction;
+from the interior this manifests as accelerated expansion with
+$w = -1$ to leading order, with corrections of order
+$\lambda_*/r_H \sim 10^{-31}$ at the present epoch.
+
+We emphasise that this mechanism is speculative.
+The thread fabric picture has not been derived from first
+principles in the present note; that derivation is the subject
+of the companion papers.
+We include it here because it provides a physical reason for the
+otherwise mysterious appearance of $\lambda_*$, and because we
+believe the cosmological constant problem is unlikely to be
+resolved by dimensional analysis alone.
+
+%% ============================================================
+\section{Conclusion}
+%% ============================================================
+
+We came across this coincidence while working on a different
+problem and found it too striking to leave unpublished.
+The numerical observation --- that $\hbar c/\lambda_*^4 c^2$
+with $\lambda_* = \sqrt{\ell_P r_H}$ reproduces the observed
+cosmological constant mass density to 15\% with no free
+parameters, and that the $10^{122}$ suppression follows as
+$(\ell_P/r_H)^2$ --- is not new: Padmanabhan identified the
+essential geometric mean in 2004 \cite{Padmanabhan2005}.
+His observation was correct and has not yet received the
+explanation it warrants.
+We hope this note, by adding a geometric invariance
+interpretation, a clean suppression formula, and a candidate
+physical mechanism, helps attract the attention the problem
+deserves.
+
+\medskip
+\noindent\textbf{Acknowledgements.}
+The author thanks Bob Carlitz for valuable discussions
+and Finula McCaul for productive conversations, including
+the thread tension picture that informs Section~5.
+
+%% ============================================================
+\begin{thebibliography}{99}
+%% ============================================================
+
+\bibitem{Planck2018}
+  Planck Collaboration (2020).
+  Planck 2018 results.\ VI\@. Cosmological parameters.
+  \textit{Astronomy \& Astrophysics}, 641, A6.
+
+\bibitem{Cohen1999}
+  Cohen, A.~G., Kaplan, D.~B., and Nelson, A.~E.\ (1999).
+  Effective field theory, black holes, and the cosmological constant.
+  \textit{Physical Review Letters}, 82(25), 4971--4974.
+
+\bibitem{Padmanabhan2005}
+  Padmanabhan, T.\ (2005).
+  Vacuum fluctuations of energy density can lead to the observed
+  cosmological constant.
+  \textit{Brazilian Journal of Physics}, 35(2A), 362--368.
+  [arXiv:hep-th/0406060]
+
+\bibitem{Li2004}
+  Li, M.\ (2004).
+  A model of holographic dark energy.
+  \textit{Physics Letters B}, 603(1--2), 1--5.
+
+\bibitem{ReillyPaperI}
+  Reilly, P.~A.~I.\ (in preparation).
+  On the nature of mass: complexity generation and spacetime curvature.
+
+\bibitem{ReillyCosmo}
+  Reilly, P.~A.~I.\ (in preparation).
+  Screen Theory cosmology: information balance and the
+  cosmological constant.
+
+\end{thebibliography}
+
+\end{document}
