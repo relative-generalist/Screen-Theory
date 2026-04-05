@@ -1,0 +1,240 @@
+```latex
+\documentclass[12pt]{article}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\usepackage{hyperref}
+\geometry{margin=1in}
+
+\title{On the Nature of Mass II:\\
+Local Constraint Generation and the Einstein Equations}
+\author{Paul A. I. Reilly}
+\date{[Revised Draft]}
+
+\begin{document}
+
+\maketitle
+
+% ============================================================
+\begin{abstract}
+% ============================================================
+
+We show that a local information-theoretic hypothesis, 
+in which mass density is proportional to the 
+rate of information generation, is consistent with the null–null 
+components of Einstein’s field equations for vacuum and pressureless dust. 
+The central quantity is $J$, the local rate density of
+irreversible information generation, defined in terms of the
+log-likelihood of physical histories.
+
+Infinitesimal causal diamonds serve as covariant probes relating
+null-boundary area change to bulk information production.
+In regions where $J$ is negligible (vacuum), null-boundary area is
+conserved at leading order, implying $R_{\mu\nu}=0$.
+Where $J>0$, area growth along null congruences leads via the
+Raychaudhuri equation to $R_{\mu\nu}k^\mu k^\nu = 4G J$.
+
+For pressureless dust, substituting $J = 2\pi \rho / \hbar$
+yields the null--null Einstein equation. Lovelock's theorem
+extends this to the full field equations.
+
+In this framework, spacetime curvature may be interpreted as the
+geometric accommodation required by the local generation of
+irreversible information: massive regions correspond to regions
+where improbability is generated most rapidly.
+
+\end{abstract}
+
+% ============================================================
+\section{Introduction}
+% ============================================================
+
+\subsection{Information as Constraint Accumulation}
+
+We define the information content of a realized physical history as
+\begin{equation}
+C = -\log P[\text{history}],
+\end{equation}
+where $P[\text{history}]$ is the probability measure over
+allowed trajectories induced by the underlying dynamics.
+
+This definition admits a direct physical interpretation:
+irreversible processes generate \emph{constraints} on future
+evolution. Once an event has occurred, future trajectories must
+remain consistent with it.
+
+For example, the outcome of the 1975 season championship game
+won by the Pittsburgh Steelers was highly uncertain beforehand,
+but once realized, it became a fixed historical fact.
+No future evolution of the universe can contain a region in which
+that outcome is contradicted. The event reduces the set of
+consistent future trajectories and thereby increases $C$.
+Similarly, whether a photon detector on the transmission arm of a 
+beam splitter fires during a given time interval is a 
+historical fact that must be consistent 
+with its past and constrains all future evolution.
+
+In this sense, information refers specifically to
+\emph{historical information}: facts about realized events that
+constrain future evolution.
+
+\subsection{Local Information Generation}
+
+We define the local rate density of information generation as
+\begin{equation}
+J = \frac{dC}{d\tau\, dV}.
+\end{equation}
+
+Physically, $J$ measures the rate at which the set of allowed
+future trajectories is reduced per unit proper volume and
+proper time.
+
+This includes:
+\begin{itemize}
+\item quantum measurement outcomes,
+\item classical chaotic evolution,
+\item macroscopic events.
+\end{itemize}
+
+\subsection{Information and Null Boundaries}
+
+Information generated in a spacetime region may be interpreted as
+being encoded on its null boundaries.
+
+Rather than counting distinct histories, the relevant quantity is
+a \emph{probability-weighted measure} over distinguishable
+histories intersecting the boundary. The boundary area thus reflects
+the total information content required to distinguish among allowed
+histories, not merely their number.
+
+This provides a local, dynamical interpretation of the
+information--area relation.
+
+% ============================================================
+\section{Vacuum Case}
+% ============================================================
+
+\subsection{Approximate Area Conservation}
+
+In regions where $J$ is negligible compared to matter-dominated
+regions, the production of new information is extremely small.
+To leading order, the null-boundary area of infinitesimal causal
+diamonds is conserved:
+\begin{equation}
+\frac{dA}{d\lambda} \approx 0,
+\quad
+\theta \approx 0.
+\end{equation}
+
+Corrections may exist (e.g.\ from vacuum structure or a
+cosmological constant), but are subleading.
+
+\subsection{Raychaudhuri Equation}
+
+The null Raychaudhuri equation gives:
+\begin{equation}
+\frac{d\theta}{d\lambda}
+= -\frac{1}{2}\theta^2
+- \sigma_{\mu\nu}\sigma^{\mu\nu}
+- R_{\mu\nu}k^\mu k^\nu.
+\end{equation}
+
+At leading order in an infinitesimal diamond:
+\begin{equation}
+\theta \approx 0, \quad
+\sigma^2 \approx 0,
+\end{equation}
+so
+\begin{equation}
+R_{\mu\nu}k^\mu k^\nu \approx 0.
+\end{equation}
+
+For all null $k^\mu$, this implies:
+\begin{equation}
+R_{\mu\nu} = 0.
+\end{equation}
+
+% ============================================================
+\section{Dust Case}
+% ============================================================
+
+\subsection{Area Growth from Information Production}
+
+Where $J>0$, irreversible processes generate information in the bulk.
+This information propagates along null directions and is encoded on
+the boundary, producing area growth:
+\begin{equation}
+\delta A = 4G\, \delta C.
+\end{equation}
+
+Using
+\begin{equation}
+\delta C = J\, \delta V\, \delta \lambda,
+\end{equation}
+we obtain
+\begin{equation}
+\frac{dA}{d\lambda} = 4G\, J\, \delta V.
+\end{equation}
+
+\subsection{Ricci Tensor Relation}
+
+Proceeding as in the vacuum case and keeping leading terms:
+\begin{equation}
+R_{\mu\nu}k^\mu k^\nu = 4G\, J.
+\end{equation}
+
+For dust:
+\begin{equation}
+J = \frac{2\pi \rho}{\hbar},
+\end{equation}
+so
+\begin{equation}
+R_{\mu\nu}k^\mu k^\nu = 8\pi G\, T_{\mu\nu}k^\mu k^\nu.
+\end{equation}
+
+% ============================================================
+\section{Einstein Equations}
+% ============================================================
+
+Since the relation holds for all null $k^\mu$, we obtain:
+\begin{equation}
+G_{\mu\nu} + \Lambda g_{\mu\nu} = 8\pi G\, T_{\mu\nu}.
+\end{equation}
+
+The cosmological constant $\Lambda$ is not fixed by this
+derivation and may be interpreted as arising from background
+information generation in the vacuum.
+
+% ============================================================
+\section{Interpretation}
+% ============================================================
+
+In this framework:
+
+\begin{itemize}
+\item Information measures the improbability of realized history.
+\item Irreversible processes generate constraints on evolution.
+\item These constraints reduce the set of allowed trajectories.
+\item The rate of this reduction is $J$.
+\item Spacetime curvature reflects this rate.
+\end{itemize}
+
+Thus:
+
+\begin{quote}
+Massive regions may be interpreted as regions where
+improbability is being generated most rapidly.
+\end{quote}
+
+\section{Future Directions}
+
+Key open directions include:
+
+\begin{itemize}
+\item Extension to general stress-energy (pressure, shear),
+\item Null-congruence formulation of information flow,
+\item Cosmological constant as vacuum information production,
+\item Emergence of spacetime from higher-dimensional information structure.
+\end{itemize}
+
+\end{document}
+```
