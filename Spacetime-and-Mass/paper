@@ -1,0 +1,72 @@
+============================================================
+ABSTRACT (FINAL STABILIZED REVISION)
+============================================================
+
+We investigate the hypothesis that mass corresponds to a rate of
+irreversible information generation along physical trajectories.
+
+Our working hypothesis is that the proper-time rate of trajectory
+surprisal C = -\ln p[\gamma] is proportional to mass-energy:
+
+    M = (ħ / 2π c²) (dC/dτ).
+
+In this framework, mass is interpreted as an information-theoretic rate
+rather than a purely geometric or field-theoretic parameter.
+
+We do not modify general relativity or attempt to derive its field
+equations. Instead, we examine whether standard vacuum solutions,
+including the Schwarzschild and Reissner–Nordström geometries, are
+compatible with this interpretation under a small set of
+information-theoretic assumptions (causal propagation, holographic
+scaling, and the Bekenstein bound).
+
+We find that these solutions exhibit structural consistency with the
+proposed framework under spherical symmetry, supporting the plausibility
+of the hypothesis without implying that spacetime geometry is uniquely
+determined by it.
+
+============================================================
+INTRODUCTION (FINAL STABILIZED REVISION)
+============================================================
+
+The nature of mass remains a central conceptual question in physics.
+In quantum field theory, mass is associated with fundamental parameters
+such as the Higgs field coupling. In general relativity, mass-energy
+acts as a source for spacetime curvature through the stress-energy
+tensor. While these frameworks are empirically successful, they do not
+fully address whether mass admits a deeper informational interpretation.
+
+In this work, we investigate the hypothesis that mass corresponds to a
+rate of irreversible information generation along physical trajectories.
+
+Our working hypothesis is:
+
+    C = -\ln p[γ],
+    M = (ħ / 2π c²) (dC/dτ),
+
+where C measures the cumulative surprisal of a realized physical
+trajectory γ, and dC/dτ denotes its proper-time rate of accumulation.
+
+We emphasize that this is a working hypothesis, not a derived result.
+
+The purpose of this paper is not to modify general relativity or to
+derive its field equations from information theory. Instead, we treat
+general relativity as a fixed and empirically validated framework and
+ask a more restricted question:
+
+    Is this information-theoretic interpretation of mass compatible with
+    known gravitational solutions?
+
+To address this question, we impose a small set of additional assumptions
+regarding causal propagation, holographic scaling of information, and
+the Bekenstein bound. We then examine whether standard vacuum solutions
+such as the Schwarzschild and Reissner–Nordström metrics are consistent
+with the resulting structure.
+
+The goal is therefore not derivation, but consistency and plausibility:
+to assess whether interpreting mass as an information-generation rate
+is structurally compatible with established spacetime geometries.
+
+============================================================
+END
+============================================================
